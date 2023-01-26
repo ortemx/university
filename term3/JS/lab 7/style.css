@@ -1,0 +1,45 @@
+.button{
+	top: 10px;
+	background-color: #5ea4cc;
+}
+
+.b1{
+	content: "start";
+}
+
+.button:active {
+  background: #2c56b1;
+  border-top: 1px solid #21448d;
+}
+
+.button:hover  {
+  background-color: #4285f4;
+  border-bottom-color: #2f69c2;
+}
+
+.MichaelKrug{
+	position: absolute;	
+	top: 200px;
+    left: 600px;    
+}
+
+.Mouse{
+	z-index: 1;
+	position: absolute;	
+	top: 50px;
+    left: 100px;    
+}
+
+.Trunk{
+	position: absolute;
+	top: 500px;
+    left: 1300px;      
+}
+
+.Cenzored{
+	display: none;
+	position: absolute;
+	top: 550px;
+    left: 1200px;
+	z-index: 2;
+}

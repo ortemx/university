@@ -1,0 +1,210 @@
+S -> 3AB | SS | ABC 
+A -> BC | 3
+B -> CD | 4 | 3G
+C -> DD | 8KP | 5 | S
+D -> 7MF | e | S6
+E -> 2SF | 4CP
+F -> QQ2| 2AE
+G -> H | 2K | 7
+H -> 3K | K | PP
+K -> MM | M | 5
+M -> GM | G | 3
+P -> PC8 | 2E
+Q -> Q3S | 3KFB
+
+1) в парвых частях только нетерминалы, кроме правил вида A -> с, 
+	т. e. 
+	было: A -> ...c... 
+	стало A -> ...N_c... , N_c -> c
+
+S -> N_3AB | SS | ABC 
+A -> BC | N_3
+B -> CD | N_4 | N_3G
+C -> DD | N_8KP | N_5 | S
+D -> N_7MF | e | SN_6
+E -> N_2SF | N_4CP
+F -> QQN_2| N_2AE
+G -> H | N_2K | N_7
+H -> N_3K | K | PP
+K -> MM | M | N_5
+M -> GM | G | N_3
+P -> PCN_8 | N_2E
+Q -> QN_3S | N_3KFB
+N_2 -> 2
+N_3 -> 3
+N_4 -> 4
+N_5 -> 5
+N_6 -> 6
+N_7 -> 7
+N_8 -> 8
+
+2) ИЗБАВИТЬСЯ ОТ ДЛИННЫХ ЦЕПОЧЕК ВИДА A -> N1N2N3N4...
+ 	т. e. 
+	было: A -> N1N2N3N4...
+	стало A -> N1Y1, Y1 -> N2Y2, ... Y(K-2) -> N(K-1)N(K)
+
+S -> N_3Y1 | SS | Y1C 
+A -> BC | N_3
+B -> CD | N_4 | N_3G
+C -> DD | N_8Y2 | N_5 | S
+D -> N_7Y3 | e | SN_6
+E -> N_2Y4 | N_4Y5
+F -> QY6 | N_2Y7
+G -> H | N_2K | N_7
+H -> N_3K | K | PP
+K -> MM | M | N_5
+M -> GM | G | N_3
+P -> PY8 | N_2E
+Q -> QY9 | N_3Y(10)
+N_2 -> 2	N_3 -> 3	N_4 -> 4	N_5 -> 5
+N_6 -> 6	N_7 -> 7 	N_8 -> 8
+Y1 -> AB 	Y2 -> KP 	Y3 -> MF 	Y4 -> SF
+Y5 -> CP 	Y6 -> QN_2 	Y7 -> AE 	Y8 -> CN_8
+Y9 -> N_3S  Y(10) -> KY(11) Y(11) -> FB
+
+3) НАЙТИ ВСЕ е-ПОРАЖДАЮЩИЕ ПРАВИЛА (определенного алгоритмя нет)
+ 	то есть A ->* e
+
+ есть правило D -> e
+ С -> DD
+ B -> CD
+ A -> BC
+ S -> Y1C !!!
+ S -> SS
+ C -> S
+ Y1 -> AB
+
+ 4) ДЛЯ ВСЕХ е-ПОРАЖДАЮЩИХ ПРАВИЛ ЕСЛИ 
+ 	1) A ->* e И B -> AC, ТО ДОБАВЛЯЕТСЯ ПРАВИЛО B -> C
+ 	2) A ->* e И B -> CA, ТО ДОБАВЛЯЕТСЯ ПРАВИЛО B -> C
+ 	3) A ->* e И С ->* e И (B -> AC ИЛИ B -> CA), ТО 
+ 		ДОБАВЛЯЮТСЯ ПРАВИЛА B -> C И B -> A
+
+ 	ДРУГИМИ СЛОВАМИ:ЕСЛИ В ПРАВОЙ ЧАСТИ ВСТРЕЧАЕТСЯ е-ПОРАЖДАЮЩИЙ НЕТЕРМИНАЛ, ДОБАВЛЯЕТСЯ ПРАВИЛО ГДЕ ЭТОГО НЕТЕРМИНАЛА НЕТ, КРОМЕ ТЕХ СЛУЧАЕВ КОГДА В ПРАВОЙ ЧАСТИ ВСЕ НЕТЕРМИНАЛЫ – е-ПОРАЖДАЮЩИЕ, ТАК КАК В ТАКОМ СЛУЧАЕ ПРИШЛОСЬ БЫ ДОБАВИТЬ B -> e, А ОНО НАОБОРОТ НЕ НУЖНО.
+
+ 	!!! НО ЕСЛИ ЕСТЬ S ->* e ТО ДОБАЛЯЕТСЯ НОВЫЙ СТАРТОВЫЙ СИМВОЛ S' И ПРАВИЛА: 
+ 	S' -> S, S' -> e 
+
+S -> N_3Y1 | SS | Y1C 
+A -> BC | N_3
+B -> CD | N_4 | N_3G
+C -> DD | N_8Y2 | N_5 | S
+D -> N_7Y3 | e | SN_6
+E -> N_2Y4 | N_4Y5
+F -> QY6 | N_2Y7
+G -> H | N_2K | N_7
+H -> N_3K | K | PP
+K -> MM | M | N_5
+M -> GM | G | N_3
+P -> PY8 | N_2E
+Q -> QY9 | N_3Y(10)
+N_2 -> 2	N_3 -> 3	N_4 -> 4	N_5 -> 5
+N_6 -> 6	N_7 -> 7 	N_8 -> 8
+Y1 -> AB 	Y2 -> KP 	Y3 -> MF 	Y4 -> SF
+Y5 -> CP 	Y6 -> QN_2 	Y7 -> AE 	Y8 -> CN_8
+Y9 -> N_3S  Y(10) -> KY(11) Y(11) -> FB
++
+S -> C, S-> Y1, A -> C, A -> B, B -> C, B -> D, C-> D,
+Y1 -> A, Y1 -> B, Y4 -> F, Y5 -> P, Y7 -> E, Y8 -> N_8
+Y9 -> N_3, Y(11) -> F 
+!!! S' -> S, S' -> e, 
+
+
+
+
+S -> aSbT | bTaT | ab
+T -> baaST | TT | e
+
+T -> e
+
+
+S -> aSbT | bTaT | ab | aSb | bTa | baT | ba |
+T-> baaST | TT | baaS | (T)
+
+S → aSbT ∣ aSb ∣ bTaT ∣ bTa ∣ baT ∣ ba ∣ ab
+T → baaST ∣ baaS ∣ TT
+T → baaST ∣ baaST ∣ TT
+
+================================================
+
+S -> 3AB | SS | ABC 
+A -> BC | 3
+B -> CD | 4 | 3G
+C -> DD | 8KP | 5 | S
+D -> 7MF | e | S6
+E -> 2SF | 4CP
+F -> QQ2| 2AE
+G -> H | 2K | 7
+H -> 3K | K | PP
+K -> MM | M | 5
+M -> GM | G | 3
+P -> PC8 | 2E
+Q -> Q3S | 3KFB
+
+======= УДАЛЕНИЕ e-ПРАВИЛ ======================
+
+N_e ={S, A, B, C, D}
+
+S -> 3AB | SS | ABC + 3A | 3B | AB | BC | AC | 
+	 | 3 | A | B | C
+A -> BC | 3 + B | C
+B -> CD | 4 | 3G + C | D
+C -> DD | 8KP | 5 | S + D 
+D -> 7MF | S6 + 6
+E -> 2SF | 4CP + 4P
+F -> QQ2| 2AE + 2E
+G -> H | 2K | 7
+H -> 3K | K | PP
+K -> MM | M | 5
+M -> GM | G | 3
+P -> PC8 | 2E + P8
+Q -> Q3S | 3KFB + Q3 | 3KF
+
+======= УДАЛЕНИЕ ЦЕПНЫХ ПРАВИЛ =================
+
+S -> 3AB | SS | ABC | 3A | 3B | AB | BC | AC | 
+	 | 3 | A | B | C
+A -> BC | 3 | B | C
+B -> CD | 4 | 3G | C | D
+C -> DD | 8KP | 5 | S | D 
+D -> 7MF | S6 | 6
+E -> 2SF | 4CP | 4P
+F -> QQ2| 2AE | 2E
+G -> H | 2K | 7
+H -> 3K | K | PP
+K -> MM | M | 5
+M -> GM | G | 3
+P -> PC8 | 2E | P8
+Q -> Q3S | 3KFB | Q3 | 3KF
+
+
+
+S -> 3AB | SS | ABC | 3A | 3B | AB | BC | AC | 
+	 | 3 | CD | 4 | 3G | DD | 8KP | 5 | 7MF | S6 |
+	 | 6 
+A -> BC | 3 | CD | 4 | 3G | DD | 8KP | 5 | 7MF | 	  | S6 | 6 | 3AB | SS | ABC | 3A | 3B | AB |
+  | BC | AC | 
+B -> CD | 4 | 3G | DD | 8KP | 5 | 7MF | S6 | 6
+	| 3AB | SS | ABC | 3A | 3B | AB |
+  | BC | AC |  3 | 
+C -> DD | 8KP | 5 | 7MF | S6 | 6 | 3AB | SS | ABC | 3A | 3B | AB | BC | AC | 3 | CD | 4 | 3G |
+D -> 7MF | S6 | 6
+E -> 2SF | 4CP | 4P
+F -> QQ2| 2AE | 2E
+G -> 2K | 7 | 3K | PP | MM | 5 | GM | 3
+H -> 3K | PP | MM | 5 | GM | 3 | 2K | 7
+K -> MM | 5 | GM | 3 | 2K | 7 | 3K | PP |
+M -> GM  | 3 | 2K | 7 | 3K | PP | MM | 5
+P -> PC8 | 2E | P8
+Q -> Q3S | 3KFB | Q3 | 3KF
+
+==== УДАЛЕНИЕ БЕСПОЛЕЗНЫХ НЕТЕРМИНАЛОВ ======
+
+N_0 = {S, A, B, C, D, G, H, K, M}
+N_1 = N_0 U {E, F, P, Q}
+N_2 = N_1 => ВСЕ НЕТЕРМИНАЛЫ НЕ БЕСПОЛЕЗНЫЕ
+
+==== УДАЛЕНИЕ НЕДОСТИЖИМЫХ ТЕРМИНАЛОВ ======
+
+
+

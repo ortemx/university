@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<title>Фигура</title>
+<meta http-equiv="Content-Type"
+      content="text/html; charset='utf-8'">
+</head>
+<body><center>
+ 
+<style type="text/css">
+    body { background-color: #707070; }
+    .MyTable { width: 600px; margin-left: 50px; text-align: center; }
+    .MyTable td { border:#4f80db 3px solid; }
+    .MyTable tr { background: #F0FFF0; height: 20px; }
+    canvas { margin-left: 50px; }
+</style>
+    <script type="text/javascript">
+        function II(x,x1,x2,I1,I2)
+        { return I1 + (I2-I1)*(x-x1)/(x2-x1); }
+ 
+        function JJ(y,y1,y2,J1,J2)
+        { return J1 + (J2-J1)*(y-y1)/(y2-y1); }
+		
+		function drawellips(ctx, xx1, yy1, r1, I1, J1, I2, J2){
+			var h = (2 * r1) / 100;
+			var y;
+			var y1 = yy1+r1;
+			var y2 = yy1-r1;
+            var x1 = xx1-r1;
+			var x2 = xx1+r1;
+			
+			ctx.beginPath();
+            ctx.lineWidth = 2.7;  
+            ctx.strokeStyle = "red";
+			
+			ctx.moveTo(II(x1,x1,x2,I1,I2), JJ(yy1,y1,y2,J1,J2));
+            for (var i = x1; i<= x2; i+=h){
+				i = +i.toFixed(10);
+				y = Math.sqrt(Math.pow(r1, 2) - Math.pow((i - xx1), 2)) + yy1;			
+                ctx.lineTo(II(i,x1,x2,I1,I2), JJ(y,y1,y2,J1,J2));					
+            }
+			for (var i = x2; i>= x1; i-=h){
+				i = +i.toFixed(10);
+				y = yy1 - Math.sqrt(Math.pow(r1, 2) - Math.pow((i - xx1), 2));			
+                ctx.lineTo(II(i,x1,x2,I1,I2), JJ(y,y1,y2,J1,J2));					
+            }
+            ctx.closePath();
+            ctx.stroke();
+            if (r1>0.2)            
+                drawellips(ctx, xx1, yy1, r1/2, I1, J1+I2/4, I2/2, J2-I2/4);
+
+			return 0;
+		}
+		
+		function draweaxis (ctx, x1, x2, y1, y2){
+            s = x1 + " " + x2 + " " + y1 + " " + y2;
+            ctx.beginPath();
+            ctx.lineWidth = 0.5;  
+            ctx.strokeStyle = "lightgray";		
+			for ( var i = Math.floor(x1); i <= Math.ceil(x2); i++){
+                ctx.moveTo(II(i,x1,x2,I1,I2), JJ(y1,y1,y2,J1,J2));
+                ctx.lineTo(II(i,x1,x2,I1,I2), JJ(y2,y1,y2,J1,J2));
+            }
+            for ( var i =  Math.floor(y2); i <= Math.ceil(y1); i++){
+                ctx.moveTo(II(x1,x1,x2,I1,I2), JJ(i,y1,y2,J1,J2));
+                ctx.lineTo(II(x2,x1,x2,I1,I2), JJ(i,y1,y2,J1,J2));
+            }
+            ctx.closePath();
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.lineWidth = 0.65;  
+            ctx.strokeStyle = "navy";
+            ctx.moveTo(II(x1,x1,x2,I1,I2), JJ(0,y1,y2,J1,J2));
+            ctx.lineTo(II(x2,x1,x2,I1,I2), JJ(0,y1,y2,J1,J2));
+            ctx.moveTo(II(0,x1,x2,I1,I2), JJ(y1,y1,y2,J1,J2));
+            ctx.lineTo(II(0,x1,x2,I1,I2), JJ(y2,y1,y2,J1,J2));
+            ctx.closePath();
+            ctx.stroke();   
+		} 
+ 
+        function Koord(form){
+            var elems = form.elements;
+            if (elems.r.value == 0) {
+                alert('Неверное значение радиуса!');
+            }
+            else {
+                var canvas = document.getElementById("test");
+                var ctx = canvas.getContext('2d');
+                I1 = 0; J1 = 0;
+                I2 = canvas.width;
+                J2 = canvas.height;
+                ctx.beginPath();
+                ctx.fillStyle = '#bdbdbd';
+                ctx.clearRect(0,0,canvas.width, canvas.height);
+                ctx.fillRect(0,0,canvas.width, canvas.height);  
+                ctx.strokeStyle = "navy";
+                ctx.strokeRect(0,0,canvas.width,canvas.height);
+                ctx.closePath();
+                ctx.stroke();
+                var xx1 = parseFloat(elems.x0.value);
+                var yy1 = parseFloat(elems.y0.value);
+                var r1 = parseFloat(elems.r.value);
+                var y1 = yy1+r1;
+                var y2 = yy1-r1;
+                var x1 = xx1-r1;
+                var x2 = xx1+r1;
+				draweaxis (ctx, x1, x2, y1, y2);                
+                //оси координат:
+                
+                //Рисуем окружность:
+				drawellips(ctx, xx1, yy1, r1, I1, J1, I2, J2);
+                return 0;
+            }
+        }
+    </script>
+<form>
+    <table cellpadding="2" class="MyTable">
+    <tr><td bgcolor=#545454 colspan="4"> <font size=10  face=Calibri color=e0e0e0>
+    рисование окружности</td></tr> 
+    <tr><td bgcolor=#545454 colspan="4"> <font size=5  face=Calibri color=e0e0e0>
+	<h4>задайте координаты центра и радиус<br>
+                (в декартовой системе координат)
+          </h4></td></tr>
+    <tr>
+        <td bgcolor=#545454> <font size=5  face=Calibri color=7a9fe5>
+            x0 = <input style="font-size: 20px; width: 60px; height: 20px;" name="x0"
+                  type="number" value = 1>                        
+        </td >
+        <td bgcolor=#545454> <font size=5  face=Calibri color=7a9fe5>
+            y0 = <input style="font-size: 20px; width: 60px; height: 20px;" name="y0"
+                  type="number"  value = 1 >                        
+        </td>
+        <td bgcolor=#545454> <font size=5  face=Calibri color=7a9fe5>
+            r = <input style="font-size: 20px; width: 60px; height: 20px;" name="r"
+                  type="number"  value = 5 >                        
+        </td>
+    </tr>
+    <tr>
+        <td  bgcolor=#545454 colspan="4">
+          <input type="button" onclick="Koord(this.form)"
+                 value="Нарисовать">
+        </td>
+    </tr>
+    </table>
+</form>
+<p>
+  <canvas id="test" width="900" height="900"></canvas>
+</p>
+</body>
+</html>

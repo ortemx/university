@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Бургерная</title>
+    <link rel="stylesheet" href="lab6.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<script type="text/javascript">
+		function change_style(){			
+			if (Form1.Image1.width == 800){
+				Form1.Image1.width = 600;
+				document.getElementById('Button1').style = "background-color : #427fed; color : white; width : 600px; font-family : 'Consolas' "
+				document.getElementById('Button2').style.width = '600px';			
+			}
+			else {
+				Form1.Image1.width =  800;
+				document.getElementById('Button1').style = "background-color : #14a8a8; color : black; width : 800px; font-family : 'Roboto'";
+				document.getElementById('Button2').style.width = '800px';
+			}
+		}
+
+
+		function eat(){
+			//3 https://i.imgur.com/I8GxJaU.jpg
+			//2 https://i.imgur.com/XbkEQYQ.jpg
+			//1 https://i.imgur.com/iEVVihD.jpg
+			//0 https://i.imgur.com/mEJ846G.jpg
+			if (Form1.Image1.src == "https://i.imgur.com/I8GxJaU.jpg"){
+				Form1.Image1.src = "https://i.imgur.com/XbkEQYQ.jpg"
+			}
+			else if(Form1.Image1.src == "https://i.imgur.com/XbkEQYQ.jpg"){
+				Form1.Image1.src = "https://i.imgur.com/iEVVihD.jpg"
+			}
+			else if (Form1.Image1.src == "https://i.imgur.com/iEVVihD.jpg"){
+				Form1.Image1.src = "https://i.imgur.com/mEJ846G.jpg"
+			}
+		}
+
+
+		function change_img() {
+			Form1.Image1.src = "https://i.imgur.com/mEJ846G.jpg"			
+		}
+
+
+		function return_img() {
+			Form1.Image1.src = "https://i.imgur.com/I8GxJaU.jpg"
+		}	
+	</script>
+    </head>
+    <body><center>
+    <script type="text/javascript">
+    	document.write("<h1>Бургерная</h1>");
+    </script>
+	<FORM NAME=Form1>
+        <INPUT class = "button" TYPE="BUTTON"  name="Button1" id="Button1" VALUE="КНОПКА" 
+        onMouseOver = "Form1.Image1.src = 'https://i.imgur.com/I8GxJaU.jpg' "  onClick="change_style(Form1)">
+		<br>
+		<img name="Image1" id="Image" src="https://i.imgur.com/I8GxJaU.jpg"
+		width ="600" align= "center" onClick="change_style(Form1)" onMouseOver="title='не сдвигай курсор', return_img()"
+		onMouseOut ="change_img()" >
+		<br>
+		<INPUT class = "button" TYPE="BUTTON"  name="Button2" id="Button2" VALUE="СЬЕСТЬ"
+        onMouseOver = "Form1.Image1.src = 'https://i.imgur.com/I8GxJaU.jpg' " onClick="eat(Form1)">
+        <br>
+        <input type="Text" name="TextBox1" class = "text" onfocus="this.value = 'something'" onblur="this.value = 'another something'">		
+    </FORM>	
+    </body>
+</html>

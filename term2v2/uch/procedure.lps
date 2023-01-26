@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="procedure.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="procedure"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="8" Y="44"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="procedure.lpr"/>
+        <Caret Line="24" Column="49" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="procedure.lpr"/>
+        <Caret Line="49" Column="52" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="procedure.lpr"/>
+        <Caret Line="48" Column="18" TopLine="24"/>
+      </Position3>
+      <Position4>
+        <Filename Value="procedure.lpr"/>
+        <Caret Line="45" Column="31" TopLine="25"/>
+      </Position4>
+      <Position5>
+        <Filename Value="procedure.lpr"/>
+        <Caret Line="12" Column="54" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="procedure.lpr"/>
+        <Caret Line="26" Column="18" TopLine="11"/>
+      </Position6>
+      <Position7>
+        <Filename Value="procedure.lpr"/>
+        <Caret Line="50" Column="11" TopLine="26"/>
+      </Position7>
+      <Position8>
+        <Filename Value="procedure.lpr"/>
+        <Caret Line="51" Column="68" TopLine="26"/>
+      </Position8>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

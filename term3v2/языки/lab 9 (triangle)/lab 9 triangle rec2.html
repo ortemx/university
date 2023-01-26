@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<title>TRIANGLE 2.0</title>
+<meta http-equiv="Content-Type"
+      content="text/html; charset='utf-8'">
+</head>
+<body bgcolor="#3c596e"><center> 
+	<canvas id="canvas" width="800" height="800"></canvas>
+    <script type="text/javascript">
+    let canvas = document.getElementById("canvas");
+    let ctx = canvas.getContext('2d');
+    let WIDTH = canvas.width;
+    let HEIGHT = canvas.height;
+
+    let MaxRecursionDepth = prompt('введите глубину рекурсии', 2);
+
+    function DrawTriangle(x, y, length) {
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = "rgb(255, 255, 255)";
+        //ctx.strokeStyle = "rgb(256 * l / w, 256 * l / w, 256 * l / w)";
+        ctx.beginPath();
+        ctx.moveTo(x, y);  
+        ctx.lineTo(x + length / 2, y + 0.866 * length);
+        ctx.lineTo(x - length / 2, y + 0.866 * length);    
+        ctx.closePath();
+        ctx.stroke();
+        console.log (x, y, x + length / 2, y + 0.866 * length, x - length / 2, y + 0.866 * length )
+    }
+
+
+    function divide(x, y, depth){
+        console.log(depth)
+        length = WIDTH / 2
+        if (depth < MaxRecursionDepth){
+            DrawTriangle(x, y, WIDTH / 2);
+            divide(x - length / 2, y, depth + 1);
+            divide(x + length / 2 , y, depth + 1);
+            divide(x, y + 0.866 * length, depth + 1); 
+        } else {
+            return;
+        }
+    }
+
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = "rgb(255, 255, 255)";
+    ctx.beginPath();
+    ctx.moveTo(0, 0);  
+    ctx.lineTo(WIDTH, 0);
+    ctx.lineTo(WIDTH / 2, 0.866 * WIDTH);    
+    ctx.closePath();
+    ctx.stroke();
+
+
+    divide(WIDTH / 2, 0, 0)
+
+
+
+
+
+
+
+
+
+    // ctx = canvas.getContext('2d');
+    // w = canvas.width - 10 ;
+    // h = canvas.height+ 10 ;
+
+
+    //function divide(x, y, l, lvl, max){
+    // 	if (lvl == max){
+    // 		drawtriangle(x, y, l);
+    // 	}
+    // 	else{
+    // 		divide(x, y, l/2, lvl+1, max);
+    // 		divide(x+l/2, y, l/2, lvl+1, max);
+    // 		divide(x+l/4, y-Math.sin(Math.PI/3) * l/2, l/2, lvl+1, max);
+    // 	}
+    // }
+
+
+  //   function drawtriangle(x, y, l) {
+  //       ctx.lineWidth = 3;
+		// ctx.beginPath();
+		
+		// //ctx.strokeStyle = "#67c1f5";
+
+  //       ctx.strokeStyle = "rgb (256 * l / w, 256 * l / w, 256 * l / w)";
+  //       console.log(l)
+		// ctx.moveTo(x, y);  
+		// ctx.lineTo(x+l/2, y-Math.sin(Math.PI/3) * l );
+	 //    ctx.lineTo(x+l, y);    
+	 //    ctx.closePath();
+	 //    ctx.stroke();
+  //   }
+
+
+    // function Draw(form){ 
+    //     n = prompt('введите глубину рекурсии', 2);
+    //     divide(w/2 - w/2, h/2 + Math.sin(Math.PI/3) * w/2, w, 1, n);
+    // }
+</script> 
+</body>
+</html>

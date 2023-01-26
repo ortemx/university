@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+    <title>Фигура</title>
+    <meta http-equiv="Content-Type" content="text/html; charset='utf-8'">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="lab9.css">
+</head>
+<body><center>
+    <script type="text/javascript">
+        function II(x)
+        { return I1 + (I2-I1)*(x-x1)/(x2-x1); }
+ 
+        function JJ(y)
+        { return J1 + (J2-J1)*(y-y1)/(y2-y1); }
+		
+		function drawellips(xx1){
+			h = (2 * r1) / 500;
+			var y;			
+			ctx.beginPath();
+            ctx.lineWidth = 1;  
+            ctx.strokeStyle = "red";			
+			ctx.moveTo(II(x1), JJ(yy1));
+            for (var i = x1; i<= x2; i+=h){
+				i = +i.toFixed(10);
+				y = Math.sqrt((r1 ** 2) - (i - xx1) ** 2) + yy1;
+                ctx.lineTo(II(i), JJ(y));					
+            }
+			for (var i = x2; i>= x1; i-=h){
+				i = +i.toFixed(10);
+				y = yy1 - Math.sqrt((r1 ** 2) - (i - xx1) ** 2);
+                ctx.lineTo(II(i), JJ(y));					
+            }  
+            ctx.closePath();      
+            ctx.stroke();
+            if (r1>0.1){
+                r1 /=2;         
+                drawellips(xx1-r1);
+            }
+		}
+		
+		function draweaxis (){
+            ctx.beginPath();
+            ctx.lineWidth = 0.5;  
+            ctx.strokeStyle = "navy";	
+			for ( var i = Math.floor(x1); i <= Math.ceil(x2); i++){
+                ctx.moveTo(II(i), JJ(y1));
+                ctx.lineTo(II(i), JJ(y2));
+            }
+            for ( var i =  Math.floor(y2); i <= Math.ceil(y1); i++){
+                ctx.moveTo(II(x1), JJ(i));
+                ctx.lineTo(II(x2), JJ(i));
+            }
+            ctx.closePath();
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.lineWidth = 2;
+            ctx.moveTo(II(x1), JJ(0));
+            ctx.lineTo(II(x2), JJ(0));
+            ctx.moveTo(II(0), JJ(y1));
+            ctx.lineTo(II(0), JJ(y2));
+            ctx.closePath();
+            ctx.stroke();   
+		}  
+        function Koord(form){
+            var elems = form.elements;
+            if (elems.r.value == 0) {
+                alert('Неверное значение радиуса!');
+            }
+            else {
+                var canvas = document.getElementById("test");
+                ctx = canvas.getContext('2d');
+                I1 = 0; J1 = 0;
+                I2 = canvas.width; J2 = canvas.height;
+                ctx.beginPath();
+                ctx.fillStyle = '#ffffff';
+                ctx.clearRect (0,0,canvas.width, canvas.height);
+                ctx.closePath();
+                ctx.stroke();
+                xx1 = parseFloat(elems.x0.value);
+                yy1 = parseFloat(elems.y0.value);
+                r1 =  parseFloat(elems.r.value);
+                x1 = xx1-r1; y1 = yy1+r1;
+                x2 = xx1+r1; y2 = yy1-r1;
+				draweaxis ();
+				drawellips(xx1);
+            }
+        }
+    </script>
+<form>
+    <table cellpadding="2" class="MyTable">
+    <tr><td  colspan="4"> 
+    рисование окружности</td></tr> 
+    <tr><td  colspan="4"> 
+	<h3>задайте координаты центра и радиус (в декартовой системе координат)
+          </h3></td></tr>
+    <tr>
+        <td >
+            x0 = <input class="inp"  name="x0" type="number" value = 1>
+        </td >
+        <td > 
+            y0 = <input class="inp" name="y0" type="number" value = 1 >
+        </td>
+        <td> 
+            r = <input class="inp" name="r" type="number" value = 5 >
+        </td>
+    </tr>
+    </table>
+    <input type="button" class="button" onclick="Koord(this.form)" value="Нарисовать">
+</form>
+<p>
+  <canvas id="test" width="900" height="900"></canvas>
+</p>
+</body>
+</html>

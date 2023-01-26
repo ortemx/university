@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+<SCRIPT>
+var s=false;
+function sqr(t) { return t*t }
+</SCRIPT>
+</HEAD>
+<BODY>
+	<H1 ALIGN=CENTER>Возведение в степень</H1>
+	<P ALIGN=CENTER>
+	<FORM NAME="FM4">
+		<TABLE>
+		<TR ALIGN=CENTER>
+		<TD>x = <INPUT TYPE="text" VALUE="0" NAME="x" SIZE=10></TD>
+		<TD><INPUT TYPE="checkbox" onClick="if (this.checked) s=true; else s=false">
+		- диалог</TD>
+		</TR>
+		<TR ALIGN=CENTER>
+		<INPUT TYPE="button" VALUE="Сосчитать"
+		onClick="FM4.z.value=sqr(FM4.x.value); if (s) alert(FM4.z.value)">
+		<INPUT TYPE="text" VALUE="0" NAME="z" SIZE=10>
+		</TR>
+		</TABLE>
+	</FORM>
+</BODY>
+</HTML>

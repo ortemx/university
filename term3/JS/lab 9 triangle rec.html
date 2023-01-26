@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<title>TRIANGLE 2.0</title>
+<meta http-equiv="Content-Type"
+      content="text/html; charset='utf-8'">
+</head>
+<body bgcolor="#3c596e"><center> 
+	<canvas id="test" width="800" height="800"></canvas>
+    <script type="text/javascript">
+    canvas = document.getElementById("test");
+    ctx = canvas.getContext('2d');
+    w = canvas.width - 10 ;
+    h = canvas.height+ 10 ;
+    function divide(x, y, l, lvl, max){
+    	if (lvl == max){
+    		drawtriangle(x, y, l);
+    	}
+    	else{
+    		divide(x, y, l/2, lvl+1, max);
+    		divide(x+l/2, y, l/2, lvl+1, max);
+    		divide(x+l/4, y-Math.sin(Math.PI/3) * l/2, l/2, lvl+1, max);
+    	}
+    }
+    function drawtriangle(x, y, l) {
+		ctx.beginPath();
+		ctx.lineWidth = 5;
+		ctx.strokeStyle = "#67c1f5";
+		ctx.moveTo(x, y);  
+		ctx.lineTo(x+l/2, y-Math.sin(Math.PI/3) * l );
+	    ctx.lineTo(x+l, y);    
+	    ctx.closePath();
+	    ctx.stroke();
+    }
+    function Draw(form){ 
+        n = prompt('введите глубину рекурсии', 2);
+        divide(w/2 - w/2, h/2 + Math.sin(Math.PI/3) * w/2, w, 1, n);
+    }
+    </script>
+<script type="text/javascript">
+	Draw(this.form);
+</script> 
+</body>
+</html>

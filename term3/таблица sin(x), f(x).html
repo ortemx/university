@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>lab 3(2)</title>
+    </head>
+    <body><center>
+    <script type="text/javascript">
+		var a, b, f1, f2, y;
+		//a = Number(prompt("a=", -3));
+		//b = Number(prompt("b=", 2));
+		//y = Number(prompt("y=", 2));
+		
+		a = -6;	b = 4;	y = 1;	
+		
+		document.write("<table border = 'solid px' cellspacing = '0px' >");		
+			document.write("<tr > <td align = center> <font size=5  face=Arial> x ");
+			document.write(" <td align = center> <font size=5  face=Arial>  sin(x)/x ");
+			document.write(" <td align = center> <font size=5  face=Arial> f2(x,y)  </td> </tr>");
+		for ( var i = a ; i<=b; i++){
+			f1 = Math.sin(i)/i;
+			f2 = Math.abs(Math.pow(i, y/i) + Math.pow(y/i, 1/3));
+			document.write("<tr> <td align = center> <font size=5 face=Arial>" , i );
+			if ( isNaN(f1) || isNaN(f2)){
+				document.write("<td align = center> <font size=5 color=red face=Arial> Нет Решения ");
+				document.write("<td align = center> <font size=5 color=red face=Arial> Нет Решения </td></tr>");
+			}
+			else if ( isNaN(f1) ) {
+				document.write("<td align = center> <font size=5 color=red face=Arial> Нет Решения ");
+				document.write("<td align = center> <font size=5 face=Arial >", f2 , "</td> </tr>" );	
+			}
+			else if ( isNaN(f2)){
+				document.write("<td align = center> <font size=5 face=Arial >", f1 );
+				document.write("<td align = center> <font size=5 color=red face=Arial> Нет Решения </td> </tr>");
+			} 
+			else{
+			document.write("<td align = center> <font size=5 face=Arial >", f1 );
+			document.write("<td align = center> <font size=5 face=Arial >", f2 , "</font></td> </tr>" );
+			}			
+		}
+		document.write("</table >" );
+    </script>	
+    </body>
+</html>

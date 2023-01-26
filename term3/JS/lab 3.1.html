@@ -1,0 +1,25 @@
+<HTML>
+<HEAD>
+	<script language="JavaScript">
+	var GlobalWindow;
+	function OpenWnd()
+	{
+	GlobalWindow=window.open("https://www.yandex.ru","Новая страница",
+	"toolbar=1,menubar=1,scrollbar=no,width=500,height=500");
+	}
+	function CloseWnd()
+	{
+	GlobalWindow.close();
+	}
+	</script>
+	<title>Document</title>
+</HEAD>
+<BODY>
+	<FORM>
+	Нажмите, чтобы открыть окно:
+	<INPUT TYPE="Button" VALUE="Открыть" OnClick="OpenWnd();"><BR>
+	Нажмите, чтобы закрыть окно:
+	<INPUT TYPE="Button" VALUE="Закрыть" OnClick="CloseWnd();"><BR>	
+	</FORM>
+</BODY>
+</HTML>

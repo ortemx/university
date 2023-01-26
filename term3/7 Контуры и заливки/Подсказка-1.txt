@@ -1,0 +1,7 @@
+	    brush2 = new 
+                     HatchBrush(HatchStyle.Cross, 
+                     Color.YellowGreen, Color.SlateBlue);
+            g2.FillRectangle(brush2, 1, 1, pictureBox2.Width - 2,
+                             pictureBox2.Height - 2);
+            g2.DrawRectangle(pen1, 0, 0, pictureBox2.Width - 1,
+                             pictureBox2.Height - 1);

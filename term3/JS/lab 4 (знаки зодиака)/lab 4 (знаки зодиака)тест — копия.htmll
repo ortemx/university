@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <title>signs</title>
+    <link rel="stylesheet" href="lab 42.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">    
+    <script type="text/javascript">
+      var c = document;
+      function cd(m){
+        switch (m) {
+          case '2':
+            c.getElementById('30').style.display = 'none';
+            c.getElementById('31').style.display = 'none';
+            break;
+          case '4':
+          case '6':
+          case '9':
+          case '11':
+            c.getElementById('30').style.display = '';
+            c.getElementById('31').style.display = 'none';
+            break;
+          default:
+            c.getElementById('30').style.display = '';
+            c.getElementById('31').style.display = '';
+        } 
+      }
+      function sign(m, d) {
+        var data = m + d;            
+        return (data > 119 && data < 219) ? 'водолей': 
+                (data > 218 && data < 321) ? 'рыбы' : 
+                  (data > 320 && data < 422) ? 'овен' : 
+                    (data > 421 && data < 522) ? 'телец' : 
+                      (data > 521 && data < 622) ? 'близнецы' : 
+                        (data > 621 && data < 723) ? 'рак' : 
+                          (data > 722 && data < 824) ? 'лев' : 
+                            (data > 823 && data < 923) ? 'дева' : 
+                              (data > 922 && data < 1023) ? 'весы' : 
+                                (data > 1022 && data < 1122) ? 'скорпион' :
+                                  (data > 1121 && data < 1222) ? 'стрелец' : 'козерог'     
+      }
+    </script>
+  </head>
+  <body><center> знаки зодиака
+  <FORM NAME=F1>
+    <SELECT NAME="MOUNTH" class = "select" onchange="cd(F1.MOUNTH.value); F1.TextBox1.value =''; F1.DAY.value = '01' " >
+      <OPTION VALUE="1">ЯНВАРЬ
+      <OPTION VALUE="2">ФЕВРАЛЬ
+      <OPTION VALUE="3">МАРТ
+      <OPTION VALUE="4">АПРЕЛЬ
+      <OPTION VALUE="5">МАЙ
+      <OPTION VALUE="6">ИЮНЬ
+      <OPTION VALUE="7">ИЮЛЬ
+      <OPTION VALUE="8">АВГУСТ
+      <OPTION VALUE="9">СЕНТЯБРЬ
+      <OPTION VALUE="10">ОКТЯБРЬ
+      <OPTION VALUE="11">НОЯБРЬ
+      <OPTION VALUE="12">ДЕКАБРЬ
+    </SELECT>
+    <SELECT NAME="DAY" class = "select" onchange="F1.TextBox1.value ='' ">
+      <script type="text/javascript">
+        var c = document;
+        for (var i = 1; i<30; i++){ (i<10) ? c.write('<OPTION VALUE="'+0+i+'">'+i) : c.write('<OPTION VALUE="'+i+'">'+i); }
+      </script>
+      <option value="30" id="30">30
+      <option value="31" id="31">31
+    </SELECT><br>         
+      <INPUT TYPE="BUTTON" class = "button" value="ОПРЕДЕЛИТЬ ЗНАК ЗОДИАКА" onClick="F1.TextBox1.value = sign(F1.MOUNTH.value, F1.DAY.value)">
+      <INPUT TYPE="text" class = "text" VALUE="" NAME="TextBox1" readonly>
+  </FORM>
+  </body>
+</html>

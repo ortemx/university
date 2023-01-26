@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+<script src='http://code.jquery.com/jquery-latest.js'></script>
+<link rel='stylesheet type=text/css href=tmp.css' />
+-->
+<style type='text/css'>
+tr:first-child,
+td:first-child {
+	background-color: #FF0000;
+}
+</style>
+<script type='text/javascript'>
+var n=9;
+var i=1;
+document.write("<table border=1>");
+while (i <= n){
+	document.write('<tr>');
+	var j=1;
+	while(j <= n){
+		document.write('<td>');
+		document.write(i*j);
+		document.write("</td>");
+		j++;
+	}
+	document.write("</tr>");
+	i++;
+}
+document.write("</table>");
+</script>
+</head>
+<body>
+<div class='left_button'>left_button</div>
+<div class='right_button'>right_button</div>
+<button id='show'>show</button>
+<button id='hide'>hide</button>
+</body>
+</html>

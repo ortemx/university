@@ -1,0 +1,6686 @@
+[
+    {
+        "name": "Абаза",
+        "population": 14816,
+        "eng_name": "Abaza",
+        "cityID": 1512205
+    },
+    {
+        "name": "Абакан",
+        "population": 187239,
+        "eng_name": "Abakan",
+        "cityID": 1512236
+    },
+    {
+        "name": "Абдулино",
+        "population": 18420,
+        "eng_name": "Abdulino",
+        "cityID": 584471
+    },
+    {
+        "name": "Абинск",
+        "population": 39186,
+        "eng_name": "Abinsk",
+        "cityID": 584441
+    },
+    {
+        "name": "Агидель",
+        "population": 13935,
+        "eng_name": "Agidel",
+        "cityID": 484856
+    },
+    {
+        "name": "Агрыз",
+        "population": 19743,
+        "eng_name": "Agryz",
+        "cityID": 583983
+    },
+    {
+        "name": "Адыгейск",
+        "population": 12877,
+        "eng_name": "Adygeysk",
+        "cityID": 483142
+    },
+    {
+        "name": "Азнакаево",
+        "population": 33728,
+        "eng_name": "Aznakayevo",
+        "cityID": 580062
+    },
+    {
+        "name": "Азов",
+        "population": 79857,
+        "eng_name": "Azov",
+        "cityID": 580054
+    },
+    {
+        "name": "Ак-Довурак",
+        "population": 13769,
+        "eng_name": "Ak-Dovurak",
+        "cityID": 1512064
+    },
+    {
+        "name": "Аксай",
+        "population": 46631,
+        "eng_name": "Aksay",
+        "cityID": 583673
+    },
+    {
+        "name": "Алагир",
+        "population": 19678,
+        "eng_name": "Alagir",
+        "cityID": 802078
+    },
+    {
+        "name": "Алапаевск",
+        "population": 36951,
+        "eng_name": "Alapayevsk",
+        "cityID": 1511954
+    },
+    {
+        "name": "Алатырь",
+        "population": 33035,
+        "eng_name": "Alatyr'",
+        "cityID": 583437
+    },
+    {
+        "name": "Алдан",
+        "population": 20366,
+        "eng_name": "Aldan",
+        "cityID": 2027968
+    },
+    {
+        "name": "Алейск",
+        "population": 28434,
+        "eng_name": "Aleysk",
+        "cityID": 1511783
+    },
+    {
+        "name": "Александров",
+        "population": 57073,
+        "eng_name": "Aleksandrov",
+        "cityID": 583350
+    },
+    {
+        "name": "Александровск-Сахалинский",
+        "population": 9106,
+        "eng_name": "Aleksandrovsk-Sakhalinskiy",
+        "cityID": 2127282
+    },
+    {
+        "name": "Александровск",
+        "population": 11739,
+        "eng_name": "Aleksandrovsk",
+        "cityID": 583041
+    },
+    {
+        "name": "Алексеевка",
+        "population": 37583,
+        "eng_name": "Alekseyevka",
+        "cityID": 582956
+    },
+    {
+        "name": "Алексин",
+        "population": 57102,
+        "eng_name": "Aleksin",
+        "cityID": 582750
+    },
+    {
+        "name": "Алзамай",
+        "population": 5693,
+        "eng_name": "Alzamay",
+        "cityID": 1511709
+    },
+    {
+        "name": "Альметьевск",
+        "population": 158019,
+        "eng_name": "Al'met'yevsk",
+        "cityID": 582432
+    },
+    {
+        "name": "Амурск",
+        "population": 38694,
+        "eng_name": "Amursk",
+        "cityID": 2027749
+    },
+    {
+        "name": "Анадырь",
+        "population": 15240,
+        "eng_name": "Anadyr",
+        "cityID": 2127202
+    },
+    {
+        "name": "Анапа",
+        "population": 94340,
+        "eng_name": "Anapa",
+        "cityID": 582182
+    },
+    {
+        "name": "Ангарск",
+        "population": 222855,
+        "eng_name": "Angarsk",
+        "cityID": 2027667
+    },
+    {
+        "name": "Андреаполь",
+        "population": 6703,
+        "eng_name": "Andreapol'",
+        "cityID": 582105
+    },
+    {
+        "name": "Анжеро-Судженск",
+        "population": 66933,
+        "eng_name": "Anzhero-Sudzhensk",
+        "cityID": 1511494
+    },
+    {
+        "name": "Анива",
+        "population": 9326,
+        "eng_name": "Aniva",
+        "cityID": 2127154
+    },
+    {
+        "name": "Апатиты",
+        "population": 53847,
+        "eng_name": "Apatity",
+        "cityID": 581357
+    },
+    {
+        "name": "Апрелевка",
+        "population": 32424,
+        "eng_name": "Aprelevka",
+        "cityID": 581321
+    },
+    {
+        "name": "Апшеронск",
+        "population": 39162,
+        "eng_name": "Apsheronsk",
+        "cityID": 581313
+    },
+    {
+        "name": "Арамиль",
+        "population": 15791,
+        "eng_name": "Aramil",
+        "cityID": 1511466
+    },
+    {
+        "name": "Аргун",
+        "population": 40290,
+        "eng_name": "Argun",
+        "cityID": 581126
+    },
+    {
+        "name": "Ардатов",
+        "population": 8150,
+        "eng_name": "Ardatov",
+        "cityID": 581186
+    },
+    {
+        "name": "Ардон",
+        "population": 19274,
+        "eng_name": "Ardon",
+        "cityID": 581179
+    },
+    {
+        "name": "Арзамас",
+        "population": 103396,
+        "eng_name": "Arzamas",
+        "cityID": 580724
+    },
+    {
+        "name": "Аркадак",
+        "population": 11340,
+        "eng_name": "Arkadak",
+        "cityID": 581080
+    },
+    {
+        "name": "Армавир",
+        "population": 187215,
+        "eng_name": "Armavir",
+        "cityID": 580922
+    },
+    {
+        "name": "Арсеньев",
+        "population": 51723,
+        "eng_name": "Arsen'yev",
+        "cityID": 2027468
+    },
+    {
+        "name": "Арск",
+        "population": 20219,
+        "eng_name": "Arsk",
+        "cityID": 580850
+    },
+    {
+        "name": "Артём",
+        "population": 104926,
+        "eng_name": "Artëm",
+        "cityID": 2027456
+    },
+    {
+        "name": "Артёмовск",
+        "population": 1492,
+        "eng_name": "Artyomovsk",
+        "cityID": 1511369
+    },
+    {
+        "name": "Артёмовский",
+        "population": 29754,
+        "eng_name": "Artëmovskiy",
+        "cityID": 1511368
+    },
+    {
+        "name": "Архангельск",
+        "population": 344927,
+        "eng_name": "Arkhangelsk",
+        "cityID": 581049
+    },
+    {
+        "name": "Асбест",
+        "population": 62285,
+        "eng_name": "Asbest",
+        "cityID": 1511330
+    },
+    {
+        "name": "Асино",
+        "population": 24442,
+        "eng_name": "Asino",
+        "cityID": 1511309
+    },
+    {
+        "name": "Астрахань",
+        "population": 524371,
+        "eng_name": "Astrakhan",
+        "cityID": 580497
+    },
+    {
+        "name": "Аткарск",
+        "population": 23660,
+        "eng_name": "Atkarsk",
+        "cityID": 580420
+    },
+    {
+        "name": "Ахтубинск",
+        "population": 36127,
+        "eng_name": "Akhtubinsk",
+        "cityID": 583798
+    },
+    {
+        "name": "Ачинск",
+        "population": 104850,
+        "eng_name": "Achinsk",
+        "cityID": 1512165
+    },
+    {
+        "name": "Аша",
+        "population": 28722,
+        "eng_name": "Asha",
+        "cityID": 580660
+    },
+    {
+        "name": "Бабаево",
+        "population": 11416,
+        "eng_name": "Babayevo",
+        "cityID": 580006
+    },
+    {
+        "name": "Бабушкин",
+        "population": 4385,
+        "eng_name": "Babushkin",
+        "cityID": 2027276
+    },
+    {
+        "name": "Бавлы",
+        "population": 21794,
+        "eng_name": "Bavly",
+        "cityID": 578638
+    },
+    {
+        "name": "Багратионовск",
+        "population": 6401,
+        "eng_name": "Bagrationovsk",
+        "cityID": 579760
+    },
+    {
+        "name": "Байкальск",
+        "population": 12541,
+        "eng_name": "Baykal'sk",
+        "cityID": 2026979
+    },
+    {
+        "name": "Баймак",
+        "population": 17090,
+        "eng_name": "Baymak",
+        "cityID": 578534
+    },
+    {
+        "name": "Бакал",
+        "population": 18429,
+        "eng_name": "Bakal",
+        "cityID": 579738
+    },
+    {
+        "name": "Баксан",
+        "population": 38645,
+        "eng_name": "Baksan",
+        "cityID": 579574
+    },
+    {
+        "name": "Балабаново",
+        "population": 25861,
+        "eng_name": "Balabanovo",
+        "cityID": 579529
+    },
+    {
+        "name": "Балаково",
+        "population": 186012,
+        "eng_name": "Balakovo",
+        "cityID": 579492
+    },
+    {
+        "name": "Балахна",
+        "population": 48122,
+        "eng_name": "Balakhna",
+        "cityID": 579514
+    },
+    {
+        "name": "Балашиха",
+        "population": 507307,
+        "eng_name": "Balashikha",
+        "cityID": 579464
+    },
+    {
+        "name": "Балашов",
+        "population": 74981,
+        "eng_name": "Balashov",
+        "cityID": 579460
+    },
+    {
+        "name": "Балей",
+        "population": 10630,
+        "eng_name": "Baley",
+        "cityID": 2027184
+    },
+    {
+        "name": "Балтийск",
+        "population": 33946,
+        "eng_name": "Baltiysk",
+        "cityID": 2609906
+    },
+    {
+        "name": "Барабинск",
+        "population": 28546,
+        "eng_name": "Barabinsk",
+        "cityID": 1510916
+    },
+    {
+        "name": "Барнаул",
+        "population": 631124,
+        "eng_name": "Barnaul",
+        "cityID": 1510853
+    },
+    {
+        "name": "Барыш",
+        "population": 15408,
+        "eng_name": "Barysh",
+        "cityID": 578931
+    },
+    {
+        "name": "Батайск",
+        "population": 127444,
+        "eng_name": "Bataysk",
+        "cityID": 578740
+    },
+    {
+        "name": "Бахчисарай",
+        "population": 26090,
+        "eng_name": "Бахчисарай",
+        "cityID": 480089
+    },
+    {
+        "name": "Бежецк",
+        "population": 20097,
+        "eng_name": "Bezhetsk",
+        "cityID": 576566
+    },
+    {
+        "name": "Белая Калитва",
+        "population": 38739,
+        "eng_name": "Belaya Kalitva",
+        "cityID": 578155
+    },
+    {
+        "name": "Белая Холуница",
+        "population": 9994,
+        "eng_name": "Belaya Kholunitsa",
+        "cityID": 578152
+    },
+    {
+        "name": "Белгород",
+        "population": 391702,
+        "eng_name": "Belgorod",
+        "cityID": 578072
+    },
+    {
+        "name": "Белебей",
+        "population": 59093,
+        "eng_name": "Belebey",
+        "cityID": 578120
+    },
+    {
+        "name": "Белинский",
+        "population": 7566,
+        "eng_name": "Belinsky",
+        "cityID": 578045
+    },
+    {
+        "name": "Белово",
+        "population": 70611,
+        "eng_name": "Belovo",
+        "cityID": 1510469
+    },
+    {
+        "name": "Белогорск",
+        "population": 64502,
+        "eng_name": "Belogorsk",
+        "cityID": 2026895
+    },
+    {
+        "name": "Белогорск",
+        "population": 16298,
+        "eng_name": "Belogorsk",
+        "cityID": 2026895
+    },
+    {
+        "name": "Белозерск",
+        "population": 8464,
+        "eng_name": "Belozersk",
+        "cityID": 577711
+    },
+    {
+        "name": "Белокуриха",
+        "population": 15128,
+        "eng_name": "Belokurikha",
+        "cityID": 1510502
+    },
+    {
+        "name": "Беломорск",
+        "population": 9036,
+        "eng_name": "Belomorsk",
+        "cityID": 577922
+    },
+    {
+        "name": "Белоозёрский",
+        "population": 17674,
+        "eng_name": "Beloozyorsky",
+        "cityID": 577901
+    },
+    {
+        "name": "Белорецк",
+        "population": 64479,
+        "eng_name": "Beloretsk",
+        "cityID": 577881
+    },
+    {
+        "name": "Белореченск",
+        "population": 51405,
+        "eng_name": "Belorechensk",
+        "cityID": 577893
+    },
+    {
+        "name": "Белоусово",
+        "population": 10695,
+        "eng_name": "Belousovo",
+        "cityID": 577856
+    },
+    {
+        "name": "Белоярский",
+        "population": 19797,
+        "eng_name": "Beloyarskiy",
+        "cityID": 1510450
+    },
+    {
+        "name": "Белый",
+        "population": 3057,
+        "eng_name": "Belyy",
+        "cityID": 577576
+    },
+    {
+        "name": "Белёв",
+        "population": 12484,
+        "eng_name": "Belëv",
+        "cityID": 578091
+    },
+    {
+        "name": "Бердск",
+        "population": 103561,
+        "eng_name": "Berdsk",
+        "cityID": 1510350
+    },
+    {
+        "name": "Березники",
+        "population": 137091,
+        "eng_name": "Berezniki",
+        "cityID": 577206
+    },
+    {
+        "name": "Берёзовский",
+        "population": 44932,
+        "eng_name": "Berëzovskiy",
+        "cityID": 1510205
+    },
+    {
+        "name": "Берёзовский",
+        "population": 60334,
+        "eng_name": "Berëzovskiy",
+        "cityID": 1510205
+    },
+    {
+        "name": "Беслан",
+        "population": 37400,
+        "eng_name": "Beslan",
+        "cityID": 576697
+    },
+    {
+        "name": "Бийск",
+        "population": 198433,
+        "eng_name": "Biysk",
+        "cityID": 1510018
+    },
+    {
+        "name": "Бикин",
+        "population": 16026,
+        "eng_name": "Bikin",
+        "cityID": 2026696
+    },
+    {
+        "name": "Билибино",
+        "population": 5366,
+        "eng_name": "Bilibino",
+        "cityID": 2126682
+    },
+    {
+        "name": "Биробиджан",
+        "population": 70433,
+        "eng_name": "Birobidzhan",
+        "cityID": 2026643
+    },
+    {
+        "name": "Бирск",
+        "population": 46245,
+        "eng_name": "Birsk",
+        "cityID": 576317
+    },
+    {
+        "name": "Бирюсинск",
+        "population": 8401,
+        "eng_name": "Biryusinsk",
+        "cityID": 1510041
+    },
+    {
+        "name": "Бирюч",
+        "population": 7409,
+        "eng_name": "Biryuch",
+        "cityID": 542333
+    },
+    {
+        "name": "Благовещенск",
+        "population": 225757,
+        "eng_name": "Blagoveshchensk",
+        "cityID": 2026609
+    },
+    {
+        "name": "Благовещенск",
+        "population": 34656,
+        "eng_name": "Blagoveshchensk",
+        "cityID": 2026609
+    },
+    {
+        "name": "Благодарный",
+        "population": 30333,
+        "eng_name": "Blagodarnyy",
+        "cityID": 576172
+    },
+    {
+        "name": "Бобров",
+        "population": 19842,
+        "eng_name": "Bobrov",
+        "cityID": 575948
+    },
+    {
+        "name": "Богданович",
+        "population": 29309,
+        "eng_name": "Bogdanovich",
+        "cityID": 1509888
+    },
+    {
+        "name": "Богородицк",
+        "population": 30199,
+        "eng_name": "Bogoroditsk",
+        "cityID": 575591
+    },
+    {
+        "name": "Богородск",
+        "population": 33244,
+        "eng_name": "Bogorodsk",
+        "cityID": 575560
+    },
+    {
+        "name": "Боготол",
+        "population": 19218,
+        "eng_name": "Bogotol",
+        "cityID": 1509852
+    },
+    {
+        "name": "Богучар",
+        "population": 10975,
+        "eng_name": "Boguchar",
+        "cityID": 575457
+    },
+    {
+        "name": "Бодайбо",
+        "population": 11477,
+        "eng_name": "Bodaybo",
+        "cityID": 2026583
+    },
+    {
+        "name": "Бокситогорск",
+        "population": 14973,
+        "eng_name": "Boksitogorsk",
+        "cityID": 575410
+    },
+    {
+        "name": "Болгар",
+        "population": 8139,
+        "eng_name": "Bolgar",
+        "cityID": 570990
+    },
+    {
+        "name": "Бологое",
+        "population": 20178,
+        "eng_name": "Bologoye",
+        "cityID": 575349
+    },
+    {
+        "name": "Болотное",
+        "population": 15344,
+        "eng_name": "Bolotnoye",
+        "cityID": 1509819
+    },
+    {
+        "name": "Болохово",
+        "population": 8738,
+        "eng_name": "Bolokhovo",
+        "cityID": 575343
+    },
+    {
+        "name": "Болхов",
+        "population": 10685,
+        "eng_name": "Bolkhov",
+        "cityID": 575364
+    },
+    {
+        "name": "Большой Камень",
+        "population": 38685,
+        "eng_name": "Bolshoy Kamen",
+        "cityID": 2026303
+    },
+    {
+        "name": "Бор",
+        "population": 76732,
+        "eng_name": "Bor",
+        "cityID": 572665
+    },
+    {
+        "name": "Борзя",
+        "population": 29387,
+        "eng_name": "Borzya",
+        "cityID": 2026126
+    },
+    {
+        "name": "Борисоглебск",
+        "population": 58742,
+        "eng_name": "Borisoglebsk",
+        "cityID": 572525
+    },
+    {
+        "name": "Боровичи",
+        "population": 48858,
+        "eng_name": "Borovichi",
+        "cityID": 572154
+    },
+    {
+        "name": "Боровск",
+        "population": 10222,
+        "eng_name": "Borovsk",
+        "cityID": 572070
+    },
+    {
+        "name": "Бородино",
+        "population": 16005,
+        "eng_name": "Borodino",
+        "cityID": 1508943
+    },
+    {
+        "name": "Братск",
+        "population": 225037,
+        "eng_name": "Bratsk",
+        "cityID": 2051523
+    },
+    {
+        "name": "Бронницы",
+        "population": 22014,
+        "eng_name": "Bronnitsy",
+        "cityID": 571557
+    },
+    {
+        "name": "Брянск",
+        "population": 399579,
+        "eng_name": "Bryansk",
+        "cityID": 571476
+    },
+    {
+        "name": "Бугульма",
+        "population": 81678,
+        "eng_name": "Bugul'ma",
+        "cityID": 571170
+    },
+    {
+        "name": "Бугуруслан",
+        "population": 47714,
+        "eng_name": "Buguruslan",
+        "cityID": 571159
+    },
+    {
+        "name": "Будённовск",
+        "population": 60504,
+        "eng_name": "Budënnovsk",
+        "cityID": 571306
+    },
+    {
+        "name": "Бузулук",
+        "population": 86042,
+        "eng_name": "Buzuluk",
+        "cityID": 570427
+    },
+    {
+        "name": "Буинск",
+        "population": 20093,
+        "eng_name": "Buinsk",
+        "cityID": 571155
+    },
+    {
+        "name": "Буй",
+        "population": 22960,
+        "eng_name": "Buy",
+        "cityID": 570508
+    },
+    {
+        "name": "Буйнакск",
+        "population": 66422,
+        "eng_name": "Buynaksk",
+        "cityID": 570479
+    },
+    {
+        "name": "Бутурлиновка",
+        "population": 23627,
+        "eng_name": "Buturlinovka",
+        "cityID": 570563
+    },
+    {
+        "name": "Валдай",
+        "population": 13800,
+        "eng_name": "Valday",
+        "cityID": 477301
+    },
+    {
+        "name": "Валуйки",
+        "population": 34283,
+        "eng_name": "Valuyki",
+        "cityID": 477192
+    },
+    {
+        "name": "Велиж",
+        "population": 6639,
+        "eng_name": "Velizh",
+        "cityID": 475955
+    },
+    {
+        "name": "Великие Луки",
+        "population": 90485,
+        "eng_name": "Velikiye Luki",
+        "cityID": 476077
+    },
+    {
+        "name": "Великий Новгород",
+        "population": 225019,
+        "eng_name": "Veliky Novgorod",
+        "cityID": 519336
+    },
+    {
+        "name": "Великий Устюг",
+        "population": 31078,
+        "eng_name": "Velikiy Ustyug",
+        "cityID": 476062
+    },
+    {
+        "name": "Вельск",
+        "population": 22217,
+        "eng_name": "Velsk",
+        "cityID": 475938
+    },
+    {
+        "name": "Венёв",
+        "population": 13691,
+        "eng_name": "Venyov",
+        "cityID": 475881
+    },
+    {
+        "name": "Верещагино",
+        "population": 20935,
+        "eng_name": "Vereshchagino",
+        "cityID": 475777
+    },
+    {
+        "name": "Верея",
+        "population": 5061,
+        "eng_name": "Vereya",
+        "cityID": 475701
+    },
+    {
+        "name": "Верхнеуральск",
+        "population": 9141,
+        "eng_name": "Verkhneural'sk",
+        "cityID": 475463
+    },
+    {
+        "name": "Верхний Тагил",
+        "population": 10428,
+        "eng_name": "Verkhniy Tagil",
+        "cityID": 474821
+    },
+    {
+        "name": "Верхний Уфалей",
+        "population": 26444,
+        "eng_name": "Verkhniy Ufaley",
+        "cityID": 1487394
+    },
+    {
+        "name": "Верхняя Пышма",
+        "population": 74262,
+        "eng_name": "Verkhnyaya Pyshma",
+        "cityID": 1487281
+    },
+    {
+        "name": "Верхняя Салда",
+        "population": 41026,
+        "eng_name": "Verkhnyaya Salda",
+        "cityID": 1487277
+    },
+    {
+        "name": "Верхняя Тура",
+        "population": 8862,
+        "eng_name": "Verkhnyaya Tura",
+        "cityID": 474462
+    },
+    {
+        "name": "Верхотурье",
+        "population": 8528,
+        "eng_name": "Verkhotur'ye",
+        "cityID": 1487219
+    },
+    {
+        "name": "Верхоянск",
+        "population": 1095,
+        "eng_name": "Verkhoyansk",
+        "cityID": 2013465
+    },
+    {
+        "name": "Весьегонск",
+        "population": 5846,
+        "eng_name": "Ves'yegonsk",
+        "cityID": 473943
+    },
+    {
+        "name": "Ветлуга",
+        "population": 8258,
+        "eng_name": "Vetluga",
+        "cityID": 473910
+    },
+    {
+        "name": "Видное",
+        "population": 78635,
+        "eng_name": "Vidnoye",
+        "cityID": 473778
+    },
+    {
+        "name": "Вилюйск",
+        "population": 11319,
+        "eng_name": "Vilyuysk",
+        "cityID": 2013392
+    },
+    {
+        "name": "Вилючинск",
+        "population": 22522,
+        "eng_name": "Vilyuchinsk",
+        "cityID": 2118647
+    },
+    {
+        "name": "Вихоревка",
+        "population": 20708,
+        "eng_name": "Vikhorevka",
+        "cityID": 2013399
+    },
+    {
+        "name": "Вичуга",
+        "population": 32971,
+        "eng_name": "Vichuga",
+        "cityID": 473788
+    },
+    {
+        "name": "Владивосток",
+        "population": 600871,
+        "eng_name": "Vladivostok",
+        "cityID": 2013348
+    },
+    {
+        "name": "Владикавказ",
+        "population": 301543,
+        "eng_name": "Vladikavkaz",
+        "cityID": 473249
+    },
+    {
+        "name": "Владимир",
+        "population": 352347,
+        "eng_name": "Vladimir",
+        "cityID": 473247
+    },
+    {
+        "name": "Волгоград",
+        "population": 1004763,
+        "eng_name": "Volgograd",
+        "cityID": 472757
+    },
+    {
+        "name": "Волгодонск",
+        "population": 169953,
+        "eng_name": "Volgodonsk",
+        "cityID": 472761
+    },
+    {
+        "name": "Волгореченск",
+        "population": 16111,
+        "eng_name": "Volgorechensk",
+        "cityID": 472750
+    },
+    {
+        "name": "Волжск",
+        "population": 52703,
+        "eng_name": "Volzhsk",
+        "cityID": 472234
+    },
+    {
+        "name": "Волжский",
+        "population": 323853,
+        "eng_name": "Volzhskiy",
+        "cityID": 472231
+    },
+    {
+        "name": "Вологда",
+        "population": 308530,
+        "eng_name": "Vologda",
+        "cityID": 472459
+    },
+    {
+        "name": "Володарск",
+        "population": 9875,
+        "eng_name": "Volodarsk",
+        "cityID": 472494
+    },
+    {
+        "name": "Волоколамск",
+        "population": 18368,
+        "eng_name": "Volokolamsk",
+        "cityID": 472433
+    },
+    {
+        "name": "Волосово",
+        "population": 11621,
+        "eng_name": "Volosovo",
+        "cityID": 472357
+    },
+    {
+        "name": "Волхов",
+        "population": 43969,
+        "eng_name": "Volkhov",
+        "cityID": 472722
+    },
+    {
+        "name": "Волчанск",
+        "population": 8458,
+        "eng_name": "Volchansk",
+        "cityID": 1486984
+    },
+    {
+        "name": "Вольск",
+        "population": 60948,
+        "eng_name": "Vol'sk",
+        "cityID": 472278
+    },
+    {
+        "name": "Воркута",
+        "population": 52292,
+        "eng_name": "Vorkuta",
+        "cityID": 1486910
+    },
+    {
+        "name": "Воронеж",
+        "population": 1050602,
+        "eng_name": "Voronezh",
+        "cityID": 472045
+    },
+    {
+        "name": "Ворсма",
+        "population": 10120,
+        "eng_name": "Vorsma",
+        "cityID": 471760
+    },
+    {
+        "name": "Воскресенск",
+        "population": 92196,
+        "eng_name": "Voskresensk",
+        "cityID": 471656
+    },
+    {
+        "name": "Воткинск",
+        "population": 96861,
+        "eng_name": "Votkinsk",
+        "cityID": 471430
+    },
+    {
+        "name": "Всеволожск",
+        "population": 75660,
+        "eng_name": "Vsevolozhsk",
+        "cityID": 471101
+    },
+    {
+        "name": "Вуктыл",
+        "population": 9671,
+        "eng_name": "Vuktyl",
+        "cityID": 470905
+    },
+    {
+        "name": "Выборг",
+        "population": 74054,
+        "eng_name": "Vyborg",
+        "cityID": 470546
+    },
+    {
+        "name": "Выкса",
+        "population": 52892,
+        "eng_name": "Vyksa",
+        "cityID": 470444
+    },
+    {
+        "name": "Высоковск",
+        "population": 10306,
+        "eng_name": "Vysokovsk",
+        "cityID": 470083
+    },
+    {
+        "name": "Высоцк",
+        "population": 1074,
+        "eng_name": "Vysotsk",
+        "cityID": 469995
+    },
+    {
+        "name": "Вытегра",
+        "population": 10116,
+        "eng_name": "Vytegra",
+        "cityID": 469960
+    },
+    {
+        "name": "Вышний Волочёк",
+        "population": 44722,
+        "eng_name": "Vysnij Volocek",
+        "cityID": 470252
+    },
+    {
+        "name": "Вяземский",
+        "population": 12969,
+        "eng_name": "Vyazemskiy",
+        "cityID": 2013229
+    },
+    {
+        "name": "Вязники",
+        "population": 33769,
+        "eng_name": "Vyazniki",
+        "cityID": 470666
+    },
+    {
+        "name": "Вязьма",
+        "population": 52434,
+        "eng_name": "Vyaz'ma",
+        "cityID": 470676
+    },
+    {
+        "name": "Вятские Поляны",
+        "population": 31488,
+        "eng_name": "Vyatskiye Polyany",
+        "cityID": 470734
+    },
+    {
+        "name": "Гаврилов Посад",
+        "population": 5492,
+        "eng_name": "Gavrilov Posad",
+        "cityID": 561783
+    },
+    {
+        "name": "Гаврилов-Ям",
+        "population": 16341,
+        "eng_name": "Gavrilov-Yam",
+        "cityID": 561762
+    },
+    {
+        "name": "Гагарин",
+        "population": 28702,
+        "eng_name": "Gagarin",
+        "cityID": 562237
+    },
+    {
+        "name": "Гаджиево",
+        "population": 13016,
+        "eng_name": "Gadzhiyevo",
+        "cityID": 562245
+    },
+    {
+        "name": "Гай",
+        "population": 33564,
+        "eng_name": "Gay",
+        "cityID": 561731
+    },
+    {
+        "name": "Галич",
+        "population": 16629,
+        "eng_name": "Galich",
+        "cityID": 562161
+    },
+    {
+        "name": "Гатчина",
+        "population": 89311,
+        "eng_name": "Krasnogvardeysk",
+        "cityID": 561887
+    },
+    {
+        "name": "Гвардейск",
+        "population": 13353,
+        "eng_name": "Gvardeysk",
+        "cityID": 557710
+    },
+    {
+        "name": "Гдов",
+        "population": 3216,
+        "eng_name": "Gdov",
+        "cityID": 561679
+    },
+    {
+        "name": "Геленджик",
+        "population": 75504,
+        "eng_name": "Gelendzhik",
+        "cityID": 561667
+    },
+    {
+        "name": "Георгиевск",
+        "population": 65633,
+        "eng_name": "Georgiyevsk",
+        "cityID": 561627
+    },
+    {
+        "name": "Глазов",
+        "population": 91921,
+        "eng_name": "Glazov",
+        "cityID": 561347
+    },
+    {
+        "name": "Голицыно",
+        "population": 17264,
+        "eng_name": "Golitsyno",
+        "cityID": 560756
+    },
+    {
+        "name": "Горбатов",
+        "population": 1828,
+        "eng_name": "Gorbatov",
+        "cityID": 560285
+    },
+    {
+        "name": "Горно-Алтайск",
+        "population": 64504,
+        "eng_name": "Gorno-Altaysk",
+        "cityID": 1506271
+    },
+    {
+        "name": "Горнозаводск",
+        "population": 11103,
+        "eng_name": "Gornozavodsk",
+        "cityID": 559752
+    },
+    {
+        "name": "Горняк",
+        "population": 12115,
+        "eng_name": "Gornyak",
+        "cityID": 1506260
+    },
+    {
+        "name": "Городец",
+        "population": 29353,
+        "eng_name": "Gorodets",
+        "cityID": 559678
+    },
+    {
+        "name": "Городище",
+        "population": 7572,
+        "eng_name": "Gorodishche",
+        "cityID": 559654
+    },
+    {
+        "name": "Городовиковск",
+        "population": 8397,
+        "eng_name": "Gorodovikovsk",
+        "cityID": 559475
+    },
+    {
+        "name": "Гороховец",
+        "population": 12617,
+        "eng_name": "Gorokhovets",
+        "cityID": 559459
+    },
+    {
+        "name": "Горячий Ключ",
+        "population": 41604,
+        "eng_name": "Goryachiy Klyuch",
+        "cityID": 559317
+    },
+    {
+        "name": "Грайворон",
+        "population": 6450,
+        "eng_name": "Grayvoron",
+        "cityID": 559034
+    },
+    {
+        "name": "Гремячинск",
+        "population": 7971,
+        "eng_name": "Gremyachinsk",
+        "cityID": 558885
+    },
+    {
+        "name": "Грозный",
+        "population": 324602,
+        "eng_name": "Grozny",
+        "cityID": 558418
+    },
+    {
+        "name": "Грязи",
+        "population": 46415,
+        "eng_name": "Gryazi",
+        "cityID": 558312
+    },
+    {
+        "name": "Грязовец",
+        "population": 14797,
+        "eng_name": "Gryazovets",
+        "cityID": 558236
+    },
+    {
+        "name": "Губаха",
+        "population": 18825,
+        "eng_name": "Gubakha",
+        "cityID": 558209
+    },
+    {
+        "name": "Губкин",
+        "population": 86073,
+        "eng_name": "Gubkin",
+        "cityID": 558146
+    },
+    {
+        "name": "Губкинский",
+        "population": 28106,
+        "eng_name": "Gubkinskiy",
+        "cityID": 1539209
+    },
+    {
+        "name": "Гудермес",
+        "population": 57179,
+        "eng_name": "Gudermes",
+        "cityID": 558118
+    },
+    {
+        "name": "Гуково",
+        "population": 62658,
+        "eng_name": "Gukovo",
+        "cityID": 558082
+    },
+    {
+        "name": "Гулькевичи",
+        "population": 34314,
+        "eng_name": "Gul'kevichi",
+        "cityID": 558066
+    },
+    {
+        "name": "Гурьевск",
+        "population": 19670,
+        "eng_name": "Gur'yevsk",
+        "cityID": 1506073
+    },
+    {
+        "name": "Гурьевск",
+        "population": 22134,
+        "eng_name": "Gur'yevsk",
+        "cityID": 1506073
+    },
+    {
+        "name": "Гусев",
+        "population": 28177,
+        "eng_name": "Gusev",
+        "cityID": 557882
+    },
+    {
+        "name": "Гусиноозёрск",
+        "population": 23263,
+        "eng_name": "Gusinoozyorsk",
+        "cityID": 2023782
+    },
+    {
+        "name": "Гусь-Хрустальный",
+        "population": 51998,
+        "eng_name": "Gus'-Khrustal'nyy",
+        "cityID": 557775
+    },
+    {
+        "name": "Давлеканово",
+        "population": 22971,
+        "eng_name": "Davlekanovo",
+        "cityID": 567006
+    },
+    {
+        "name": "Дагестанские Огни",
+        "population": 30120,
+        "eng_name": "Dagestanskiye Ogni",
+        "cityID": 567290
+    },
+    {
+        "name": "Далматово",
+        "population": 11938,
+        "eng_name": "Dalmatovo",
+        "cityID": 1507565
+    },
+    {
+        "name": "Дальнегорск",
+        "population": 33803,
+        "eng_name": "Dalnegorsk",
+        "cityID": 2051471
+    },
+    {
+        "name": "Дальнереченск",
+        "population": 24786,
+        "eng_name": "Dalnerechensk",
+        "cityID": 2025159
+    },
+    {
+        "name": "Данилов",
+        "population": 14416,
+        "eng_name": "Danilov",
+        "cityID": 567183
+    },
+    {
+        "name": "Данков",
+        "population": 18558,
+        "eng_name": "Dankov",
+        "cityID": 567109
+    },
+    {
+        "name": "Дегтярск",
+        "population": 15326,
+        "eng_name": "Degtyarsk",
+        "cityID": 1507488
+    },
+    {
+        "name": "Дедовск",
+        "population": 30645,
+        "eng_name": "Dedovsk",
+        "cityID": 566854
+    },
+    {
+        "name": "Демидов",
+        "population": 6033,
+        "eng_name": "Demidov",
+        "cityID": 566751
+    },
+    {
+        "name": "Дербент",
+        "population": 126606,
+        "eng_name": "Derbent",
+        "cityID": 566532
+    },
+    {
+        "name": "Десногорск",
+        "population": 27051,
+        "eng_name": "Desnogorsk",
+        "cityID": 566384
+    },
+    {
+        "name": "Дзержинск",
+        "population": 227326,
+        "eng_name": "Dzerzhinsk",
+        "cityID": 563708
+    },
+    {
+        "name": "Дзержинский",
+        "population": 52797,
+        "eng_name": "Dzerzhinskiy",
+        "cityID": 563705
+    },
+    {
+        "name": "Дивногорск",
+        "population": 29072,
+        "eng_name": "Divnogorsk",
+        "cityID": 1507379
+    },
+    {
+        "name": "Дигора",
+        "population": 10166,
+        "eng_name": "Digora",
+        "cityID": 566243
+    },
+    {
+        "name": "Димитровград",
+        "population": 112388,
+        "eng_name": "Dimitrovgrad",
+        "cityID": 566199
+    },
+    {
+        "name": "Дмитров",
+        "population": 68397,
+        "eng_name": "Dmitrov",
+        "cityID": 565955
+    },
+    {
+        "name": "Дмитровск",
+        "population": 4947,
+        "eng_name": "Dmitrovsk-Orlovskiy",
+        "cityID": 565908
+    },
+    {
+        "name": "Дно",
+        "population": 7267,
+        "eng_name": "Dno",
+        "cityID": 565885
+    },
+    {
+        "name": "Добрянка",
+        "population": 31825,
+        "eng_name": "Dobryanka",
+        "cityID": 565778
+    },
+    {
+        "name": "Долгопрудный",
+        "population": 117778,
+        "eng_name": "Dolgoprudnyy",
+        "cityID": 565614
+    },
+    {
+        "name": "Долинск",
+        "population": 11774,
+        "eng_name": "Dolinsk",
+        "cityID": 2125945
+    },
+    {
+        "name": "Домодедово",
+        "population": 135070,
+        "eng_name": "Domodedovo",
+        "cityID": 565381
+    },
+    {
+        "name": "Донецк",
+        "population": 46741,
+        "eng_name": "Donetsk",
+        "cityID": 565348
+    },
+    {
+        "name": "Донской",
+        "population": 61477,
+        "eng_name": "Donskoy",
+        "cityID": 565290
+    },
+    {
+        "name": "Дорогобуж",
+        "population": 9202,
+        "eng_name": "Dorogobuzh",
+        "cityID": 565202
+    },
+    {
+        "name": "Дрезна",
+        "population": 11294,
+        "eng_name": "Drezna",
+        "cityID": 565007
+    },
+    {
+        "name": "Дубна",
+        "population": 74499,
+        "eng_name": "Dubna",
+        "cityID": 564719
+    },
+    {
+        "name": "Дубовка",
+        "population": 13442,
+        "eng_name": "Dubovka",
+        "cityID": 564654
+    },
+    {
+        "name": "Дудинка",
+        "population": 20908,
+        "eng_name": "Dudinka",
+        "cityID": 1507116
+    },
+    {
+        "name": "Духовщина",
+        "population": 3832,
+        "eng_name": "Dukhovshchina",
+        "cityID": 564234
+    },
+    {
+        "name": "Дюртюли",
+        "population": 31217,
+        "eng_name": "Dyurtyuli",
+        "cityID": 563719
+    },
+    {
+        "name": "Дятьково",
+        "population": 25839,
+        "eng_name": "Dyat'kovo",
+        "cityID": 563822
+    },
+    {
+        "name": "Егорьевск",
+        "population": 73046,
+        "eng_name": "Yegor'yevsk",
+        "cityID": 468250
+    },
+    {
+        "name": "Ейск",
+        "population": 83127,
+        "eng_name": "Yeysk",
+        "cityID": 466885
+    },
+    {
+        "name": "Екатеринбург",
+        "population": 1495066,
+        "eng_name": "Ekaterinburg",
+        "cityID": 1486209
+    },
+    {
+        "name": "Елабуга",
+        "population": 73866,
+        "eng_name": "Yelabuga",
+        "cityID": 468082
+    },
+    {
+        "name": "Елец",
+        "population": 101306,
+        "eng_name": "Yelets",
+        "cityID": 467978
+    },
+    {
+        "name": "Елизово",
+        "population": 38893,
+        "eng_name": "Yelizovo",
+        "cityID": 2119538
+    },
+    {
+        "name": "Ельня",
+        "population": 8629,
+        "eng_name": "Yel'nya",
+        "cityID": 467753
+    },
+    {
+        "name": "Еманжелинск",
+        "population": 27880,
+        "eng_name": "Yemanzhelinsk",
+        "cityID": 1486039
+    },
+    {
+        "name": "Емва",
+        "population": 12378,
+        "eng_name": "Yemva",
+        "cityID": 467525
+    },
+    {
+        "name": "Енисейск",
+        "population": 17882,
+        "eng_name": "Yeniseysk",
+        "cityID": 1485997
+    },
+    {
+        "name": "Ермолино",
+        "population": 10157,
+        "eng_name": "Yermolino",
+        "cityID": 467238
+    },
+    {
+        "name": "Ершов",
+        "population": 18431,
+        "eng_name": "Yershov",
+        "cityID": 467120
+    },
+    {
+        "name": "Ессентуки",
+        "population": 114824,
+        "eng_name": "Yessentuki",
+        "cityID": 466990
+    },
+    {
+        "name": "Ефремов",
+        "population": 33965,
+        "eng_name": "Yefremov",
+        "cityID": 468390
+    },
+    {
+        "name": "Железноводск",
+        "population": 24869,
+        "eng_name": "Zheleznovodsk",
+        "cityID": 463340
+    },
+    {
+        "name": "Железногорск-Илимский",
+        "population": 22743,
+        "eng_name": "Zheleznogorsk-Ilimskiy",
+        "cityID": 2012557
+    },
+    {
+        "name": "Железногорск",
+        "population": 81619,
+        "eng_name": "Zheleznogorsk",
+        "cityID": 463343
+    },
+    {
+        "name": "Железногорск",
+        "population": 100554,
+        "eng_name": "Zheleznogorsk",
+        "cityID": 463343
+    },
+    {
+        "name": "Жердевка",
+        "population": 13825,
+        "eng_name": "Zherdevka",
+        "cityID": 463217
+    },
+    {
+        "name": "Жигулёвск",
+        "population": 50782,
+        "eng_name": "Zhigulyevsk",
+        "cityID": 482283
+    },
+    {
+        "name": "Жиздра",
+        "population": 5317,
+        "eng_name": "Zhizdra",
+        "cityID": 462914
+    },
+    {
+        "name": "Жирновск",
+        "population": 15259,
+        "eng_name": "Zhirnovsk",
+        "cityID": 462984
+    },
+    {
+        "name": "Жуков",
+        "population": 13828,
+        "eng_name": "Zhukovo",
+        "cityID": 462792
+    },
+    {
+        "name": "Жуковка",
+        "population": 16288,
+        "eng_name": "Zhukovka",
+        "cityID": 462822
+    },
+    {
+        "name": "Жуковский",
+        "population": 107558,
+        "eng_name": "Zhukovskiy",
+        "cityID": 462755
+    },
+    {
+        "name": "Завитинск",
+        "population": 9957,
+        "eng_name": "Zavitinsk",
+        "cityID": 2012626
+    },
+    {
+        "name": "Заводоуковск",
+        "population": 26477,
+        "eng_name": "Zavodoukovsk",
+        "cityID": 1485357
+    },
+    {
+        "name": "Заволжск",
+        "population": 9484,
+        "eng_name": "Zavolzhsk",
+        "cityID": 464112
+    },
+    {
+        "name": "Заволжье",
+        "population": 37248,
+        "eng_name": "Zavolzh'ye",
+        "cityID": 464101
+    },
+    {
+        "name": "Задонск",
+        "population": 9447,
+        "eng_name": "Zadonsk",
+        "cityID": 465726
+    },
+    {
+        "name": "Заинск",
+        "population": 39068,
+        "eng_name": "Zainsk",
+        "cityID": 465543
+    },
+    {
+        "name": "Закаменск",
+        "population": 11191,
+        "eng_name": "Zakamensk",
+        "cityID": 2012728
+    },
+    {
+        "name": "Заозёрный",
+        "population": 9954,
+        "eng_name": "Zaozyorny",
+        "cityID": 1488253
+    },
+    {
+        "name": "Заозёрск",
+        "population": 9120,
+        "eng_name": "Zaozersk",
+        "cityID": 828218
+    },
+    {
+        "name": "Западная Двина",
+        "population": 7608,
+        "eng_name": "Zapadnaya Dvina",
+        "cityID": 464891
+    },
+    {
+        "name": "Заполярный",
+        "population": 14330,
+        "eng_name": "Zapolyarnyy",
+        "cityID": 464790
+    },
+    {
+        "name": "Зарайск",
+        "population": 22581,
+        "eng_name": "Zaraysk",
+        "cityID": 464687
+    },
+    {
+        "name": "Заречный",
+        "population": 65493,
+        "eng_name": "Zarechnyy",
+        "cityID": 464625
+    },
+    {
+        "name": "Заречный",
+        "population": 28171,
+        "eng_name": "Zarechnyy",
+        "cityID": 464625
+    },
+    {
+        "name": "Заринск",
+        "population": 45405,
+        "eng_name": "Zarinsk",
+        "cityID": 1485439
+    },
+    {
+        "name": "Звенигово",
+        "population": 10966,
+        "eng_name": "Zvenigovo",
+        "cityID": 461916
+    },
+    {
+        "name": "Звенигород",
+        "population": 23649,
+        "eng_name": "Zvenigorod",
+        "cityID": 461920
+    },
+    {
+        "name": "Зверево",
+        "population": 17638,
+        "eng_name": "Zverevo",
+        "cityID": 461910
+    },
+    {
+        "name": "Зеленогорск",
+        "population": 61821,
+        "eng_name": "Zelenogorsk",
+        "cityID": 1488253
+    },
+    {
+        "name": "Зеленогорск",
+        "population": 15208,
+        "eng_name": "Zelenogorsk",
+        "cityID": 1488253
+    },
+    {
+        "name": "Зеленоград",
+        "population": 250173,
+        "eng_name": "Zelenograd",
+        "cityID": 463829
+    },
+    {
+        "name": "Зеленоградск",
+        "population": 17296,
+        "eng_name": "Zelenogradsk",
+        "cityID": 463828
+    },
+    {
+        "name": "Зеленодольск",
+        "population": 100009,
+        "eng_name": "Zelenodolsk",
+        "cityID": 463835
+    },
+    {
+        "name": "Зеленокумск",
+        "population": 33738,
+        "eng_name": "Zelenokumsk",
+        "cityID": 463824
+    },
+    {
+        "name": "Зерноград",
+        "population": 23847,
+        "eng_name": "Zernograd",
+        "cityID": 463637
+    },
+    {
+        "name": "Зея",
+        "population": 22714,
+        "eng_name": "Zeya",
+        "cityID": 2012593
+    },
+    {
+        "name": "Зима",
+        "population": 30337,
+        "eng_name": "Zima",
+        "cityID": 2012484
+    },
+    {
+        "name": "Златоуст",
+        "population": 162148,
+        "eng_name": "Zlatoust",
+        "cityID": 462444
+    },
+    {
+        "name": "Злынка",
+        "population": 5323,
+        "eng_name": "Zlynka",
+        "cityID": 462413
+    },
+    {
+        "name": "Змеиногорск",
+        "population": 10187,
+        "eng_name": "Zmeinogorsk",
+        "cityID": 1485042
+    },
+    {
+        "name": "Знаменск",
+        "population": 26361,
+        "eng_name": "Znamensk",
+        "cityID": 831130
+    },
+    {
+        "name": "Зубцов",
+        "population": 6084,
+        "eng_name": "Zubtsov",
+        "cityID": 462008
+    },
+    {
+        "name": "Зуевка",
+        "population": 9983,
+        "eng_name": "Zuyevka",
+        "cityID": 461964
+    },
+    {
+        "name": "Ивангород",
+        "population": 9320,
+        "eng_name": "Ivangorod",
+        "cityID": 555624
+    },
+    {
+        "name": "Иваново",
+        "population": 401505,
+        "eng_name": "Ivanovo",
+        "cityID": 555312
+    },
+    {
+        "name": "Ивантеевка",
+        "population": 82779,
+        "eng_name": "Ivanteyevka",
+        "cityID": 555111
+    },
+    {
+        "name": "Ивдель",
+        "population": 15244,
+        "eng_name": "Ivdel'",
+        "cityID": 1505260
+    },
+    {
+        "name": "Игарка",
+        "population": 4274,
+        "eng_name": "Igarka",
+        "cityID": 1505991
+    },
+    {
+        "name": "Ижевск",
+        "population": 646468,
+        "eng_name": "Izhevsk",
+        "cityID": 554840
+    },
+    {
+        "name": "Избербаш",
+        "population": 61296,
+        "eng_name": "Izberbash",
+        "cityID": 554894
+    },
+    {
+        "name": "Изобильный",
+        "population": 37366,
+        "eng_name": "Izobil'nyy",
+        "cityID": 554770
+    },
+    {
+        "name": "Иланский",
+        "population": 14768,
+        "eng_name": "Ilanskiy",
+        "cityID": 1505933
+    },
+    {
+        "name": "Инза",
+        "population": 17016,
+        "eng_name": "Inza",
+        "cityID": 556283
+    },
+    {
+        "name": "Иннополис",
+        "population": 866,
+        "eng_name": "Innopolis",
+        "cityID": 463835
+    },
+    {
+        "name": "Инсар",
+        "population": 7501,
+        "eng_name": "Insar",
+        "cityID": 556318
+    },
+    {
+        "name": "Инта",
+        "population": 23701,
+        "eng_name": "Inta",
+        "cityID": 1505579
+    },
+    {
+        "name": "Ипатово",
+        "population": 22816,
+        "eng_name": "Ipatovo",
+        "cityID": 556230
+    },
+    {
+        "name": "Ирбит",
+        "population": 36128,
+        "eng_name": "Irbit",
+        "cityID": 1505526
+    },
+    {
+        "name": "Иркутск",
+        "population": 617515,
+        "eng_name": "Irkutsk",
+        "cityID": 2023469
+    },
+    {
+        "name": "Исилькуль",
+        "population": 22101,
+        "eng_name": "Isil'kul'",
+        "cityID": 1505438
+    },
+    {
+        "name": "Искитим",
+        "population": 55433,
+        "eng_name": "Iskitim",
+        "cityID": 1505429
+    },
+    {
+        "name": "Истра",
+        "population": 33332,
+        "eng_name": "Istra",
+        "cityID": 555746
+    },
+    {
+        "name": "Ишим",
+        "population": 64010,
+        "eng_name": "Ishim",
+        "cityID": 1505453
+    },
+    {
+        "name": "Ишимбай",
+        "population": 63849,
+        "eng_name": "Ishimbay",
+        "cityID": 555980
+    },
+    {
+        "name": "Йошкар-Ола",
+        "population": 276155,
+        "eng_name": "Yoshkar-Ola",
+        "cityID": 466806
+    },
+    {
+        "name": "Кадников",
+        "population": 4440,
+        "eng_name": "Kadnikov",
+        "cityID": 554554
+    },
+    {
+        "name": "Казань",
+        "population": 1257341,
+        "eng_name": "Kazan’",
+        "cityID": 551487
+    },
+    {
+        "name": "Калач-на-Дону",
+        "population": 23503,
+        "eng_name": "Kalach-na-Donu",
+        "cityID": 554397
+    },
+    {
+        "name": "Калач",
+        "population": 17896,
+        "eng_name": "Kalach",
+        "cityID": 554410
+    },
+    {
+        "name": "Калачинск",
+        "population": 22297,
+        "eng_name": "Kalachinsk",
+        "cityID": 1505074
+    },
+    {
+        "name": "Калининград",
+        "population": 493256,
+        "eng_name": "Kaliningrad",
+        "cityID": 554234
+    },
+    {
+        "name": "Калининск",
+        "population": 15207,
+        "eng_name": "Kalininsk",
+        "cityID": 554199
+    },
+    {
+        "name": "Калтан",
+        "population": 20193,
+        "eng_name": "Kaltan",
+        "cityID": 1504972
+    },
+    {
+        "name": "Калуга",
+        "population": 331842,
+        "eng_name": "Kaluga",
+        "cityID": 553915
+    },
+    {
+        "name": "Калязин",
+        "population": 12294,
+        "eng_name": "Kalyazin",
+        "cityID": 553884
+    },
+    {
+        "name": "Камбарка",
+        "population": 10048,
+        "eng_name": "Kambarka",
+        "cityID": 553835
+    },
+    {
+        "name": "Каменка",
+        "population": 33933,
+        "eng_name": "Kamenka",
+        "cityID": 553766
+    },
+    {
+        "name": "Каменногорск",
+        "population": 6151,
+        "eng_name": "Kamennogorsk",
+        "cityID": 553518
+    },
+    {
+        "name": "Каменск-Уральский",
+        "population": 163990,
+        "eng_name": "Kamensk-Ural'skiy",
+        "cityID": 1504826
+    },
+    {
+        "name": "Каменск-Шахтинский",
+        "population": 87113,
+        "eng_name": "Kamensk-Shakhtinsky",
+        "cityID": 553399
+    },
+    {
+        "name": "Камень-на-Оби",
+        "population": 40294,
+        "eng_name": "Kamen'-na-Obi",
+        "cityID": 1504871
+    },
+    {
+        "name": "Камешково",
+        "population": 11840,
+        "eng_name": "Kameshkovo",
+        "cityID": 553389
+    },
+    {
+        "name": "Камызяк",
+        "population": 15753,
+        "eng_name": "Kamyzyak",
+        "cityID": 553248
+    },
+    {
+        "name": "Камышин",
+        "population": 108665,
+        "eng_name": "Kamyshin",
+        "cityID": 553287
+    },
+    {
+        "name": "Камышлов",
+        "population": 25582,
+        "eng_name": "Kamyshlov",
+        "cityID": 1504769
+    },
+    {
+        "name": "Канаш",
+        "population": 44438,
+        "eng_name": "Kanash",
+        "cityID": 553216
+    },
+    {
+        "name": "Кандалакша",
+        "population": 29750,
+        "eng_name": "Kandalaksha",
+        "cityID": 553190
+    },
+    {
+        "name": "Канск",
+        "population": 88362,
+        "eng_name": "Kansk",
+        "cityID": 1504682
+    },
+    {
+        "name": "Карабаново",
+        "population": 15023,
+        "eng_name": "Karabanovo",
+        "cityID": 552977
+    },
+    {
+        "name": "Карабаш",
+        "population": 10616,
+        "eng_name": "Karabash",
+        "cityID": 1504636
+    },
+    {
+        "name": "Карабулак",
+        "population": 43549,
+        "eng_name": "Karabulak",
+        "cityID": 552951
+    },
+    {
+        "name": "Карасук",
+        "population": 26733,
+        "eng_name": "Karasuk",
+        "cityID": 1504489
+    },
+    {
+        "name": "Карачаевск",
+        "population": 20711,
+        "eng_name": "Karachayevsk",
+        "cityID": 552924
+    },
+    {
+        "name": "Карачев",
+        "population": 16921,
+        "eng_name": "Karachev",
+        "cityID": 552920
+    },
+    {
+        "name": "Каргат",
+        "population": 8914,
+        "eng_name": "Kargat",
+        "cityID": 1504380
+    },
+    {
+        "name": "Каргополь",
+        "population": 10025,
+        "eng_name": "Kargopol'",
+        "cityID": 552465
+    },
+    {
+        "name": "Карпинск",
+        "population": 25599,
+        "eng_name": "Karpinsk",
+        "cityID": 1504343
+    },
+    {
+        "name": "Карталы",
+        "population": 28029,
+        "eng_name": "Kartaly",
+        "cityID": 1504317
+    },
+    {
+        "name": "Касимов",
+        "population": 28753,
+        "eng_name": "Kasimov",
+        "cityID": 551891
+    },
+    {
+        "name": "Касли",
+        "population": 15417,
+        "eng_name": "Kasli",
+        "cityID": 1504251
+    },
+    {
+        "name": "Каспийск",
+        "population": 128663,
+        "eng_name": "Kaspiysk",
+        "cityID": 551847
+    },
+    {
+        "name": "Катав-Ивановск",
+        "population": 15368,
+        "eng_name": "Katav-Ivanovsk",
+        "cityID": 551794
+    },
+    {
+        "name": "Катайск",
+        "population": 12341,
+        "eng_name": "Kataysk",
+        "cityID": 1504212
+    },
+    {
+        "name": "Качканар",
+        "population": 37687,
+        "eng_name": "Kachkanar",
+        "cityID": 554599
+    },
+    {
+        "name": "Кашин",
+        "population": 13576,
+        "eng_name": "Kashin",
+        "cityID": 551986
+    },
+    {
+        "name": "Кашира",
+        "population": 46380,
+        "eng_name": "Kashira",
+        "cityID": 551964
+    },
+    {
+        "name": "Кедровый",
+        "population": 1918,
+        "eng_name": "Kedrovyy",
+        "cityID": 1538641
+    },
+    {
+        "name": "Кемерово",
+        "population": 552546,
+        "eng_name": "Kemerovo",
+        "cityID": 1503901
+    },
+    {
+        "name": "Кемь",
+        "population": 10463,
+        "eng_name": "Kem'",
+        "cityID": 551145
+    },
+    {
+        "name": "Кизел",
+        "population": 13186,
+        "eng_name": "Kizel",
+        "cityID": 547875
+    },
+    {
+        "name": "Кизилюрт",
+        "population": 38147,
+        "eng_name": "Kizilyurt",
+        "cityID": 547849
+    },
+    {
+        "name": "Кизляр",
+        "population": 49181,
+        "eng_name": "Kizlyar",
+        "cityID": 547840
+    },
+    {
+        "name": "Кимовск",
+        "population": 25142,
+        "eng_name": "Kimovsk",
+        "cityID": 548658
+    },
+    {
+        "name": "Кимры",
+        "population": 42301,
+        "eng_name": "Kimry",
+        "cityID": 548652
+    },
+    {
+        "name": "Кингисепп",
+        "population": 44612,
+        "eng_name": "Kingisepp",
+        "cityID": 548602
+    },
+    {
+        "name": "Кинель",
+        "population": 35644,
+        "eng_name": "Kinel'",
+        "cityID": 548625
+    },
+    {
+        "name": "Кинешма",
+        "population": 79936,
+        "eng_name": "Kineshma",
+        "cityID": 548605
+    },
+    {
+        "name": "Киреевск",
+        "population": 26277,
+        "eng_name": "Kireyevsk",
+        "cityID": 548506
+    },
+    {
+        "name": "Киренск",
+        "population": 10989,
+        "eng_name": "Kirensk",
+        "cityID": 2022083
+    },
+    {
+        "name": "Киржач",
+        "population": 26381,
+        "eng_name": "Kirzhach",
+        "cityID": 548278
+    },
+    {
+        "name": "Кириллов",
+        "population": 7371,
+        "eng_name": "Kirillov",
+        "cityID": 548478
+    },
+    {
+        "name": "Кириши",
+        "population": 50079,
+        "eng_name": "Kirishi",
+        "cityID": 548442
+    },
+    {
+        "name": "Киров",
+        "population": 29925,
+        "eng_name": "Kirov",
+        "cityID": 548408
+    },
+    {
+        "name": "Киров",
+        "population": 521091,
+        "eng_name": "Kirov",
+        "cityID": 548408
+    },
+    {
+        "name": "Кировград",
+        "population": 18577,
+        "eng_name": "Kirovgrad",
+        "cityID": 1503335
+    },
+    {
+        "name": "Кирово-Чепецк",
+        "population": 68588,
+        "eng_name": "Kirovo-Chepetsk",
+        "cityID": 548395
+    },
+    {
+        "name": "Кировск",
+        "population": 27391,
+        "eng_name": "Kirovsk",
+        "cityID": 548391
+    },
+    {
+        "name": "Кировск",
+        "population": 25944,
+        "eng_name": "Kirovsk",
+        "cityID": 548391
+    },
+    {
+        "name": "Кирс",
+        "population": 8982,
+        "eng_name": "Kirs",
+        "cityID": 548333
+    },
+    {
+        "name": "Кирсанов",
+        "population": 15753,
+        "eng_name": "Kirsanov",
+        "cityID": 548330
+    },
+    {
+        "name": "Киселёвск",
+        "population": 85339,
+        "eng_name": "Kiselëvsk",
+        "cityID": 1503277
+    },
+    {
+        "name": "Кисловодск",
+        "population": 127919,
+        "eng_name": "Kislovodsk",
+        "cityID": 548114
+    },
+    {
+        "name": "Клин",
+        "population": 79635,
+        "eng_name": "Klin",
+        "cityID": 547523
+    },
+    {
+        "name": "Клинцы",
+        "population": 62704,
+        "eng_name": "Klintsy",
+        "cityID": 547475
+    },
+    {
+        "name": "Княгинино",
+        "population": 6563,
+        "eng_name": "Knyaginino",
+        "cityID": 547162
+    },
+    {
+        "name": "Ковдор",
+        "population": 15850,
+        "eng_name": "Kovdor",
+        "cityID": 543508
+    },
+    {
+        "name": "Ковров",
+        "population": 134074,
+        "eng_name": "Kovrov",
+        "cityID": 543460
+    },
+    {
+        "name": "Ковылкино",
+        "population": 18585,
+        "eng_name": "Kovylkino",
+        "cityID": 543436
+    },
+    {
+        "name": "Когалым",
+        "population": 68700,
+        "eng_name": "Kogalym",
+        "cityID": 6695754
+    },
+    {
+        "name": "Кодинск",
+        "population": 15436,
+        "eng_name": "Kodinsk",
+        "cityID": 1503037
+    },
+    {
+        "name": "Козельск",
+        "population": 16329,
+        "eng_name": "Kozel'sk",
+        "cityID": 543348
+    },
+    {
+        "name": "Козловка",
+        "population": 8450,
+        "eng_name": "Kozlovka",
+        "cityID": 543133
+    },
+    {
+        "name": "Козьмодемьянск",
+        "population": 19970,
+        "eng_name": "Koz'modem'yansk",
+        "cityID": 543018
+    },
+    {
+        "name": "Кола",
+        "population": 9560,
+        "eng_name": "Kola",
+        "cityID": 546554
+    },
+    {
+        "name": "Кологрив",
+        "population": 2706,
+        "eng_name": "Kologriv",
+        "cityID": 546282
+    },
+    {
+        "name": "Коломна",
+        "population": 138693,
+        "eng_name": "Kolomna",
+        "cityID": 546230
+    },
+    {
+        "name": "Колпашево",
+        "population": 22589,
+        "eng_name": "Kolpashevo",
+        "cityID": 1502862
+    },
+    {
+        "name": "Колпино",
+        "population": 149766,
+        "eng_name": "Kolpino",
+        "cityID": 546105
+    },
+    {
+        "name": "Кольчугино",
+        "population": 41369,
+        "eng_name": "Kol'chugino",
+        "cityID": 546521
+    },
+    {
+        "name": "Коммунар",
+        "population": 21920,
+        "eng_name": "Kommunar",
+        "cityID": 545788
+    },
+    {
+        "name": "Комсомольск-на-Амуре",
+        "population": 241072,
+        "eng_name": "Komsomolsk-on-Amur",
+        "cityID": 2021851
+    },
+    {
+        "name": "Комсомольск",
+        "population": 7978,
+        "eng_name": "Komsomol'sk",
+        "cityID": 545736
+    },
+    {
+        "name": "Конаково",
+        "population": 35407,
+        "eng_name": "Konakovo",
+        "cityID": 545673
+    },
+    {
+        "name": "Кондопога",
+        "population": 28744,
+        "eng_name": "Kondopoga",
+        "cityID": 545626
+    },
+    {
+        "name": "Кондрово",
+        "population": 14424,
+        "eng_name": "Kondrovo",
+        "cityID": 545575
+    },
+    {
+        "name": "Константиновск",
+        "population": 16842,
+        "eng_name": "Konstantinovsk",
+        "cityID": 545277
+    },
+    {
+        "name": "Копейск",
+        "population": 145961,
+        "eng_name": "Kopeysk",
+        "cityID": 1502603
+    },
+    {
+        "name": "Кораблино",
+        "population": 10920,
+        "eng_name": "Korablino",
+        "cityID": 545001
+    },
+    {
+        "name": "Кореновск",
+        "population": 42480,
+        "eng_name": "Korenovsk",
+        "cityID": 544896
+    },
+    {
+        "name": "Коркино",
+        "population": 33451,
+        "eng_name": "Korkino",
+        "cityID": 1502536
+    },
+    {
+        "name": "Королёв",
+        "population": 225299,
+        "eng_name": "Korolyov",
+        "cityID": 554233
+    },
+    {
+        "name": "Короча",
+        "population": 5659,
+        "eng_name": "Korocha",
+        "cityID": 578283
+    },
+    {
+        "name": "Корсаков",
+        "population": 33451,
+        "eng_name": "Korsakov",
+        "cityID": 2124286
+    },
+    {
+        "name": "Коряжма",
+        "population": 35345,
+        "eng_name": "Koryazhma",
+        "cityID": 544370
+    },
+    {
+        "name": "Костерёво",
+        "population": 7997,
+        "eng_name": "Kosterevo",
+        "cityID": 461720
+    },
+    {
+        "name": "Костомукша",
+        "population": 29778,
+        "eng_name": "Kostomuksha",
+        "cityID": 543899
+    },
+    {
+        "name": "Кострома",
+        "population": 277393,
+        "eng_name": "Kostroma",
+        "cityID": 543878
+    },
+    {
+        "name": "Котельники",
+        "population": 50723,
+        "eng_name": "Kotel’niki",
+        "cityID": 543731
+    },
+    {
+        "name": "Котельниково",
+        "population": 20317,
+        "eng_name": "Kotelnikowo",
+        "cityID": 543728
+    },
+    {
+        "name": "Котельнич",
+        "population": 22508,
+        "eng_name": "Kotel'nich",
+        "cityID": 543737
+    },
+    {
+        "name": "Котлас",
+        "population": 62284,
+        "eng_name": "Kotlas",
+        "cityID": 543704
+    },
+    {
+        "name": "Котово",
+        "population": 21120,
+        "eng_name": "Kotovo",
+        "cityID": 543633
+    },
+    {
+        "name": "Котовск",
+        "population": 28663,
+        "eng_name": "Kotovsk",
+        "cityID": 543605
+    },
+    {
+        "name": "Кохма",
+        "population": 30336,
+        "eng_name": "Kokhma",
+        "cityID": 546672
+    },
+    {
+        "name": "Красавино",
+        "population": 5827,
+        "eng_name": "Krasavino",
+        "cityID": 542908
+    },
+    {
+        "name": "Красноармейск",
+        "population": 26449,
+        "eng_name": "Krasnoarmeysk",
+        "cityID": 542464
+    },
+    {
+        "name": "Красноармейск",
+        "population": 22083,
+        "eng_name": "Krasnoarmeysk",
+        "cityID": 542464
+    },
+    {
+        "name": "Красновишерск",
+        "population": 14683,
+        "eng_name": "Krasnovishersk",
+        "cityID": 542184
+    },
+    {
+        "name": "Красногорск",
+        "population": 175812,
+        "eng_name": "Krasnogorsk",
+        "cityID": 542374
+    },
+    {
+        "name": "Краснодар",
+        "population": 948827,
+        "eng_name": "Krasnodar",
+        "cityID": 542420
+    },
+    {
+        "name": "Красное Село",
+        "population": 60029,
+        "eng_name": "Krasnoye Selo",
+        "cityID": 542000
+    },
+    {
+        "name": "Краснозаводск",
+        "population": 12712,
+        "eng_name": "Krasnozavodsk",
+        "cityID": 541950
+    },
+    {
+        "name": "Краснознаменск",
+        "population": 3049,
+        "eng_name": "Krasnoznamensk",
+        "cityID": 6417459
+    },
+    {
+        "name": "Краснознаменск",
+        "population": 43959,
+        "eng_name": "Krasnoznamensk",
+        "cityID": 6417459
+    },
+    {
+        "name": "Краснокаменск",
+        "population": 51451,
+        "eng_name": "Krasnokamensk",
+        "cityID": 2021618
+    },
+    {
+        "name": "Краснокамск",
+        "population": 51815,
+        "eng_name": "Krasnokamsk",
+        "cityID": 542327
+    },
+    {
+        "name": "Краснослободск",
+        "population": 8948,
+        "eng_name": "Krasnoslobodsk",
+        "cityID": 542213
+    },
+    {
+        "name": "Краснослободск",
+        "population": 16838,
+        "eng_name": "Krasnoslobodsk",
+        "cityID": 542213
+    },
+    {
+        "name": "Краснотурьинск",
+        "population": 55910,
+        "eng_name": "Krasnotur'insk",
+        "cityID": 1502061
+    },
+    {
+        "name": "Красноуральск",
+        "population": 22304,
+        "eng_name": "Krasnoural'sk",
+        "cityID": 1502060
+    },
+    {
+        "name": "Красноуфимск",
+        "population": 37444,
+        "eng_name": "Krasnoufimsk",
+        "cityID": 542199
+    },
+    {
+        "name": "Красноярск",
+        "population": 1103023,
+        "eng_name": "Krasnoyarsk",
+        "cityID": 1502026
+    },
+    {
+        "name": "Красный Кут",
+        "population": 13966,
+        "eng_name": "Krasnyy Kut",
+        "cityID": 795163
+    },
+    {
+        "name": "Красный Сулин",
+        "population": 37492,
+        "eng_name": "Krasnyy Sulin",
+        "cityID": 541404
+    },
+    {
+        "name": "Красный Холм",
+        "population": 4950,
+        "eng_name": "Krasnyy Kholm",
+        "cityID": 541704
+    },
+    {
+        "name": "Кремёнки",
+        "population": 10139,
+        "eng_name": "Kremyonki",
+        "cityID": 496527
+    },
+    {
+        "name": "Кронштадт",
+        "population": 44353,
+        "eng_name": "Kronstadt",
+        "cityID": 540771
+    },
+    {
+        "name": "Кропоткин",
+        "population": 77074,
+        "eng_name": "Kropotkin",
+        "cityID": 540761
+    },
+    {
+        "name": "Крымск",
+        "population": 58051,
+        "eng_name": "Krymsk",
+        "cityID": 540251
+    },
+    {
+        "name": "Кстово",
+        "population": 66928,
+        "eng_name": "Kstovo",
+        "cityID": 540103
+    },
+    {
+        "name": "Кубинка",
+        "population": 20417,
+        "eng_name": "Kubinka",
+        "cityID": 540030
+    },
+    {
+        "name": "Кувандык",
+        "population": 23225,
+        "eng_name": "Kuvandyk",
+        "cityID": 538138
+    },
+    {
+        "name": "Кувшиново",
+        "population": 8853,
+        "eng_name": "Kuvshinovo",
+        "cityID": 538104
+    },
+    {
+        "name": "Кудрово",
+        "population": 49079,
+        "eng_name": "Kudrovo",
+        "cityID": 539839
+    },
+    {
+        "name": "Кудымкар",
+        "population": 29807,
+        "eng_name": "Kudymkar",
+        "cityID": 539817
+    },
+    {
+        "name": "Кузнецк",
+        "population": 79800,
+        "eng_name": "Kuznetsk",
+        "cityID": 537737
+    },
+    {
+        "name": "Куйбышев",
+        "population": 43195,
+        "eng_name": "Kuybyshev",
+        "cityID": 1501141
+    },
+    {
+        "name": "Кукмор",
+        "population": 17790,
+        "eng_name": "Kukmor",
+        "cityID": 539689
+    },
+    {
+        "name": "Кулебаки",
+        "population": 31509,
+        "eng_name": "Kulebaki",
+        "cityID": 539555
+    },
+    {
+        "name": "Кумертау",
+        "population": 59129,
+        "eng_name": "Kumertau",
+        "cityID": 539283
+    },
+    {
+        "name": "Кунгур",
+        "population": 64259,
+        "eng_name": "Kungur",
+        "cityID": 539147
+    },
+    {
+        "name": "Купино",
+        "population": 13711,
+        "eng_name": "Kupino",
+        "cityID": 1501365
+    },
+    {
+        "name": "Курган",
+        "population": 309285,
+        "eng_name": "Kurgan",
+        "cityID": 1501321
+    },
+    {
+        "name": "Курганинск",
+        "population": 47975,
+        "eng_name": "Kurganinsk",
+        "cityID": 538836
+    },
+    {
+        "name": "Курильск",
+        "population": 1603,
+        "eng_name": "Kuril'sk",
+        "cityID": 2123979
+    },
+    {
+        "name": "Курлово",
+        "population": 5639,
+        "eng_name": "Kurlovo",
+        "cityID": 538696
+    },
+    {
+        "name": "Куровское",
+        "population": 20542,
+        "eng_name": "Kurovskoye",
+        "cityID": 538601
+    },
+    {
+        "name": "Курск",
+        "population": 450977,
+        "eng_name": "Kursk",
+        "cityID": 538560
+    },
+    {
+        "name": "Куртамыш",
+        "population": 16401,
+        "eng_name": "Kurtamysh",
+        "cityID": 1501255
+    },
+    {
+        "name": "Курчалой",
+        "population": 27478,
+        "eng_name": "Kurchaloy",
+        "cityID": 538913
+    },
+    {
+        "name": "Курчатов",
+        "population": 37940,
+        "eng_name": "Kurchatov",
+        "cityID": 538908
+    },
+    {
+        "name": "Куса",
+        "population": 16497,
+        "eng_name": "Kusa",
+        "cityID": 538442
+    },
+    {
+        "name": "Кушва",
+        "population": 26787,
+        "eng_name": "Kushva",
+        "cityID": 538340
+    },
+    {
+        "name": "Кызыл",
+        "population": 120067,
+        "eng_name": "Kyzyl",
+        "cityID": 1500973
+    },
+    {
+        "name": "Кыштым",
+        "population": 35854,
+        "eng_name": "Kyshtym",
+        "cityID": 1500997
+    },
+    {
+        "name": "Кяхта",
+        "population": 20654,
+        "eng_name": "Kyakhta",
+        "cityID": 2021066
+    },
+    {
+        "name": "Лабинск",
+        "population": 58498,
+        "eng_name": "Labinsk",
+        "cityID": 537281
+    },
+    {
+        "name": "Лабытнанги",
+        "population": 26520,
+        "eng_name": "Labytnangi",
+        "cityID": 1500933
+    },
+    {
+        "name": "Лагань",
+        "population": 12684,
+        "eng_name": "Lagan",
+        "cityID": 551846
+    },
+    {
+        "name": "Ладушкин",
+        "population": 3820,
+        "eng_name": "Ladushkin",
+        "cityID": 537229
+    },
+    {
+        "name": "Лаишево",
+        "population": 8854,
+        "eng_name": "Laishevo",
+        "cityID": 537158
+    },
+    {
+        "name": "Лакинск",
+        "population": 13947,
+        "eng_name": "Lakinsk",
+        "cityID": 537107
+    },
+    {
+        "name": "Лангепас",
+        "population": 45063,
+        "eng_name": "Langepas",
+        "cityID": 6696767
+    },
+    {
+        "name": "Лахденпохья",
+        "population": 6890,
+        "eng_name": "Lakhdenpokh'ya",
+        "cityID": 537147
+    },
+    {
+        "name": "Лебедянь",
+        "population": 19031,
+        "eng_name": "Lebedyan'",
+        "cityID": 536518
+    },
+    {
+        "name": "Лениногорск",
+        "population": 61321,
+        "eng_name": "Leninogorsk",
+        "cityID": 536162
+    },
+    {
+        "name": "Ленинск-Кузнецкий",
+        "population": 93288,
+        "eng_name": "Leninsk-Kuznetsky",
+        "cityID": 1500665
+    },
+    {
+        "name": "Ленинск",
+        "population": 14366,
+        "eng_name": "Leninsk",
+        "cityID": 536156
+    },
+    {
+        "name": "Ленск",
+        "population": 23266,
+        "eng_name": "Lensk",
+        "cityID": 2020838
+    },
+    {
+        "name": "Лермонтов",
+        "population": 23249,
+        "eng_name": "Lermontov",
+        "cityID": 535886
+    },
+    {
+        "name": "Лесной",
+        "population": 49259,
+        "eng_name": "Lesnoy",
+        "cityID": 6853140
+    },
+    {
+        "name": "Лесозаводск",
+        "population": 34827,
+        "eng_name": "Lesozavodsk",
+        "cityID": 2020812
+    },
+    {
+        "name": "Лесосибирск",
+        "population": 58949,
+        "eng_name": "Lesosibirsk",
+        "cityID": 1500607
+    },
+    {
+        "name": "Ливны",
+        "population": 47019,
+        "eng_name": "Livny",
+        "cityID": 534701
+    },
+    {
+        "name": "Ликино-Дулёво",
+        "population": 28789,
+        "eng_name": "Likino-Dulyovo",
+        "cityID": 515024
+    },
+    {
+        "name": "Липецк",
+        "population": 503216,
+        "eng_name": "Lipetsk",
+        "cityID": 535121
+    },
+    {
+        "name": "Липки",
+        "population": 8084,
+        "eng_name": "Lipki",
+        "cityID": 535088
+    },
+    {
+        "name": "Лиски",
+        "population": 52823,
+        "eng_name": "Liski",
+        "cityID": 534838
+    },
+    {
+        "name": "Лихославль",
+        "population": 11285,
+        "eng_name": "Likhoslavl'",
+        "cityID": 535261
+    },
+    {
+        "name": "Лобня",
+        "population": 89522,
+        "eng_name": "Lobnya",
+        "cityID": 534595
+    },
+    {
+        "name": "Лодейное Поле",
+        "population": 18766,
+        "eng_name": "Lodeynoye Pole",
+        "cityID": 534560
+    },
+    {
+        "name": "Ломоносов",
+        "population": 43029,
+        "eng_name": "Lomonosov",
+        "cityID": 534341
+    },
+    {
+        "name": "Лосино-Петровский",
+        "population": 25464,
+        "eng_name": "Losino-Petrovskiy",
+        "cityID": 534015
+    },
+    {
+        "name": "Луга",
+        "population": 33704,
+        "eng_name": "Luga",
+        "cityID": 533690
+    },
+    {
+        "name": "Луза",
+        "population": 9658,
+        "eng_name": "Luza",
+        "cityID": 533143
+    },
+    {
+        "name": "Лукоянов",
+        "population": 13560,
+        "eng_name": "Lukoyanov",
+        "cityID": 533400
+    },
+    {
+        "name": "Луховицы",
+        "population": 30383,
+        "eng_name": "Lukhovitsy",
+        "cityID": 533543
+    },
+    {
+        "name": "Лысково",
+        "population": 20828,
+        "eng_name": "Lyskovo",
+        "cityID": 532715
+    },
+    {
+        "name": "Лысьва",
+        "population": 59610,
+        "eng_name": "Lys'va",
+        "cityID": 532675
+    },
+    {
+        "name": "Лыткарино",
+        "population": 59937,
+        "eng_name": "Lytkarino",
+        "cityID": 532657
+    },
+    {
+        "name": "Льгов",
+        "population": 17890,
+        "eng_name": "L'govskiy",
+        "cityID": 535334
+    },
+    {
+        "name": "Любань",
+        "population": 4324,
+        "eng_name": "Lyuban'",
+        "cityID": 532637
+    },
+    {
+        "name": "Люберцы",
+        "population": 208397,
+        "eng_name": "Lyubertsy",
+        "cityID": 532615
+    },
+    {
+        "name": "Любим",
+        "population": 5021,
+        "eng_name": "Lyubim",
+        "cityID": 532600
+    },
+    {
+        "name": "Людиново",
+        "population": 36822,
+        "eng_name": "Lyudinovo",
+        "cityID": 532459
+    },
+    {
+        "name": "Лянтор",
+        "population": 41607,
+        "eng_name": "Lyantor",
+        "cityID": 1541359
+    },
+    {
+        "name": "Магадан",
+        "population": 91797,
+        "eng_name": "Magadan",
+        "cityID": 2123628
+    },
+    {
+        "name": "Магас",
+        "population": 13601,
+        "eng_name": "Magas",
+        "cityID": 6313621
+    },
+    {
+        "name": "Магнитогорск",
+        "population": 413251,
+        "eng_name": "Magnitogorsk",
+        "cityID": 532288
+    },
+    {
+        "name": "Майкоп",
+        "population": 139084,
+        "eng_name": "Maykop",
+        "cityID": 528293
+    },
+    {
+        "name": "Майский",
+        "population": 26318,
+        "eng_name": "Mayskiy",
+        "cityID": 528242
+    },
+    {
+        "name": "Макаров",
+        "population": 6091,
+        "eng_name": "Makarov",
+        "cityID": 2123614
+    },
+    {
+        "name": "Макарьев",
+        "population": 6266,
+        "eng_name": "Makar'yev",
+        "cityID": 532138
+    },
+    {
+        "name": "Макушино",
+        "population": 7680,
+        "eng_name": "Makushino",
+        "cityID": 1500036
+    },
+    {
+        "name": "Малая Вишера",
+        "population": 10161,
+        "eng_name": "Malaya Vishera",
+        "cityID": 531257
+    },
+    {
+        "name": "Малгобек",
+        "population": 39096,
+        "eng_name": "Malgobek",
+        "cityID": 531129
+    },
+    {
+        "name": "Малмыж",
+        "population": 7013,
+        "eng_name": "Malmyzh",
+        "cityID": 530972
+    },
+    {
+        "name": "Малоархангельск",
+        "population": 3141,
+        "eng_name": "Maloarkhangel'sk",
+        "cityID": 530966
+    },
+    {
+        "name": "Малоярославец",
+        "population": 27922,
+        "eng_name": "Maloyaroslavets",
+        "cityID": 530849
+    },
+    {
+        "name": "Мамадыш",
+        "population": 15822,
+        "eng_name": "Mamadysh",
+        "cityID": 529709
+    },
+    {
+        "name": "Мамоново",
+        "population": 8104,
+        "eng_name": "Mamonovo",
+        "cityID": 2609901
+    },
+    {
+        "name": "Мантурово",
+        "population": 14747,
+        "eng_name": "Manturovo",
+        "cityID": 529505
+    },
+    {
+        "name": "Мариинск",
+        "population": 37786,
+        "eng_name": "Mariinsk",
+        "cityID": 1499350
+    },
+    {
+        "name": "Мариинский Посад",
+        "population": 8330,
+        "eng_name": "Mariinskiy Posad",
+        "cityID": 529343
+    },
+    {
+        "name": "Маркс",
+        "population": 30241,
+        "eng_name": "Marks",
+        "cityID": 529073
+    },
+    {
+        "name": "Махачкала",
+        "population": 604266,
+        "eng_name": "Makhachkala",
+        "cityID": 532096
+    },
+    {
+        "name": "Мглин",
+        "population": 7177,
+        "eng_name": "Mglin",
+        "cityID": 527217
+    },
+    {
+        "name": "Мегион",
+        "population": 46188,
+        "eng_name": "Megion",
+        "cityID": 1499053
+    },
+    {
+        "name": "Медвежьегорск",
+        "population": 13841,
+        "eng_name": "Medvezh'yegorsk",
+        "cityID": 527888
+    },
+    {
+        "name": "Медногорск",
+        "population": 24321,
+        "eng_name": "Mednogorsk",
+        "cityID": 528109
+    },
+    {
+        "name": "Медынь",
+        "population": 8370,
+        "eng_name": "Medyn'",
+        "cityID": 527869
+    },
+    {
+        "name": "Междуреченск",
+        "population": 96088,
+        "eng_name": "Mezhdurechensk",
+        "cityID": 1498920
+    },
+    {
+        "name": "Мезень",
+        "population": 3161,
+        "eng_name": "Mezen'",
+        "cityID": 527321
+    },
+    {
+        "name": "Меленки",
+        "population": 13269,
+        "eng_name": "Melenki",
+        "cityID": 527740
+    },
+    {
+        "name": "Мелеуз",
+        "population": 56036,
+        "eng_name": "Meleuz",
+        "cityID": 527717
+    },
+    {
+        "name": "Менделеевск",
+        "population": 21840,
+        "eng_name": "Mendeleyevsk",
+        "cityID": 527579
+    },
+    {
+        "name": "Мензелинск",
+        "population": 16840,
+        "eng_name": "Menzelinsk",
+        "cityID": 527529
+    },
+    {
+        "name": "Мещовск",
+        "population": 3803,
+        "eng_name": "Meshchovsk",
+        "cityID": 527405
+    },
+    {
+        "name": "Миасс",
+        "population": 150914,
+        "eng_name": "Miass",
+        "cityID": 1498894
+    },
+    {
+        "name": "Микунь",
+        "population": 9400,
+        "eng_name": "Mikun'",
+        "cityID": 526600
+    },
+    {
+        "name": "Миллерово",
+        "population": 33690,
+        "eng_name": "Millerovo",
+        "cityID": 526558
+    },
+    {
+        "name": "Минеральные Воды",
+        "population": 73183,
+        "eng_name": "Mineralnye Vody",
+        "cityID": 526480
+    },
+    {
+        "name": "Минусинск",
+        "population": 67234,
+        "eng_name": "Minusinsk",
+        "cityID": 1498693
+    },
+    {
+        "name": "Миньяр",
+        "population": 8768,
+        "eng_name": "Minyar",
+        "cityID": 580660
+    },
+    {
+        "name": "Мирный",
+        "population": 35416,
+        "eng_name": "Mirny",
+        "cityID": 2019951
+    },
+    {
+        "name": "Мирный",
+        "population": 33321,
+        "eng_name": "Mirny",
+        "cityID": 2019951
+    },
+    {
+        "name": "Михайлов",
+        "population": 9795,
+        "eng_name": "Mikhaylov",
+        "cityID": 527034
+    },
+    {
+        "name": "Михайловка",
+        "population": 56981,
+        "eng_name": "Mikhaylovka",
+        "cityID": 527012
+    },
+    {
+        "name": "Михайловск",
+        "population": 95525,
+        "eng_name": "Mikhaylovsk",
+        "cityID": 493702
+    },
+    {
+        "name": "Михайловск",
+        "population": 8720,
+        "eng_name": "Mikhaylovsk",
+        "cityID": 493702
+    },
+    {
+        "name": "Мичуринск",
+        "population": 89876,
+        "eng_name": "Michurinsk",
+        "cityID": 527191
+    },
+    {
+        "name": "Могоча",
+        "population": 12992,
+        "eng_name": "Mogocha",
+        "cityID": 2019912
+    },
+    {
+        "name": "Можайск",
+        "population": 30052,
+        "eng_name": "Mozhaysk",
+        "cityID": 524712
+    },
+    {
+        "name": "Можга",
+        "population": 48750,
+        "eng_name": "Mozhga",
+        "cityID": 524699
+    },
+    {
+        "name": "Моздок",
+        "population": 41459,
+        "eng_name": "Mozdok",
+        "cityID": 524736
+    },
+    {
+        "name": "Мончегорск",
+        "population": 40675,
+        "eng_name": "Monchegorsk",
+        "cityID": 525404
+    },
+    {
+        "name": "Морозовск",
+        "population": 24186,
+        "eng_name": "Morozovsk",
+        "cityID": 525162
+    },
+    {
+        "name": "Моршанск",
+        "population": 37477,
+        "eng_name": "Morshansk",
+        "cityID": 525138
+    },
+    {
+        "name": "Мосальск",
+        "population": 4250,
+        "eng_name": "Mosal'sk",
+        "cityID": 525084
+    },
+    {
+        "name": "Москва",
+        "population": 12655050,
+        "eng_name": "Moscow",
+        "cityID": 524901
+    },
+    {
+        "name": "Московский",
+        "population": 59196,
+        "eng_name": "Moskovskiy",
+        "cityID": 857690
+    },
+    {
+        "name": "Муравленко",
+        "population": 31445,
+        "eng_name": "Muravlenko",
+        "cityID": 1540711
+    },
+    {
+        "name": "Мураши",
+        "population": 5739,
+        "eng_name": "Murashi",
+        "cityID": 524414
+    },
+    {
+        "name": "Мурино",
+        "population": 78184,
+        "eng_name": "Murino",
+        "cityID": 524311
+    },
+    {
+        "name": "Мурманск",
+        "population": 282851,
+        "eng_name": "Murmansk",
+        "cityID": 524305
+    },
+    {
+        "name": "Муром",
+        "population": 105572,
+        "eng_name": "Murom",
+        "cityID": 524294
+    },
+    {
+        "name": "Мценск",
+        "population": 36179,
+        "eng_name": "Mtsensk",
+        "cityID": 524640
+    },
+    {
+        "name": "Мыски",
+        "population": 40549,
+        "eng_name": "Myski",
+        "cityID": 1498129
+    },
+    {
+        "name": "Мытищи",
+        "population": 245643,
+        "eng_name": "Mytishchi",
+        "cityID": 523812
+    },
+    {
+        "name": "Мышкин",
+        "population": 5473,
+        "eng_name": "Myshkin",
+        "cityID": 523859
+    },
+    {
+        "name": "Набережные Челны",
+        "population": 532074,
+        "eng_name": "Naberezhnye Chelny",
+        "cityID": 523750
+    },
+    {
+        "name": "Навашино",
+        "population": 14436,
+        "eng_name": "Navashino",
+        "cityID": 523198
+    },
+    {
+        "name": "Наволоки",
+        "population": 8988,
+        "eng_name": "Navoloki",
+        "cityID": 523161
+    },
+    {
+        "name": "Надым",
+        "population": 45584,
+        "eng_name": "Nadym",
+        "cityID": 1498087
+    },
+    {
+        "name": "Назарово",
+        "population": 49518,
+        "eng_name": "Nazarovo",
+        "cityID": 1497951
+    },
+    {
+        "name": "Назрань",
+        "population": 124169,
+        "eng_name": "Nazran",
+        "cityID": 523064
+    },
+    {
+        "name": "Называевск",
+        "population": 10709,
+        "eng_name": "Nazyvayevsk",
+        "cityID": 1497932
+    },
+    {
+        "name": "Нальчик",
+        "population": 239054,
+        "eng_name": "Nal'chik",
+        "cityID": 523523
+    },
+    {
+        "name": "Нариманов",
+        "population": 10601,
+        "eng_name": "Narimanov",
+        "cityID": 523443
+    },
+    {
+        "name": "Наро-Фоминск",
+        "population": 67009,
+        "eng_name": "Naro-Fominsk",
+        "cityID": 523426
+    },
+    {
+        "name": "Нарткала",
+        "population": 30464,
+        "eng_name": "Nartkala",
+        "cityID": 523405
+    },
+    {
+        "name": "Нарьян-Мар",
+        "population": 25536,
+        "eng_name": "Naryan-Mar",
+        "cityID": 523392
+    },
+    {
+        "name": "Находка",
+        "population": 142673,
+        "eng_name": "Nakhodka",
+        "cityID": 2019528
+    },
+    {
+        "name": "Невель",
+        "population": 14241,
+        "eng_name": "Nevel'",
+        "cityID": 522410
+    },
+    {
+        "name": "Невельск",
+        "population": 9679,
+        "eng_name": "Nevel'sk",
+        "cityID": 2122894
+    },
+    {
+        "name": "Невинномысск",
+        "population": 115627,
+        "eng_name": "Nevinnomyssk",
+        "cityID": 522377
+    },
+    {
+        "name": "Невьянск",
+        "population": 22900,
+        "eng_name": "Nev'yansk",
+        "cityID": 1497795
+    },
+    {
+        "name": "Нелидово",
+        "population": 17639,
+        "eng_name": "Nelidovo",
+        "cityID": 522775
+    },
+    {
+        "name": "Неман",
+        "population": 10765,
+        "eng_name": "Neman",
+        "cityID": 522742
+    },
+    {
+        "name": "Нерехта",
+        "population": 20635,
+        "eng_name": "Nerekhta",
+        "cityID": 522594
+    },
+    {
+        "name": "Нерчинск",
+        "population": 14648,
+        "eng_name": "Nerchinsk",
+        "cityID": 2019326
+    },
+    {
+        "name": "Нерюнгри",
+        "population": 58969,
+        "eng_name": "Neryungri",
+        "cityID": 2019309
+    },
+    {
+        "name": "Нестеров",
+        "population": 3937,
+        "eng_name": "Nesterov",
+        "cityID": 522508
+    },
+    {
+        "name": "Нефтегорск",
+        "population": 17806,
+        "eng_name": "Neftegorsk",
+        "cityID": 522945
+    },
+    {
+        "name": "Нефтекамск",
+        "population": 131945,
+        "eng_name": "Neftekamsk",
+        "cityID": 522942
+    },
+    {
+        "name": "Нефтекумск",
+        "population": 24316,
+        "eng_name": "Neftekumsk",
+        "cityID": 522941
+    },
+    {
+        "name": "Нефтеюганск",
+        "population": 128159,
+        "eng_name": "Nefteyugansk",
+        "cityID": 1497917
+    },
+    {
+        "name": "Нея",
+        "population": 8474,
+        "eng_name": "Neya",
+        "cityID": 522353
+    },
+    {
+        "name": "Нижневартовск",
+        "population": 278725,
+        "eng_name": "Nizhnevartovsk",
+        "cityID": 1497543
+    },
+    {
+        "name": "Нижнекамск",
+        "population": 240097,
+        "eng_name": "Nizhnekamsk",
+        "cityID": 521118
+    },
+    {
+        "name": "Нижнеудинск",
+        "population": 32858,
+        "eng_name": "Nizhneudinsk",
+        "cityID": 1497549
+    },
+    {
+        "name": "Нижние Серги",
+        "population": 8891,
+        "eng_name": "Nizhniye Sergi",
+        "cityID": 520667
+    },
+    {
+        "name": "Нижний Ломов",
+        "population": 20175,
+        "eng_name": "Nizhniy Lomov",
+        "cityID": 520574
+    },
+    {
+        "name": "Нижний Новгород",
+        "population": 1244254,
+        "eng_name": "Nizhny Novgorod",
+        "cityID": 520555
+    },
+    {
+        "name": "Нижний Тагил",
+        "population": 344656,
+        "eng_name": "Nizhny Tagil",
+        "cityID": 520494
+    },
+    {
+        "name": "Нижняя Салда",
+        "population": 17229,
+        "eng_name": "Nizhnyaya Salda",
+        "cityID": 1497393
+    },
+    {
+        "name": "Нижняя Тура",
+        "population": 19091,
+        "eng_name": "Nizhnyaya Tura",
+        "cityID": 520204
+    },
+    {
+        "name": "Николаевск-на-Амуре",
+        "population": 17668,
+        "eng_name": "Nikolayevsk-on-Amur",
+        "cityID": 2122850
+    },
+    {
+        "name": "Николаевск",
+        "population": 13310,
+        "eng_name": "Nikolayevsk",
+        "cityID": 521874
+    },
+    {
+        "name": "Никольск",
+        "population": 7960,
+        "eng_name": "Nikol'sk",
+        "cityID": 521776
+    },
+    {
+        "name": "Никольск",
+        "population": 19357,
+        "eng_name": "Nikol'sk",
+        "cityID": 521776
+    },
+    {
+        "name": "Никольское",
+        "population": 21949,
+        "eng_name": "Nikol'skoye",
+        "cityID": 521513
+    },
+    {
+        "name": "Новая Ладога",
+        "population": 7806,
+        "eng_name": "Novaya Ladoga",
+        "cityID": 519630
+    },
+    {
+        "name": "Новая Ляля",
+        "population": 11596,
+        "eng_name": "Novaya Lyalya",
+        "cityID": 1497276
+    },
+    {
+        "name": "Новоалександровск",
+        "population": 26354,
+        "eng_name": "Novoaleksandrovsk",
+        "cityID": 519106
+    },
+    {
+        "name": "Новоалтайск",
+        "population": 74586,
+        "eng_name": "Novoaltaysk",
+        "cityID": 1497173
+    },
+    {
+        "name": "Новоаннинский",
+        "population": 15791,
+        "eng_name": "Novoanninskiy",
+        "cityID": 519062
+    },
+    {
+        "name": "Нововоронеж",
+        "population": 31558,
+        "eng_name": "Novovoronezh",
+        "cityID": 517716
+    },
+    {
+        "name": "Новодвинск",
+        "population": 37256,
+        "eng_name": "Novodvinsk",
+        "cityID": 518909
+    },
+    {
+        "name": "Новозыбков",
+        "population": 39449,
+        "eng_name": "Novozybkov",
+        "cityID": 517269
+    },
+    {
+        "name": "Новокубанск",
+        "population": 34925,
+        "eng_name": "Novokubansk",
+        "cityID": 518682
+    },
+    {
+        "name": "Новокузнецк",
+        "population": 544583,
+        "eng_name": "Novokuznetsk",
+        "cityID": 1496990
+    },
+    {
+        "name": "Новокуйбышевск",
+        "population": 99469,
+        "eng_name": "Novokuybyshevsk",
+        "cityID": 518659
+    },
+    {
+        "name": "Новомичуринск",
+        "population": 16327,
+        "eng_name": "Novomichurinsk",
+        "cityID": 518602
+    },
+    {
+        "name": "Новомосковск",
+        "population": 121674,
+        "eng_name": "Novomoskovsk",
+        "cityID": 518557
+    },
+    {
+        "name": "Новопавловск",
+        "population": 26054,
+        "eng_name": "Novopavlovsk",
+        "cityID": 518383
+    },
+    {
+        "name": "Новоржев",
+        "population": 3070,
+        "eng_name": "Novorzhev",
+        "cityID": 518236
+    },
+    {
+        "name": "Новороссийск",
+        "population": 275795,
+        "eng_name": "Novorossiysk",
+        "cityID": 518255
+    },
+    {
+        "name": "Новосибирск",
+        "population": 1620162,
+        "eng_name": "Novosibirsk",
+        "cityID": 1496747
+    },
+    {
+        "name": "Новосиль",
+        "population": 3087,
+        "eng_name": "Novosil'",
+        "cityID": 517947
+    },
+    {
+        "name": "Новосокольники",
+        "population": 6900,
+        "eng_name": "Novosokol'niki",
+        "cityID": 517921
+    },
+    {
+        "name": "Новотроицк",
+        "population": 82463,
+        "eng_name": "Novotroitsk",
+        "cityID": 517836
+    },
+    {
+        "name": "Новоузенск",
+        "population": 14945,
+        "eng_name": "Novouzensk",
+        "cityID": 517739
+    },
+    {
+        "name": "Новоульяновск",
+        "population": 13588,
+        "eng_name": "Novoul'yanovsk",
+        "cityID": 517766
+    },
+    {
+        "name": "Новоуральск",
+        "population": 79638,
+        "eng_name": "Novoural'sk",
+        "cityID": 1538636
+    },
+    {
+        "name": "Новохопёрск",
+        "population": 5805,
+        "eng_name": "Novokhopyorsk",
+        "cityID": 518745
+    },
+    {
+        "name": "Новочебоксарск",
+        "population": 127586,
+        "eng_name": "Novocheboksarsk",
+        "cityID": 518976
+    },
+    {
+        "name": "Новочеркасск",
+        "population": 166312,
+        "eng_name": "Novocherkassk",
+        "cityID": 518970
+    },
+    {
+        "name": "Новошахтинск",
+        "population": 105038,
+        "eng_name": "Novoshakhtinsk",
+        "cityID": 517963
+    },
+    {
+        "name": "Новый Оскол",
+        "population": 18443,
+        "eng_name": "Novyy Oskol",
+        "cityID": 516931
+    },
+    {
+        "name": "Новый Уренгой",
+        "population": 118115,
+        "eng_name": "Novy Urengoy",
+        "cityID": 1496511
+    },
+    {
+        "name": "Ногинск",
+        "population": 103063,
+        "eng_name": "Noginsk",
+        "cityID": 520068
+    },
+    {
+        "name": "Нолинск",
+        "population": 9460,
+        "eng_name": "Nolinsk",
+        "cityID": 520041
+    },
+    {
+        "name": "Норильск",
+        "population": 182701,
+        "eng_name": "Noril'sk",
+        "cityID": 1497337
+    },
+    {
+        "name": "Ноябрьск",
+        "population": 108376,
+        "eng_name": "Noyabrsk",
+        "cityID": 1496503
+    },
+    {
+        "name": "Нурлат",
+        "population": 31555,
+        "eng_name": "Nurlat",
+        "cityID": 516716
+    },
+    {
+        "name": "Нытва",
+        "population": 17976,
+        "eng_name": "Nytva",
+        "cityID": 516576
+    },
+    {
+        "name": "Нюрба",
+        "population": 9761,
+        "eng_name": "Nyurba",
+        "cityID": 2018735
+    },
+    {
+        "name": "Нягань",
+        "population": 58733,
+        "eng_name": "Nyagan",
+        "cityID": 1496476
+    },
+    {
+        "name": "Нязепетровск",
+        "population": 11301,
+        "eng_name": "Nyazepetrovsk",
+        "cityID": 516615
+    },
+    {
+        "name": "Няндома",
+        "population": 18857,
+        "eng_name": "Nyandoma",
+        "cityID": 516647
+    },
+    {
+        "name": "Облучье",
+        "population": 8264,
+        "eng_name": "Obluchye",
+        "cityID": 2022454
+    },
+    {
+        "name": "Обнинск",
+        "population": 116179,
+        "eng_name": "Obninsk",
+        "cityID": 516436
+    },
+    {
+        "name": "Обоянь",
+        "population": 13162,
+        "eng_name": "Oboyan'",
+        "cityID": 516400
+    },
+    {
+        "name": "Обь",
+        "population": 30131,
+        "eng_name": "Ob'",
+        "cityID": 1496421
+    },
+    {
+        "name": "Одинцово",
+        "population": 135867,
+        "eng_name": "Odintsovo",
+        "cityID": 516215
+    },
+    {
+        "name": "Озёрск",
+        "population": 3816,
+        "eng_name": "Ozersk",
+        "cityID": 1538634
+    },
+    {
+        "name": "Озёрск",
+        "population": 78128,
+        "eng_name": "Ozersk",
+        "cityID": 1538634
+    },
+    {
+        "name": "Озёры",
+        "population": 24468,
+        "eng_name": "Ozyory",
+        "cityID": 513378
+    },
+    {
+        "name": "Октябрьск",
+        "population": 25771,
+        "eng_name": "Oktyabr'sk",
+        "cityID": 515938
+    },
+    {
+        "name": "Октябрьский",
+        "population": 113737,
+        "eng_name": "Oktyabr'skiy",
+        "cityID": 515879
+    },
+    {
+        "name": "Окуловка",
+        "population": 9510,
+        "eng_name": "Okulovka",
+        "cityID": 515771
+    },
+    {
+        "name": "Оленегорск",
+        "population": 19887,
+        "eng_name": "Olenegorsk",
+        "cityID": 515698
+    },
+    {
+        "name": "Олонец",
+        "population": 7942,
+        "eng_name": "Olonets",
+        "cityID": 515403
+    },
+    {
+        "name": "Олёкминск",
+        "population": 9102,
+        "eng_name": "Olyokminsk",
+        "cityID": 2018571
+    },
+    {
+        "name": "Омск",
+        "population": 1139897,
+        "eng_name": "Omsk",
+        "cityID": 1496153
+    },
+    {
+        "name": "Омутнинск",
+        "population": 21431,
+        "eng_name": "Omutninsk",
+        "cityID": 515267
+    },
+    {
+        "name": "Онега",
+        "population": 18149,
+        "eng_name": "Onega",
+        "cityID": 515246
+    },
+    {
+        "name": "Опочка",
+        "population": 9089,
+        "eng_name": "Opochka",
+        "cityID": 515155
+    },
+    {
+        "name": "Оренбург",
+        "population": 572819,
+        "eng_name": "Orenburg",
+        "cityID": 515003
+    },
+    {
+        "name": "Орехово-Зуево",
+        "population": 117966,
+        "eng_name": "Orekhovo-Zuyevo",
+        "cityID": 515024
+    },
+    {
+        "name": "Орлов",
+        "population": 6335,
+        "eng_name": "Orlov",
+        "cityID": 550785
+    },
+    {
+        "name": "Орск",
+        "population": 224814,
+        "eng_name": "Orsk",
+        "cityID": 514734
+    },
+    {
+        "name": "Орёл",
+        "population": 303696,
+        "eng_name": "Oryol",
+        "cityID": 515012
+    },
+    {
+        "name": "Оса",
+        "population": 20782,
+        "eng_name": "Osa",
+        "cityID": 514706
+    },
+    {
+        "name": "Осинники",
+        "population": 41274,
+        "eng_name": "Osinniki",
+        "cityID": 1495974
+    },
+    {
+        "name": "Осташков",
+        "population": 15187,
+        "eng_name": "Ostashkov",
+        "cityID": 514259
+    },
+    {
+        "name": "Остров",
+        "population": 20531,
+        "eng_name": "Ostrov",
+        "cityID": 514171
+    },
+    {
+        "name": "Островной",
+        "population": 1640,
+        "eng_name": "Ostrovnoy",
+        "cityID": 556268
+    },
+    {
+        "name": "Острогожск",
+        "population": 31476,
+        "eng_name": "Ostrogozhsk",
+        "cityID": 514198
+    },
+    {
+        "name": "Отрадное",
+        "population": 26030,
+        "eng_name": "Otradnoye",
+        "cityID": 513898
+    },
+    {
+        "name": "Отрадный",
+        "population": 47055,
+        "eng_name": "Otradnyy",
+        "cityID": 513883
+    },
+    {
+        "name": "Оха",
+        "population": 19783,
+        "eng_name": "Okha",
+        "cityID": 2122614
+    },
+    {
+        "name": "Оханск",
+        "population": 6955,
+        "eng_name": "Okhansk",
+        "cityID": 516073
+    },
+    {
+        "name": "Очёр",
+        "population": 14246,
+        "eng_name": "Ocher",
+        "cityID": 516256
+    },
+    {
+        "name": "Павлово",
+        "population": 56129,
+        "eng_name": "Pavlovo",
+        "cityID": 827329
+    },
+    {
+        "name": "Павловск",
+        "population": 24191,
+        "eng_name": "Pavlovsk",
+        "cityID": 512053
+    },
+    {
+        "name": "Павловск",
+        "population": 17223,
+        "eng_name": "Pavlovsk",
+        "cityID": 512053
+    },
+    {
+        "name": "Павловский Посад",
+        "population": 62718,
+        "eng_name": "Pavlovskiy Posad",
+        "cityID": 512023
+    },
+    {
+        "name": "Палласовка",
+        "population": 14248,
+        "eng_name": "Pallasovka",
+        "cityID": 513042
+    },
+    {
+        "name": "Партизанск",
+        "population": 36247,
+        "eng_name": "Partizansk",
+        "cityID": 2018116
+    },
+    {
+        "name": "Певек",
+        "population": 4513,
+        "eng_name": "Pevek",
+        "cityID": 2122090
+    },
+    {
+        "name": "Пенза",
+        "population": 516450,
+        "eng_name": "Penza",
+        "cityID": 511565
+    },
+    {
+        "name": "Первомайск",
+        "population": 13101,
+        "eng_name": "Pervomaysk",
+        "cityID": 511002
+    },
+    {
+        "name": "Первоуральск",
+        "population": 119365,
+        "eng_name": "Pervouralsk",
+        "cityID": 510808
+    },
+    {
+        "name": "Перевоз",
+        "population": 8611,
+        "eng_name": "Perevoz",
+        "cityID": 511287
+    },
+    {
+        "name": "Пересвет",
+        "population": 13293,
+        "eng_name": "Peresvet",
+        "cityID": 6931086
+    },
+    {
+        "name": "Переславль-Залесский",
+        "population": 37391,
+        "eng_name": "Pereslavl'-Zalesskiy",
+        "cityID": 511359
+    },
+    {
+        "name": "Пермь",
+        "population": 1049199,
+        "eng_name": "Perm",
+        "cityID": 511196
+    },
+    {
+        "name": "Пестово",
+        "population": 14842,
+        "eng_name": "Pestovo",
+        "cityID": 510364
+    },
+    {
+        "name": "Петергоф",
+        "population": 84930,
+        "eng_name": "Petergof",
+        "cityID": 510291
+    },
+    {
+        "name": "Петров Вал",
+        "population": 12285,
+        "eng_name": "Petrov Val",
+        "cityID": 509826
+    },
+    {
+        "name": "Петровск-Забайкальский",
+        "population": 15626,
+        "eng_name": "Petrovsk-Zabaykal'skiy",
+        "cityID": 2017945
+    },
+    {
+        "name": "Петровск",
+        "population": 27987,
+        "eng_name": "Petrovsk",
+        "cityID": 509987
+    },
+    {
+        "name": "Петрозаводск",
+        "population": 280711,
+        "eng_name": "Petrozavodsk",
+        "cityID": 509820
+    },
+    {
+        "name": "Петропавловск-Камчатский",
+        "population": 179367,
+        "eng_name": "Petropavlovsk-Kamchatskiy",
+        "cityID": 2122104
+    },
+    {
+        "name": "Петухово",
+        "population": 9916,
+        "eng_name": "Petukhovo",
+        "cityID": 1495022
+    },
+    {
+        "name": "Петушки",
+        "population": 12166,
+        "eng_name": "Petushki",
+        "cityID": 509697
+    },
+    {
+        "name": "Печора",
+        "population": 37556,
+        "eng_name": "Pechora",
+        "cityID": 511794
+    },
+    {
+        "name": "Печоры",
+        "population": 9003,
+        "eng_name": "Pechory",
+        "cityID": 511785
+    },
+    {
+        "name": "Пикалёво",
+        "population": 19490,
+        "eng_name": "Pikalyovo",
+        "cityID": 509598
+    },
+    {
+        "name": "Пионерский",
+        "population": 12573,
+        "eng_name": "Pionerskiy",
+        "cityID": 509437
+    },
+    {
+        "name": "Питкяранта",
+        "population": 10048,
+        "eng_name": "Pitkyaranta",
+        "cityID": 509234
+    },
+    {
+        "name": "Плавск",
+        "population": 15563,
+        "eng_name": "Plavsk",
+        "cityID": 509052
+    },
+    {
+        "name": "Пласт",
+        "population": 17101,
+        "eng_name": "Plast",
+        "cityID": 1494907
+    },
+    {
+        "name": "Плёс",
+        "population": 1734,
+        "eng_name": "Plyos",
+        "cityID": 505060
+    },
+    {
+        "name": "Поворино",
+        "population": 16706,
+        "eng_name": "Povorino",
+        "cityID": 505806
+    },
+    {
+        "name": "Подольск",
+        "population": 309250,
+        "eng_name": "Podolsk",
+        "cityID": 508101
+    },
+    {
+        "name": "Подпорожье",
+        "population": 16462,
+        "eng_name": "Podporozh'ye",
+        "cityID": 508034
+    },
+    {
+        "name": "Покачи",
+        "population": 18217,
+        "eng_name": "Pokachi",
+        "cityID": 7289676
+    },
+    {
+        "name": "Покров",
+        "population": 16542,
+        "eng_name": "Pokrov",
+        "cityID": 507599
+    },
+    {
+        "name": "Покровск",
+        "population": 9507,
+        "eng_name": "Pokrovsk",
+        "cityID": 2017824
+    },
+    {
+        "name": "Полевской",
+        "population": 60012,
+        "eng_name": "Polevskoy",
+        "cityID": 1494573
+    },
+    {
+        "name": "Полесск",
+        "population": 6921,
+        "eng_name": "Polessk",
+        "cityID": 507291
+    },
+    {
+        "name": "Полысаево",
+        "population": 25638,
+        "eng_name": "Polysayevo",
+        "cityID": 1494456
+    },
+    {
+        "name": "Полярные Зори",
+        "population": 14230,
+        "eng_name": "Polyarnyye Zori",
+        "cityID": 506762
+    },
+    {
+        "name": "Полярный",
+        "population": 17280,
+        "eng_name": "Polyarny",
+        "cityID": 506763
+    },
+    {
+        "name": "Поронайск",
+        "population": 15777,
+        "eng_name": "Poronaysk",
+        "cityID": 2121909
+    },
+    {
+        "name": "Порхов",
+        "population": 8095,
+        "eng_name": "Porkhov",
+        "cityID": 506278
+    },
+    {
+        "name": "Похвистнево",
+        "population": 27665,
+        "eng_name": "Pokhvistnevo",
+        "cityID": 507624
+    },
+    {
+        "name": "Почеп",
+        "population": 16209,
+        "eng_name": "Pochep",
+        "cityID": 508656
+    },
+    {
+        "name": "Починок",
+        "population": 8171,
+        "eng_name": "Pochinok",
+        "cityID": 508606
+    },
+    {
+        "name": "Пошехонье",
+        "population": 5639,
+        "eng_name": "Poshekhon'ye",
+        "cityID": 506029
+    },
+    {
+        "name": "Правдинск",
+        "population": 4045,
+        "eng_name": "Pravdinsk",
+        "cityID": 505599
+    },
+    {
+        "name": "Приволжск",
+        "population": 15085,
+        "eng_name": "Privolzhsk",
+        "cityID": 505060
+    },
+    {
+        "name": "Приморск",
+        "population": 1921,
+        "eng_name": "Primorsk",
+        "cityID": 505269
+    },
+    {
+        "name": "Приморск",
+        "population": 5405,
+        "eng_name": "Primorsk",
+        "cityID": 505269
+    },
+    {
+        "name": "Приморско-Ахтарск",
+        "population": 32020,
+        "eng_name": "Primorsko-Akhtarsk",
+        "cityID": 505259
+    },
+    {
+        "name": "Приозерск",
+        "population": 17685,
+        "eng_name": "Priozersk",
+        "cityID": 505230
+    },
+    {
+        "name": "Прокопьевск",
+        "population": 187877,
+        "eng_name": "Prokop'yevsk",
+        "cityID": 1494114
+    },
+    {
+        "name": "Пролетарск",
+        "population": 18549,
+        "eng_name": "Proletarsk",
+        "cityID": 504831
+    },
+    {
+        "name": "Протвино",
+        "population": 34879,
+        "eng_name": "Protvino",
+        "cityID": 504576
+    },
+    {
+        "name": "Прохладный",
+        "population": 58747,
+        "eng_name": "Prokhladnyy",
+        "cityID": 504935
+    },
+    {
+        "name": "Псков",
+        "population": 209426,
+        "eng_name": "Pskov",
+        "cityID": 504341
+    },
+    {
+        "name": "Пугачёв",
+        "population": 40425,
+        "eng_name": "Pugachyov",
+        "cityID": 473223
+    },
+    {
+        "name": "Пудож",
+        "population": 8513,
+        "eng_name": "Pudozh",
+        "cityID": 504269
+    },
+    {
+        "name": "Пустошка",
+        "population": 3829,
+        "eng_name": "Pustoshka",
+        "cityID": 503878
+    },
+    {
+        "name": "Пучеж",
+        "population": 6010,
+        "eng_name": "Puchezh",
+        "cityID": 504294
+    },
+    {
+        "name": "Пушкин",
+        "population": 112978,
+        "eng_name": "Tsarskoye Selo",
+        "cityID": 504003
+    },
+    {
+        "name": "Пушкино",
+        "population": 108741,
+        "eng_name": "Pushkino",
+        "cityID": 503977
+    },
+    {
+        "name": "Пущино",
+        "population": 20583,
+        "eng_name": "Pushchino",
+        "cityID": 504042
+    },
+    {
+        "name": "Пыталово",
+        "population": 5392,
+        "eng_name": "Pytalovo",
+        "cityID": 503374
+    },
+    {
+        "name": "Пыть-Ях",
+        "population": 39436,
+        "eng_name": "Pyt-Yakh",
+        "cityID": 6696686
+    },
+    {
+        "name": "Пятигорск",
+        "population": 146267,
+        "eng_name": "Pyatigorsk",
+        "cityID": 503550
+    },
+    {
+        "name": "Радужный",
+        "population": 18470,
+        "eng_name": "Raduzhny",
+        "cityID": 1540356
+    },
+    {
+        "name": "Радужный",
+        "population": 44127,
+        "eng_name": "Raduzhny",
+        "cityID": 1540356
+    },
+    {
+        "name": "Райчихинск",
+        "population": 16479,
+        "eng_name": "Raychikhinsk",
+        "cityID": 2017487
+    },
+    {
+        "name": "Раменское",
+        "population": 123590,
+        "eng_name": "Ramenskoye",
+        "cityID": 502965
+    },
+    {
+        "name": "Рассказово",
+        "population": 42293,
+        "eng_name": "Rasskazovo",
+        "cityID": 502793
+    },
+    {
+        "name": "Ревда",
+        "population": 60761,
+        "eng_name": "Revda",
+        "cityID": 502011
+    },
+    {
+        "name": "Реж",
+        "population": 36420,
+        "eng_name": "Rezh",
+        "cityID": 1493648
+    },
+    {
+        "name": "Реутов",
+        "population": 108000,
+        "eng_name": "Reutov",
+        "cityID": 502018
+    },
+    {
+        "name": "Ржев",
+        "population": 56399,
+        "eng_name": "Rzhev",
+        "cityID": 499717
+    },
+    {
+        "name": "Родники",
+        "population": 23895,
+        "eng_name": "Rodniki",
+        "cityID": 501730
+    },
+    {
+        "name": "Рославль",
+        "population": 48228,
+        "eng_name": "Roslavl'",
+        "cityID": 501283
+    },
+    {
+        "name": "Россошь",
+        "population": 62290,
+        "eng_name": "Rossosh'",
+        "cityID": 501215
+    },
+    {
+        "name": "Ростов-на-Дону",
+        "population": 1137704,
+        "eng_name": "Rostov-on-Don",
+        "cityID": 501175
+    },
+    {
+        "name": "Ростов",
+        "population": 30406,
+        "eng_name": "Rostov",
+        "cityID": 501183
+    },
+    {
+        "name": "Рошаль",
+        "population": 19823,
+        "eng_name": "Roshal'",
+        "cityID": 501320
+    },
+    {
+        "name": "Ртищево",
+        "population": 38030,
+        "eng_name": "Rtishchevo",
+        "cityID": 500886
+    },
+    {
+        "name": "Рубцовск",
+        "population": 139565,
+        "eng_name": "Rubtsovsk",
+        "cityID": 1493467
+    },
+    {
+        "name": "Рудня",
+        "population": 9413,
+        "eng_name": "Rudnya",
+        "cityID": 500667
+    },
+    {
+        "name": "Руза",
+        "population": 12476,
+        "eng_name": "Ruza",
+        "cityID": 500303
+    },
+    {
+        "name": "Рузаевка",
+        "population": 43685,
+        "eng_name": "Ruzayevka",
+        "cityID": 500299
+    },
+    {
+        "name": "Рыбинск",
+        "population": 182383,
+        "eng_name": "Rybinsk",
+        "cityID": 500004
+    },
+    {
+        "name": "Рыбное",
+        "population": 20949,
+        "eng_name": "Rybnoye",
+        "cityID": 499975
+    },
+    {
+        "name": "Рыльск",
+        "population": 15986,
+        "eng_name": "Ryl'sk",
+        "cityID": 695019
+    },
+    {
+        "name": "Ряжск",
+        "population": 20641,
+        "eng_name": "Ryazhsk",
+        "cityID": 500047
+    },
+    {
+        "name": "Рязань",
+        "population": 534801,
+        "eng_name": "Ryazan",
+        "cityID": 500096
+    },
+    {
+        "name": "Салават",
+        "population": 148947,
+        "eng_name": "Salavat",
+        "cityID": 499292
+    },
+    {
+        "name": "Салаир",
+        "population": 7169,
+        "eng_name": "Salair",
+        "cityID": 1493224
+    },
+    {
+        "name": "Салехард",
+        "population": 51186,
+        "eng_name": "Salekhard",
+        "cityID": 1493197
+    },
+    {
+        "name": "Сальск",
+        "population": 56247,
+        "eng_name": "Sal'sk",
+        "cityID": 499161
+    },
+    {
+        "name": "Самара",
+        "population": 1144759,
+        "eng_name": "Samara",
+        "cityID": 499099
+    },
+    {
+        "name": "Санкт-Петербург",
+        "population": 5384342,
+        "eng_name": "Saint Petersburg",
+        "cityID": 498817
+    },
+    {
+        "name": "Саранск",
+        "population": 317432,
+        "eng_name": "Saransk",
+        "cityID": 498698
+    },
+    {
+        "name": "Сарапул",
+        "population": 94554,
+        "eng_name": "Sarapul",
+        "cityID": 498687
+    },
+    {
+        "name": "Саратов",
+        "population": 830155,
+        "eng_name": "Saratov",
+        "cityID": 498677
+    },
+    {
+        "name": "Саров",
+        "population": 96479,
+        "eng_name": "Sarov",
+        "cityID": 498525
+    },
+    {
+        "name": "Сасово",
+        "population": 23213,
+        "eng_name": "Sasovo",
+        "cityID": 461699
+    },
+    {
+        "name": "Сатка",
+        "population": 40808,
+        "eng_name": "Satka",
+        "cityID": 498418
+    },
+    {
+        "name": "Сафоново",
+        "population": 40537,
+        "eng_name": "Safonovo",
+        "cityID": 499439
+    },
+    {
+        "name": "Саяногорск",
+        "population": 45384,
+        "eng_name": "Sayanogorsk",
+        "cityID": 1492893
+    },
+    {
+        "name": "Саянск",
+        "population": 38899,
+        "eng_name": "Sayansk",
+        "cityID": 2055166
+    },
+    {
+        "name": "Светлогорск",
+        "population": 16099,
+        "eng_name": "Svetlogorsk",
+        "cityID": 485699
+    },
+    {
+        "name": "Светлоград",
+        "population": 34896,
+        "eng_name": "Svetlograd",
+        "cityID": 485698
+    },
+    {
+        "name": "Светлый",
+        "population": 21441,
+        "eng_name": "Tsimmerbude",
+        "cityID": 485660
+    },
+    {
+        "name": "Светогорск",
+        "population": 14982,
+        "eng_name": "Svetogorsk",
+        "cityID": 485639
+    },
+    {
+        "name": "Свирск",
+        "population": 12686,
+        "eng_name": "Svirsk",
+        "cityID": 2015842
+    },
+    {
+        "name": "Свободный",
+        "population": 52918,
+        "eng_name": "Svobodnyy",
+        "cityID": 2015833
+    },
+    {
+        "name": "Себеж",
+        "population": 5197,
+        "eng_name": "Sebezh",
+        "cityID": 498001
+    },
+    {
+        "name": "Севастополь",
+        "population": 509992,
+        "eng_name": "Севастополь",
+        "cityID": 548972
+    },
+    {
+        "name": "Северо-Курильск",
+        "population": 2691,
+        "eng_name": "Severo-Kuril'sk",
+        "cityID": 2121385
+    },
+    {
+        "name": "Северобайкальск",
+        "population": 23304,
+        "eng_name": "Severobaykal'sk",
+        "cityID": 2016910
+    },
+    {
+        "name": "Северодвинск",
+        "population": 180806,
+        "eng_name": "Severodvinsk",
+        "cityID": 496285
+    },
+    {
+        "name": "Североморск",
+        "population": 54473,
+        "eng_name": "Severomorsk",
+        "cityID": 496278
+    },
+    {
+        "name": "Североуральск",
+        "population": 25157,
+        "eng_name": "Severoural'sk",
+        "cityID": 496275
+    },
+    {
+        "name": "Северск",
+        "population": 105858,
+        "eng_name": "Seversk",
+        "cityID": 1538637
+    },
+    {
+        "name": "Севск",
+        "population": 6510,
+        "eng_name": "Sevsk",
+        "cityID": 496246
+    },
+    {
+        "name": "Сегежа",
+        "population": 25585,
+        "eng_name": "Segezha",
+        "cityID": 497927
+    },
+    {
+        "name": "Сельцо",
+        "population": 16159,
+        "eng_name": "Sel’tso",
+        "cityID": 497610
+    },
+    {
+        "name": "Семикаракорск",
+        "population": 21826,
+        "eng_name": "Semikarakorsk",
+        "cityID": 497218
+    },
+    {
+        "name": "Семилуки",
+        "population": 27139,
+        "eng_name": "Semiluki",
+        "cityID": 497206
+    },
+    {
+        "name": "Семёнов",
+        "population": 23902,
+        "eng_name": "Semyonov",
+        "cityID": 497450
+    },
+    {
+        "name": "Сенгилей",
+        "population": 6182,
+        "eng_name": "Sengiley",
+        "cityID": 497094
+    },
+    {
+        "name": "Серафимович",
+        "population": 8578,
+        "eng_name": "Serafimovich",
+        "cityID": 496957
+    },
+    {
+        "name": "Сергач",
+        "population": 19843,
+        "eng_name": "Sergach",
+        "cityID": 496802
+    },
+    {
+        "name": "Сергиев Посад",
+        "population": 98784,
+        "eng_name": "Sergiyev Posad",
+        "cityID": 496638
+    },
+    {
+        "name": "Сердобск",
+        "population": 30420,
+        "eng_name": "Serdobsk",
+        "cityID": 496934
+    },
+    {
+        "name": "Серов",
+        "population": 95141,
+        "eng_name": "Serov",
+        "cityID": 1492663
+    },
+    {
+        "name": "Серпухов",
+        "population": 125473,
+        "eng_name": "Serpukhov",
+        "cityID": 496527
+    },
+    {
+        "name": "Сертолово",
+        "population": 58802,
+        "eng_name": "Sertolovo",
+        "cityID": 496519
+    },
+    {
+        "name": "Сестрорецк",
+        "population": 43060,
+        "eng_name": "Sestroretsk",
+        "cityID": 496478
+    },
+    {
+        "name": "Сибай",
+        "population": 60017,
+        "eng_name": "Sibay",
+        "cityID": 493160
+    },
+    {
+        "name": "Сим",
+        "population": 12235,
+        "eng_name": "Sim",
+        "cityID": 492944
+    },
+    {
+        "name": "Сковородино",
+        "population": 8745,
+        "eng_name": "Skovorodino",
+        "cityID": 2016443
+    },
+    {
+        "name": "Скопин",
+        "population": 25433,
+        "eng_name": "Skopin",
+        "cityID": 492376
+    },
+    {
+        "name": "Славгород",
+        "population": 28757,
+        "eng_name": "Slavgorod",
+        "cityID": 1491706
+    },
+    {
+        "name": "Славск",
+        "population": 3964,
+        "eng_name": "Slavsk",
+        "cityID": 492112
+    },
+    {
+        "name": "Славянск-на-Кубани",
+        "population": 67777,
+        "eng_name": "Slavyansk-na-Kubani",
+        "cityID": 492094
+    },
+    {
+        "name": "Сланцы",
+        "population": 31985,
+        "eng_name": "Slantsy",
+        "cityID": 492162
+    },
+    {
+        "name": "Слободской",
+        "population": 31465,
+        "eng_name": "Slobodskoy",
+        "cityID": 491882
+    },
+    {
+        "name": "Слюдянка",
+        "population": 18139,
+        "eng_name": "Slyudyanka",
+        "cityID": 2016422
+    },
+    {
+        "name": "Смоленск",
+        "population": 320170,
+        "eng_name": "Smolensk",
+        "cityID": 491687
+    },
+    {
+        "name": "Снежинск",
+        "population": 51921,
+        "eng_name": "Snezhinsk",
+        "cityID": 1536289
+    },
+    {
+        "name": "Снежногорск",
+        "population": 12982,
+        "eng_name": "Snezhnogorsk",
+        "cityID": 795243
+    },
+    {
+        "name": "Собинка",
+        "population": 16973,
+        "eng_name": "Sobinka",
+        "cityID": 491480
+    },
+    {
+        "name": "Советск",
+        "population": 38514,
+        "eng_name": "Sovetsk",
+        "cityID": 490068
+    },
+    {
+        "name": "Советск",
+        "population": 15118,
+        "eng_name": "Sovetsk",
+        "cityID": 490068
+    },
+    {
+        "name": "Советск",
+        "population": 7246,
+        "eng_name": "Sovetsk",
+        "cityID": 490068
+    },
+    {
+        "name": "Советская Гавань",
+        "population": 23245,
+        "eng_name": "Sovetskaya Gavan'",
+        "cityID": 2121052
+    },
+    {
+        "name": "Советский",
+        "population": 29452,
+        "eng_name": "Sovetskiy",
+        "cityID": 1491230
+    },
+    {
+        "name": "Сокол",
+        "population": 36067,
+        "eng_name": "Sokol",
+        "cityID": 491281
+    },
+    {
+        "name": "Солигалич",
+        "population": 5912,
+        "eng_name": "Soligalich",
+        "cityID": 491025
+    },
+    {
+        "name": "Соликамск",
+        "population": 91959,
+        "eng_name": "Solikamsk",
+        "cityID": 491023
+    },
+    {
+        "name": "Солнечногорск",
+        "population": 49389,
+        "eng_name": "Solnechnogorsk",
+        "cityID": 490996
+    },
+    {
+        "name": "Соль-Илецк",
+        "population": 26655,
+        "eng_name": "Sol'-Iletsk",
+        "cityID": 491019
+    },
+    {
+        "name": "Сольвычегодск",
+        "population": 1833,
+        "eng_name": "Sol'vychegodsk",
+        "cityID": 490743
+    },
+    {
+        "name": "Сольцы",
+        "population": 8336,
+        "eng_name": "Sol'tsy",
+        "cityID": 490750
+    },
+    {
+        "name": "Сорочинск",
+        "population": 26980,
+        "eng_name": "Sorochinsk",
+        "cityID": 490554
+    },
+    {
+        "name": "Сорск",
+        "population": 11103,
+        "eng_name": "Sorsk",
+        "cityID": 1491360
+    },
+    {
+        "name": "Сортавала",
+        "population": 18704,
+        "eng_name": "Sortavala",
+        "cityID": 490466
+    },
+    {
+        "name": "Сосенский",
+        "population": 10291,
+        "eng_name": "Sosenskiy",
+        "cityID": 490437
+    },
+    {
+        "name": "Сосновка",
+        "population": 10610,
+        "eng_name": "Sosnovka",
+        "cityID": 490276
+    },
+    {
+        "name": "Сосновоборск",
+        "population": 41152,
+        "eng_name": "Sosnovoborsk",
+        "cityID": 1491291
+    },
+    {
+        "name": "Сосновый Бор",
+        "population": 67054,
+        "eng_name": "Sosnovyy Bor",
+        "cityID": 490172
+    },
+    {
+        "name": "Сосногорск",
+        "population": 25795,
+        "eng_name": "Sosnogorsk",
+        "cityID": 490391
+    },
+    {
+        "name": "Сочи",
+        "population": 432322,
+        "eng_name": "Sochi",
+        "cityID": 491422
+    },
+    {
+        "name": "Спас-Деменск",
+        "population": 4286,
+        "eng_name": "Spas-Demensk",
+        "cityID": 489868
+    },
+    {
+        "name": "Спас-Клепики",
+        "population": 5084,
+        "eng_name": "Spas-Klepiki",
+        "cityID": 489862
+    },
+    {
+        "name": "Спасск-Дальний",
+        "population": 39311,
+        "eng_name": "Spassk-Dal'niy",
+        "cityID": 2016187
+    },
+    {
+        "name": "Спасск-Рязанский",
+        "population": 6567,
+        "eng_name": "Spassk-Ryazanskiy",
+        "cityID": 489741
+    },
+    {
+        "name": "Спасск",
+        "population": 6966,
+        "eng_name": "Spassk",
+        "cityID": 1491197
+    },
+    {
+        "name": "Среднеколымск",
+        "population": 3470,
+        "eng_name": "Srednekolymsk",
+        "cityID": 2121025
+    },
+    {
+        "name": "Среднеуральск",
+        "population": 23889,
+        "eng_name": "Sredneuralsk",
+        "cityID": 1491159
+    },
+    {
+        "name": "Сретенск",
+        "population": 6353,
+        "eng_name": "Sretensk",
+        "cityID": 2016110
+    },
+    {
+        "name": "Ставрополь",
+        "population": 454488,
+        "eng_name": "Stavropol",
+        "cityID": 487846
+    },
+    {
+        "name": "Старая Купавна",
+        "population": 22692,
+        "eng_name": "Staraya Kupavna",
+        "cityID": 489162
+    },
+    {
+        "name": "Старая Русса",
+        "population": 27377,
+        "eng_name": "Staraya Russa",
+        "cityID": 489088
+    },
+    {
+        "name": "Старица",
+        "population": 7222,
+        "eng_name": "Staritsa",
+        "cityID": 488946
+    },
+    {
+        "name": "Стародуб",
+        "population": 18086,
+        "eng_name": "Starodub",
+        "cityID": 488852
+    },
+    {
+        "name": "Старый Оскол",
+        "population": 223711,
+        "eng_name": "Stary Oskol",
+        "cityID": 487928
+    },
+    {
+        "name": "Стерлитамак",
+        "population": 274134,
+        "eng_name": "Sterlitamak",
+        "cityID": 487495
+    },
+    {
+        "name": "Стрежевой",
+        "population": 39903,
+        "eng_name": "Strezhevoy",
+        "cityID": 1490796
+    },
+    {
+        "name": "Строитель",
+        "population": 23923,
+        "eng_name": "Stroitel'",
+        "cityID": 487147
+    },
+    {
+        "name": "Струнино",
+        "population": 12754,
+        "eng_name": "Strunino",
+        "cityID": 487095
+    },
+    {
+        "name": "Ступино",
+        "population": 65660,
+        "eng_name": "Stupino",
+        "cityID": 486968
+    },
+    {
+        "name": "Суворов",
+        "population": 17006,
+        "eng_name": "Suvorov",
+        "cityID": 485888
+    },
+    {
+        "name": "Суджа",
+        "population": 5554,
+        "eng_name": "Sudzha",
+        "cityID": 486816
+    },
+    {
+        "name": "Судогда",
+        "population": 10017,
+        "eng_name": "Sudogda",
+        "cityID": 486834
+    },
+    {
+        "name": "Суздаль",
+        "population": 9597,
+        "eng_name": "Suzdal",
+        "cityID": 485824
+    },
+    {
+        "name": "Сунжа",
+        "population": 66807,
+        "eng_name": "Sunzha",
+        "cityID": 515083
+    },
+    {
+        "name": "Суоярви",
+        "population": 8607,
+        "eng_name": "Suoyarvi",
+        "cityID": 486186
+    },
+    {
+        "name": "Сураж",
+        "population": 10556,
+        "eng_name": "Surazh",
+        "cityID": 486148
+    },
+    {
+        "name": "Сургут",
+        "population": 387235,
+        "eng_name": "Surgut",
+        "cityID": 1490624
+    },
+    {
+        "name": "Суровикино",
+        "population": 18154,
+        "eng_name": "Surovikino",
+        "cityID": 486071
+    },
+    {
+        "name": "Сурск",
+        "population": 5725,
+        "eng_name": "Sursk",
+        "cityID": 486048
+    },
+    {
+        "name": "Сусуман",
+        "population": 4273,
+        "eng_name": "Susuman",
+        "cityID": 2120864
+    },
+    {
+        "name": "Сухиничи",
+        "population": 14629,
+        "eng_name": "Sukhinichi",
+        "cityID": 486665
+    },
+    {
+        "name": "Сухой Лог",
+        "population": 33048,
+        "eng_name": "Sukhoy Log",
+        "cityID": 1490686
+    },
+    {
+        "name": "Сызрань",
+        "population": 165199,
+        "eng_name": "Syzran'",
+        "cityID": 484972
+    },
+    {
+        "name": "Сыктывкар",
+        "population": 243926,
+        "eng_name": "Syktyvkar",
+        "cityID": 485239
+    },
+    {
+        "name": "Сысерть",
+        "population": 21029,
+        "eng_name": "Sysert'",
+        "cityID": 1490402
+    },
+    {
+        "name": "Сычёвка",
+        "population": 8394,
+        "eng_name": "Сычёвка",
+        "cityID": 485280
+    },
+    {
+        "name": "Сясьстрой",
+        "population": 12203,
+        "eng_name": "Syas'stroy",
+        "cityID": 485313
+    },
+    {
+        "name": "Тавда",
+        "population": 32338,
+        "eng_name": "Tavda",
+        "cityID": 1489962
+    },
+    {
+        "name": "Таганрог",
+        "population": 248269,
+        "eng_name": "Taganrog",
+        "cityID": 484907
+    },
+    {
+        "name": "Тайга",
+        "population": 22619,
+        "eng_name": "Tayga",
+        "cityID": 1489907
+    },
+    {
+        "name": "Тайшет",
+        "population": 32592,
+        "eng_name": "Tayshet",
+        "cityID": 1489870
+    },
+    {
+        "name": "Талдом",
+        "population": 12575,
+        "eng_name": "Taldom",
+        "cityID": 484826
+    },
+    {
+        "name": "Талица",
+        "population": 15486,
+        "eng_name": "Talitsa",
+        "cityID": 1490277
+    },
+    {
+        "name": "Тамбов",
+        "population": 289701,
+        "eng_name": "Tambov",
+        "cityID": 484646
+    },
+    {
+        "name": "Тара",
+        "population": 28268,
+        "eng_name": "Tara",
+        "cityID": 1490140
+    },
+    {
+        "name": "Тарко-Сале",
+        "population": 21664,
+        "eng_name": "Tarko-Sale",
+        "cityID": 1490085
+    },
+    {
+        "name": "Таруса",
+        "population": 9126,
+        "eng_name": "Tarusa",
+        "cityID": 484287
+    },
+    {
+        "name": "Татарск",
+        "population": 23282,
+        "eng_name": "Tatarsk",
+        "cityID": 1490003
+    },
+    {
+        "name": "Таштагол",
+        "population": 22647,
+        "eng_name": "Tashtagol",
+        "cityID": 1490042
+    },
+    {
+        "name": "Тверь",
+        "population": 424969,
+        "eng_name": "Tver'",
+        "cityID": 480060
+    },
+    {
+        "name": "Теберда",
+        "population": 8672,
+        "eng_name": "Teberda",
+        "cityID": 483873
+    },
+    {
+        "name": "Тейково",
+        "population": 31623,
+        "eng_name": "Teykovo",
+        "cityID": 483137
+    },
+    {
+        "name": "Темников",
+        "population": 5561,
+        "eng_name": "Temnikov",
+        "cityID": 483684
+    },
+    {
+        "name": "Темрюк",
+        "population": 41281,
+        "eng_name": "Temryuk",
+        "cityID": 483661
+    },
+    {
+        "name": "Терек",
+        "population": 19643,
+        "eng_name": "Terek",
+        "cityID": 483495
+    },
+    {
+        "name": "Тетюши",
+        "population": 10804,
+        "eng_name": "Tetyushi",
+        "cityID": 483150
+    },
+    {
+        "name": "Тимашёвск",
+        "population": 50566,
+        "eng_name": "Timashëvsk",
+        "cityID": 482965
+    },
+    {
+        "name": "Тихвин",
+        "population": 57327,
+        "eng_name": "Tikhvin",
+        "cityID": 483019
+    },
+    {
+        "name": "Тихорецк",
+        "population": 56262,
+        "eng_name": "Tikhoretsk",
+        "cityID": 483029
+    },
+    {
+        "name": "Тобольск",
+        "population": 98772,
+        "eng_name": "Tobol'sk",
+        "cityID": 1489530
+    },
+    {
+        "name": "Тогучин",
+        "population": 20489,
+        "eng_name": "Toguchin",
+        "cityID": 1489508
+    },
+    {
+        "name": "Тольятти",
+        "population": 693072,
+        "eng_name": "Tolyatti",
+        "cityID": 482283
+    },
+    {
+        "name": "Томари",
+        "population": 3788,
+        "eng_name": "Tomari",
+        "cityID": 2120530
+    },
+    {
+        "name": "Томмот",
+        "population": 6694,
+        "eng_name": "Tommot",
+        "cityID": 2015179
+    },
+    {
+        "name": "Томск",
+        "population": 568508,
+        "eng_name": "Tomsk",
+        "cityID": 1489425
+    },
+    {
+        "name": "Топки",
+        "population": 27673,
+        "eng_name": "Topki",
+        "cityID": 1489394
+    },
+    {
+        "name": "Торжок",
+        "population": 43614,
+        "eng_name": "Torzhok",
+        "cityID": 481985
+    },
+    {
+        "name": "Торопец",
+        "population": 11527,
+        "eng_name": "Toropets",
+        "cityID": 482042
+    },
+    {
+        "name": "Тосно",
+        "population": 35099,
+        "eng_name": "Tosno",
+        "cityID": 481964
+    },
+    {
+        "name": "Тотьма",
+        "population": 9652,
+        "eng_name": "Tot'ma",
+        "cityID": 481960
+    },
+    {
+        "name": "Троицк",
+        "population": 61097,
+        "eng_name": "Troitsk",
+        "cityID": 1489246
+    },
+    {
+        "name": "Троицк",
+        "population": 72723,
+        "eng_name": "Troitsk",
+        "cityID": 1489246
+    },
+    {
+        "name": "Трубчевск",
+        "population": 13515,
+        "eng_name": "Trubchëvsk",
+        "cityID": 481350
+    },
+    {
+        "name": "Трёхгорный",
+        "population": 32571,
+        "eng_name": "Trëkhgornyy",
+        "cityID": 830844
+    },
+    {
+        "name": "Туапсе",
+        "population": 60987,
+        "eng_name": "Tuapse",
+        "cityID": 480716
+    },
+    {
+        "name": "Туймазы",
+        "population": 68108,
+        "eng_name": "Tuymazy",
+        "cityID": 480089
+    },
+    {
+        "name": "Тула",
+        "population": 467955,
+        "eng_name": "Tula",
+        "cityID": 480562
+    },
+    {
+        "name": "Тулун",
+        "population": 38466,
+        "eng_name": "Tulun",
+        "cityID": 2014927
+    },
+    {
+        "name": "Туран",
+        "population": 4916,
+        "eng_name": "Turan",
+        "cityID": 1488950
+    },
+    {
+        "name": "Туринск",
+        "population": 16999,
+        "eng_name": "Turinsk",
+        "cityID": 1488933
+    },
+    {
+        "name": "Тутаев",
+        "population": 39749,
+        "eng_name": "Tutayev",
+        "cityID": 480122
+    },
+    {
+        "name": "Тында",
+        "population": 32894,
+        "eng_name": "Tynda",
+        "cityID": 2014718
+    },
+    {
+        "name": "Тырныауз",
+        "population": 20661,
+        "eng_name": "Tyrnyauz",
+        "cityID": 479933
+    },
+    {
+        "name": "Тюкалинск",
+        "population": 10159,
+        "eng_name": "Tyukalinsk",
+        "cityID": 1488780
+    },
+    {
+        "name": "Тюмень",
+        "population": 816700,
+        "eng_name": "Tyumen",
+        "cityID": 1488754
+    },
+    {
+        "name": "Уварово",
+        "population": 22916,
+        "eng_name": "Uvarovo",
+        "cityID": 477626
+    },
+    {
+        "name": "Углегорск",
+        "population": 8443,
+        "eng_name": "Uglegorsk",
+        "cityID": 2120261
+    },
+    {
+        "name": "Углич",
+        "population": 31452,
+        "eng_name": "Uglich",
+        "cityID": 479532
+    },
+    {
+        "name": "Удачный",
+        "population": 12198,
+        "eng_name": "Udachny",
+        "cityID": 2014624
+    },
+    {
+        "name": "Удомля",
+        "population": 26726,
+        "eng_name": "Udomlya",
+        "cityID": 452949
+    },
+    {
+        "name": "Ужур",
+        "population": 15221,
+        "eng_name": "Uzhur",
+        "cityID": 1487882
+    },
+    {
+        "name": "Узловая",
+        "population": 49155,
+        "eng_name": "Uzlovaya",
+        "cityID": 477494
+    },
+    {
+        "name": "Улан-Удэ",
+        "population": 437514,
+        "eng_name": "Ulan-Ude",
+        "cityID": 2014407
+    },
+    {
+        "name": "Ульяновск",
+        "population": 625462,
+        "eng_name": "Ulyanovsk",
+        "cityID": 479123
+    },
+    {
+        "name": "Унеча",
+        "population": 22565,
+        "eng_name": "Unecha",
+        "cityID": 479028
+    },
+    {
+        "name": "Урай",
+        "population": 40692,
+        "eng_name": "Uray",
+        "cityID": 1488429
+    },
+    {
+        "name": "Урень",
+        "population": 12289,
+        "eng_name": "Uren'",
+        "cityID": 478757
+    },
+    {
+        "name": "Уржум",
+        "population": 9703,
+        "eng_name": "Urzhum",
+        "cityID": 478532
+    },
+    {
+        "name": "Урус-Мартан",
+        "population": 63955,
+        "eng_name": "Urus-Martan",
+        "cityID": 478581
+    },
+    {
+        "name": "Урюпинск",
+        "population": 36186,
+        "eng_name": "Uryupinsk",
+        "cityID": 478544
+    },
+    {
+        "name": "Усинск",
+        "population": 37198,
+        "eng_name": "Usinsk",
+        "cityID": 863061
+    },
+    {
+        "name": "Усмань",
+        "population": 19396,
+        "eng_name": "Usman'",
+        "cityID": 478317
+    },
+    {
+        "name": "Усолье-Сибирское",
+        "population": 75062,
+        "eng_name": "Usol'ye-Sibirskoye",
+        "cityID": 2014022
+    },
+    {
+        "name": "Усолье",
+        "population": 6124,
+        "eng_name": "Usol'ye",
+        "cityID": 478269
+    },
+    {
+        "name": "Уссурийск",
+        "population": 172942,
+        "eng_name": "Ussuriysk",
+        "cityID": 2014006
+    },
+    {
+        "name": "Усть-Джегута",
+        "population": 30758,
+        "eng_name": "Ust'-Dzheguta",
+        "cityID": 478130
+    },
+    {
+        "name": "Усть-Илимск",
+        "population": 79746,
+        "eng_name": "Ust'-Ilimsk",
+        "cityID": 2013952
+    },
+    {
+        "name": "Усть-Катав",
+        "population": 21609,
+        "eng_name": "Ust'-Katav",
+        "cityID": 478071
+    },
+    {
+        "name": "Усть-Кут",
+        "population": 40281,
+        "eng_name": "Ust'-Kut",
+        "cityID": 2013923
+    },
+    {
+        "name": "Усть-Лабинск",
+        "population": 38565,
+        "eng_name": "Ust'-Labinsk",
+        "cityID": 478044
+    },
+    {
+        "name": "Устюжна",
+        "population": 8284,
+        "eng_name": "Ustyuzhna",
+        "cityID": 477795
+    },
+    {
+        "name": "Уфа",
+        "population": 1125933,
+        "eng_name": "Ufa",
+        "cityID": 479561
+    },
+    {
+        "name": "Ухта",
+        "population": 92479,
+        "eng_name": "Ukhta",
+        "cityID": 479411
+    },
+    {
+        "name": "Учалы",
+        "population": 38112,
+        "eng_name": "Uchaly",
+        "cityID": 479704
+    },
+    {
+        "name": "Уяр",
+        "population": 11932,
+        "eng_name": "Uyar",
+        "cityID": 1487922
+    },
+    {
+        "name": "Фатеж",
+        "population": 6135,
+        "eng_name": "Fatezh",
+        "cityID": 563300
+    },
+    {
+        "name": "Фокино",
+        "population": 22628,
+        "eng_name": "Fokino",
+        "cityID": 2015310
+    },
+    {
+        "name": "Фокино",
+        "population": 12617,
+        "eng_name": "Fokino",
+        "cityID": 2015310
+    },
+    {
+        "name": "Фролово",
+        "population": 35913,
+        "eng_name": "Frolovo",
+        "cityID": 562389
+    },
+    {
+        "name": "Фрязино",
+        "population": 58938,
+        "eng_name": "Fryazino",
+        "cityID": 562319
+    },
+    {
+        "name": "Фурманов",
+        "population": 32855,
+        "eng_name": "Furmanov",
+        "cityID": 562309
+    },
+    {
+        "name": "Хабаровск",
+        "population": 610305,
+        "eng_name": "Khabarovsk",
+        "cityID": 2022890
+    },
+    {
+        "name": "Хадыженск",
+        "population": 22005,
+        "eng_name": "Khadyzhensk",
+        "cityID": 550846
+    },
+    {
+        "name": "Ханты-Мансийск",
+        "population": 103117,
+        "eng_name": "Khanty-Mansiysk",
+        "cityID": 1503772
+    },
+    {
+        "name": "Харабали",
+        "population": 17338,
+        "eng_name": "Kharabali",
+        "cityID": 550671
+    },
+    {
+        "name": "Харовск",
+        "population": 8650,
+        "eng_name": "Kharovsk",
+        "cityID": 550512
+    },
+    {
+        "name": "Хасавюрт",
+        "population": 146394,
+        "eng_name": "Khasavyurt",
+        "cityID": 550478
+    },
+    {
+        "name": "Хвалынск",
+        "population": 12143,
+        "eng_name": "Khvalynsk",
+        "cityID": 548982
+    },
+    {
+        "name": "Хилок",
+        "population": 10320,
+        "eng_name": "Khilok",
+        "cityID": 2022463
+    },
+    {
+        "name": "Химки",
+        "population": 257757,
+        "eng_name": "Khimki",
+        "cityID": 550280
+    },
+    {
+        "name": "Холм",
+        "population": 3344,
+        "eng_name": "Kholm",
+        "cityID": 549786
+    },
+    {
+        "name": "Холмск",
+        "population": 26672,
+        "eng_name": "Kholmsk",
+        "cityID": 2124615
+    },
+    {
+        "name": "Хотьково",
+        "population": 21169,
+        "eng_name": "Khot'kovo",
+        "cityID": 549373
+    },
+    {
+        "name": "Цивильск",
+        "population": 15049,
+        "eng_name": "Tsivil'sk",
+        "cityID": 480851
+    },
+    {
+        "name": "Цимлянск",
+        "population": 14406,
+        "eng_name": "Tsimlyansk",
+        "cityID": 480876
+    },
+    {
+        "name": "Чадан",
+        "population": 9519,
+        "eng_name": "Chadan",
+        "cityID": 1508501
+    },
+    {
+        "name": "Чайковский",
+        "population": 81855,
+        "eng_name": "Chaykovskiy",
+        "cityID": 569742
+    },
+    {
+        "name": "Чапаевск",
+        "population": 70944,
+        "eng_name": "Chapayevsk",
+        "cityID": 569955
+    },
+    {
+        "name": "Чаплыгин",
+        "population": 11674,
+        "eng_name": "Chaplygin",
+        "cityID": 569934
+    },
+    {
+        "name": "Чебаркуль",
+        "population": 41516,
+        "eng_name": "Chebarkul'",
+        "cityID": 1508350
+    },
+    {
+        "name": "Чебоксары",
+        "population": 495810,
+        "eng_name": "Cheboksary",
+        "cityID": 569696
+    },
+    {
+        "name": "Чегем",
+        "population": 18542,
+        "eng_name": "Chegem",
+        "cityID": 569639
+    },
+    {
+        "name": "Чекалин",
+        "population": 866,
+        "eng_name": "Chekalin",
+        "cityID": 569615
+    },
+    {
+        "name": "Челябинск",
+        "population": 1187960,
+        "eng_name": "Chelyabinsk",
+        "cityID": 1508291
+    },
+    {
+        "name": "Чердынь",
+        "population": 4536,
+        "eng_name": "Cherdyn'",
+        "cityID": 569359
+    },
+    {
+        "name": "Черемхово",
+        "population": 49933,
+        "eng_name": "Cheremkhovo",
+        "cityID": 2025527
+    },
+    {
+        "name": "Черепаново",
+        "population": 18846,
+        "eng_name": "Cherepanovo",
+        "cityID": 1508161
+    },
+    {
+        "name": "Череповец",
+        "population": 312091,
+        "eng_name": "Cherepovets",
+        "cityID": 569223
+    },
+    {
+        "name": "Черкесск",
+        "population": 123148,
+        "eng_name": "Cherkessk",
+        "cityID": 569154
+    },
+    {
+        "name": "Черноголовка",
+        "population": 20638,
+        "eng_name": "Chernogolovka",
+        "cityID": 568808
+    },
+    {
+        "name": "Черногорск",
+        "population": 75348,
+        "eng_name": "Chernogorsk",
+        "cityID": 1508054
+    },
+    {
+        "name": "Чернушка",
+        "population": 33308,
+        "eng_name": "Chernushka",
+        "cityID": 568608
+    },
+    {
+        "name": "Черняховск",
+        "population": 35375,
+        "eng_name": "Chernyakhovsk",
+        "cityID": 568595
+    },
+    {
+        "name": "Чехов",
+        "population": 71077,
+        "eng_name": "Chekhov",
+        "cityID": 569591
+    },
+    {
+        "name": "Чистополь",
+        "population": 58771,
+        "eng_name": "Chistopol'",
+        "cityID": 567990
+    },
+    {
+        "name": "Чита",
+        "population": 350861,
+        "eng_name": "Chita",
+        "cityID": 2025339
+    },
+    {
+        "name": "Чкаловск",
+        "population": 11193,
+        "eng_name": "Chkalovsk",
+        "cityID": 567902
+    },
+    {
+        "name": "Чудово",
+        "population": 13764,
+        "eng_name": "Chudovo",
+        "cityID": 567774
+    },
+    {
+        "name": "Чулым",
+        "population": 10926,
+        "eng_name": "Chulym",
+        "cityID": 1507679
+    },
+    {
+        "name": "Чусовой",
+        "population": 43299,
+        "eng_name": "Chusovoy",
+        "cityID": 567434
+    },
+    {
+        "name": "Чухлома",
+        "population": 4906,
+        "eng_name": "Chukhloma",
+        "cityID": 567695
+    },
+    {
+        "name": "Чёрмоз",
+        "population": 3215,
+        "eng_name": "Chyormoz",
+        "cityID": 569122
+    },
+    {
+        "name": "Шагонар",
+        "population": 11289,
+        "eng_name": "Shagonar",
+        "cityID": 1492499
+    },
+    {
+        "name": "Шадринск",
+        "population": 74400,
+        "eng_name": "Shadrinsk",
+        "cityID": 1492517
+    },
+    {
+        "name": "Шали",
+        "population": 56226,
+        "eng_name": "Shali",
+        "cityID": 495957
+    },
+    {
+        "name": "Шарыпово",
+        "population": 36463,
+        "eng_name": "Sharypovo",
+        "cityID": 1492401
+    },
+    {
+        "name": "Шарья",
+        "population": 23222,
+        "eng_name": "Shar'ya",
+        "cityID": 495619
+    },
+    {
+        "name": "Шатура",
+        "population": 31310,
+        "eng_name": "Shatura",
+        "cityID": 495518
+    },
+    {
+        "name": "Шахты",
+        "population": 228816,
+        "eng_name": "Shakhty",
+        "cityID": 496015
+    },
+    {
+        "name": "Шахунья",
+        "population": 19591,
+        "eng_name": "Shakhun'ya",
+        "cityID": 496012
+    },
+    {
+        "name": "Шацк",
+        "population": 5796,
+        "eng_name": "Shatsk",
+        "cityID": 495532
+    },
+    {
+        "name": "Шебекино",
+        "population": 40352,
+        "eng_name": "Shebekino",
+        "cityID": 495112
+    },
+    {
+        "name": "Шелехов",
+        "population": 48317,
+        "eng_name": "Shelekhov",
+        "cityID": 2016764
+    },
+    {
+        "name": "Шенкурск",
+        "population": 4608,
+        "eng_name": "Shenkursk",
+        "cityID": 494884
+    },
+    {
+        "name": "Шилка",
+        "population": 12339,
+        "eng_name": "Shilka",
+        "cityID": 2016708
+    },
+    {
+        "name": "Шимановск",
+        "population": 18513,
+        "eng_name": "Shimanovsk",
+        "cityID": 2016701
+    },
+    {
+        "name": "Шиханы",
+        "population": 5230,
+        "eng_name": "Shikhany",
+        "cityID": 494519
+    },
+    {
+        "name": "Шлиссельбург",
+        "population": 14851,
+        "eng_name": "Shlissel'burg",
+        "cityID": 493970
+    },
+    {
+        "name": "Шумерля",
+        "population": 28168,
+        "eng_name": "Shumerlya",
+        "cityID": 493463
+    },
+    {
+        "name": "Шумиха",
+        "population": 17141,
+        "eng_name": "Shumikha",
+        "cityID": 1491999
+    },
+    {
+        "name": "Шуя",
+        "population": 56041,
+        "eng_name": "Shuya",
+        "cityID": 493231
+    },
+    {
+        "name": "Щербинка",
+        "population": 53974,
+        "eng_name": "Shcherbinka",
+        "cityID": 495260
+    },
+    {
+        "name": "Щигры",
+        "population": 14711,
+        "eng_name": "Shchigry",
+        "cityID": 495206
+    },
+    {
+        "name": "Щучье",
+        "population": 9346,
+        "eng_name": "Щучье",
+        "cityID": 1485357
+    },
+    {
+        "name": "Щёкино",
+        "population": 56263,
+        "eng_name": "Shchëkino",
+        "cityID": 495388
+    },
+    {
+        "name": "Щёлково",
+        "population": 127292,
+        "eng_name": "Shchelkovo",
+        "cityID": 495344
+    },
+    {
+        "name": "Электрогорск",
+        "population": 22439,
+        "eng_name": "Elektrogorsk",
+        "cityID": 563524
+    },
+    {
+        "name": "Электросталь",
+        "population": 152607,
+        "eng_name": "Elektrostal",
+        "cityID": 563523
+    },
+    {
+        "name": "Электроугли",
+        "population": 20607,
+        "eng_name": "Elektrougli",
+        "cityID": 563522
+    },
+    {
+        "name": "Элиста",
+        "population": 103535,
+        "eng_name": "Elista",
+        "cityID": 563514
+    },
+    {
+        "name": "Энгельс",
+        "population": 226143,
+        "eng_name": "Engel's",
+        "cityID": 563464
+    },
+    {
+        "name": "Эртиль",
+        "population": 9935,
+        "eng_name": "Ertil'",
+        "cityID": 563420
+    },
+    {
+        "name": "Югорск",
+        "population": 38544,
+        "eng_name": "Yugorsk",
+        "cityID": 1502725
+    },
+    {
+        "name": "Южа",
+        "population": 12011,
+        "eng_name": "Yuzha",
+        "cityID": 466084
+    },
+    {
+        "name": "Южно-Сахалинск",
+        "population": 200235,
+        "eng_name": "Yuzhno-Sakhalinsk",
+        "cityID": 2119441
+    },
+    {
+        "name": "Южно-Сухокумск",
+        "population": 10803,
+        "eng_name": "Yuzhno-Sukhokumsk",
+        "cityID": 466060
+    },
+    {
+        "name": "Южноуральск",
+        "population": 37484,
+        "eng_name": "Yuzhnoural'sk",
+        "cityID": 1485634
+    },
+    {
+        "name": "Юрга",
+        "population": 80367,
+        "eng_name": "Yurga",
+        "cityID": 1485724
+    },
+    {
+        "name": "Юрьев-Польский",
+        "population": 17616,
+        "eng_name": "Yur’yev-Pol’skiy",
+        "cityID": 466215
+    },
+    {
+        "name": "Юрьевец",
+        "population": 7837,
+        "eng_name": "Yur’yevets",
+        "cityID": 466258
+    },
+    {
+        "name": "Юрюзань",
+        "population": 10686,
+        "eng_name": "Yuryuzan'",
+        "cityID": 466200
+    },
+    {
+        "name": "Юхнов",
+        "population": 5726,
+        "eng_name": "Yukhnov",
+        "cityID": 466658
+    },
+    {
+        "name": "Ядрин",
+        "population": 8089,
+        "eng_name": "Yadrin",
+        "cityID": 469809
+    },
+    {
+        "name": "Якутск",
+        "population": 330615,
+        "eng_name": "Yakutsk",
+        "cityID": 2013159
+    },
+    {
+        "name": "Ялта",
+        "population": 78171,
+        "eng_name": "Yalta",
+        "cityID": 479426
+    },
+    {
+        "name": "Ялуторовск",
+        "population": 39947,
+        "eng_name": "Yalutorovsk",
+        "cityID": 1486468
+    },
+    {
+        "name": "Янаул",
+        "population": 24805,
+        "eng_name": "Yanaul",
+        "cityID": 469178
+    },
+    {
+        "name": "Яранск",
+        "population": 15279,
+        "eng_name": "Yaransk",
+        "cityID": 469005
+    },
+    {
+        "name": "Яровое",
+        "population": 17939,
+        "eng_name": "Yarovoy",
+        "cityID": 1486340
+    },
+    {
+        "name": "Ярославль",
+        "population": 601403,
+        "eng_name": "Yaroslavl",
+        "cityID": 468902
+    },
+    {
+        "name": "Ярцево",
+        "population": 42385,
+        "eng_name": "Yartsevo",
+        "cityID": 468866
+    },
+    {
+        "name": "Ясногорск",
+        "population": 14984,
+        "eng_name": "Yasnogorsk",
+        "cityID": 468671
+    },
+    {
+        "name": "Ясный",
+        "population": 15092,
+        "eng_name": "Yasnyy",
+        "cityID": 468657
+    },
+    {
+        "name": "Яхрома",
+        "population": 13818,
+        "eng_name": "Yakhroma",
+        "cityID": 469655
+    }
+]

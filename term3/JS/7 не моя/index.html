@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>  </title>
+		<meta charset = "utf - 8">
+		<link rel="stylesheet" type="text/css" href="css.css">
+	</head>
+	<body>
+	<script type="text/javascript">
+		var curPosX = 0;
+		var curPosY = 0;
+		var diagonal;
+		var circle;
+		var n = 10; // На сколько двигать за раз
+		
+		var radius = 250;
+		var f = 0;
+		var s = 2 * Math.PI / 180; //Угол
+		
+		var width = document.documentElement.clientWidth - 150; // Ширина экрана - ширина картинки
+		var height = document.documentElement.clientHeight - 100; // Высота экрана - высота картинки
+		
+		var l = document.documentElement.scrollWidth/2;
+		var t = document.documentElement.scrollHeight/2;
+		
+		function dig() {
+			document.getElementById('img1').style.left = (curPosX += n*2.2) + 'px';
+			document.getElementById('img1').style.top = (curPosY += n) + 'px';
+			if ((curPosX >= width ) || (curPosY >= height)) {
+			document.getElementById('img1').style.left = 0 + 'px';
+			document.getElementById('img1').style.top = 0 + 'px';
+			curPosX = 0;
+			curPosY = 0;
+			}
+		}
+		
+		function cir() { 
+			f += s; // приращение аргумента
+			document.getElementById('img2').style.left = l  + radius * Math.sin(f)  + 'px';
+			document.getElementById('img2').style.top =  t  + radius * Math.cos(f) + 'px';
+		}
+		
+		var log = 1;
+		function ondig() {
+			if (log == 1){
+				diagonal = setInterval(dig, 50);
+				document.getElementById('but1').value = 'Стоп';
+				document.getElementById('but1').style.background = '#ff0000';
+				log = 0;				
+			}else{
+				clearInterval(diagonal);
+				document.getElementById('but1').value = 'По диагонали';
+				document.getElementById('but1').style.background = '#00ff00';
+				log = 1;
+			}
+		}
+		
+		var log1 = 1;
+		function oncir() {
+			if (log1 == 1){
+				circle = setInterval(cir, 20);
+				document.getElementById('but2').value = 'Стоп';
+				document.getElementById('but2').style.background = '#ff0000';
+				log1 = 0;				
+			}else{
+				clearInterval(circle);
+				document.getElementById('but2').value = 'По кругу';
+				document.getElementById('but2').style.background = '#00ff00';
+				log1 = 1;
+			}
+		}
+	</script>
+	
+	<img id="img1" src="1.jpg">	
+	<img id="img2" src="2.jpg" style="top: 50%; left: 50%;">	
+	
+	<FORM NAME="ZZ" align="center">
+		<INPUT TYPE="BUTTON" VALUE="По диагонали" onClick="ondig()" id="but1" class="but">
+		<INPUT TYPE="BUTTON" VALUE="По кругу" onClick="oncir()" id="but2" class="but">
+	</FORM>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+    public partial class Form1 : Form
+    {
+        private double x1, y1, x2, y2;
+        private int I1, J1, I2, J2, n;
+        List<region> regions = new List<region>(0);
+        int NumReg = -1;
+        Point XYMin;
+        Point XYMax;
+        Point[] XYKontur;
+        Point[] XYKonturWork;
+        Random MyRandom = new Random();
+        . . . . . . . . . . .
+        public class region
+        {
+            public string region_name;
+            public Double area;
+            public int population;
+            public string region_center;
+            public Point center_coords;
+            public Point[] XYKonturReg;
+            public Point XYMin;
+            public Point XYMax;
+            public Color ColorReg;
+        }
+        . . . . . . . . . . .
+    }	

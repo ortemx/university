@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>STEPEN2 2</title>
+    </head>
+    <body><center>
+    <script type="text/javascript">
+		var a, b, f;
+		a = Number(prompt("a=", -3));
+		b = Number(prompt("b=", 2));
+		//a = -3;
+		//b = 2;
+		
+		document.write("<table border = 'solid px' cellspacing = '0px' >");		
+			document.write("<tr > <td> <font size=3  face=Arial> <h1> x </h1> </td>");
+			document.write(" <td align = center> <font size=3  face=Arial> <h1> sin(x)/x </h1> </font> </td> </tr>");
+		for ( var i = a ; i<=b; i++){
+			f = Math.sin(i)/i;
+			if ( isNaN(f)){
+				document.write("<tr> <td> <font size=5 face=Arial>", i,"</td>")
+				document.write("<td align = center> <font size=5 color=red face=Arial> Нет Решения </tr>");
+			}
+			else{			
+			document.write("<tr> <td align = center> <font size=5 face=Arial>");
+			document.write(i, "</td>");
+			document.write("<td align = center> <font size=5 face=Arial >", f , "</font> </td> </tr>" );
+			}			
+		}
+		document.write("</table >" );
+    </script>	
+    </body>
+</html>

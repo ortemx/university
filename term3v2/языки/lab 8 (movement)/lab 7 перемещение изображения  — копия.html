@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lab 7</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<img src="MichaelKrug.jpg" id="MichaelKrug" class="MichaelKrug">
+	<img src="Gazel.jpg" id="Gazel" class="Gazel">
+	<script type="text/javascript">
+	let Radius = 200;
+	let theta = 0;
+	let theta_vel = 0;
+	let k = 10;
+	let HasBoderReached = false;
+	let IsSpinning = false;
+	let IsMoving = false;
+	let Width = window.innerWidth * 0.9;
+	let Heigth = window.innerHeight * 0.9;	
+	let ImageOfMichaelKrug = document.getElementById("MichaelKrug");
+	let ImageOfGazel = document.getElementById("Gazel");
+
+	ImageOfMichaelKrug.style.top = Heigth / 2 + Radius + 'px';
+	ImageOfMichaelKrug.style.left = Width / 2 + 'px';
+	
+
+	function Moving() {
+		let ratio = Width / Heigth;
+		let x = 100;
+		let y = 50;
+		if (!HasBoderReached){
+			k += 10;
+			if (x + 200 + k * ratio > Width){
+				HasBoderReached = true;
+			}
+		}
+		else {
+			k -= 10;
+			if (k == 0){
+				HasBoderReached = false;
+			}			
+		}
+		ImageOfGazel.style.top =  (y + k) + 'px';
+		ImageOfGazel.style.left = (x + k * ratio)  + 'px';
+
+		console.log("x, y, k= ", x , y, k)
+	}
+
+
+	function Spinning() {	
+	    theta += theta_vel;
+		theta_vel += 0.01;		
+        x = Heigth / 2 + Radius * Math.cos(theta);
+		y = Width / 2 + Radius * Math.sin(theta);
+
+        console.log(theta, theta_vel)
+        ImageOfMichaelKrug.style.top = x + 'px';
+        ImageOfMichaelKrug.style.left = y + 'px';
+	}
+
+
+	function Button1ChangeValue() {
+		if (IsSpinning) {
+			clearInterval(MovingProcess);
+			Form1.Button1.value =  "start";
+			IsSpinning = false;
+			theta_vel = 0;
+		}
+		else {
+			MovingProcess = setInterval("Spinning ()", 33.33)
+			Form1.Button1.value = "stop";
+			IsSpinning = true;
+		}
+	}
+
+	
+	function Button2ChangeValue() {
+		if (IsMoving) {
+			clearInterval(SpinningProcess);
+			Form1.Button2.value =  "start";
+			IsMoving = false;
+
+		}
+		else {
+			SpinningProcess = setInterval("Moving ()", 33.33)
+			Form1.Button2.value = "stop";
+			IsMoving = true;
+		}
+	}		
+	</script>
+</head>
+<body>
+	<form NAME=Form1>
+		<input type="button" class="button b1" name="Button1" value="start"
+		onclick="Button1ChangeValue();">
+		<input type="button" class="button b2" name="Button2" value="start"
+		onclick="Button2ChangeValue()">	
+	</form>
+</body>
+</html>

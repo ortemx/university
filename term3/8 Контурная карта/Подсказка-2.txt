@@ -1,0 +1,13 @@
+        Random MyRandom = new Random();
+
+        public Color genRandomColor()
+        {
+            int red = MyRandom.Next(156)+100;
+            int green = MyRandom.Next(156)+100;
+            int blue = MyRandom.Next(156)+100;
+            return Color.FromArgb(red, green, blue); ;
+        }
+
+
+...
+regions[i].ColorReg = genRandomColor();

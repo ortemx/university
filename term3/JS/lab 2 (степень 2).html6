@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+    <title>STEPEN2 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
+    </head>
+    <body bgcolor = 523f61 style="
+     font-family:  'Source Sans Pro', sans-serif; 
+     font-size: 40px;
+     color: #f7a725;
+     padding: 10px;"><center>
+    <table  >
+    	<tr border=5px  bgcolor = 775b8c> 
+            <td > Степень </td>
+    		<td > Результат </td> 
+        </tr>
+    <script type="text/javascript">
+		var doc = document;
+		for ( var i = 0; i<=20; i++){          
+			doc.write("<tr bgcolor = 775b8c > <td align = center>", 2 , "<sup>", i, "</sup></td>");
+			doc.write("<td align = center>",
+			Math.pow(2,i), "</td> </tr>" );			
+		}
+    </script>
+    </table >	
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> lab 8	</title>
+	<link rel="stylesheet" href="style.css">	
+</head>
+<body>	
+	<form name="FM" id = "fm">
+		<SELECT name="sel" class ="Sel" id="select"
+		onchange="draw(document.getElementById('select'))">
+			<option selected VALUE="1">1
+			<option VALUE="2">2
+			<option VALUE="3">3
+			<option VALUE="4">4
+			<option VALUE="5">5
+		</SELECT>		
+	</form>		
+	<script type="text/javascript">
+		var pic = new Array ();
+		pic["1"] = new Image();
+		pic["1"].scr = "1.jpg";
+		pic["2"] = new Image();
+		pic["2"].scr = "2.jpg";
+		pic["3"] = new Image();
+		pic["3"].scr = "3.jpg";
+		pic["4"] = new Image();
+		pic["4"].scr = "4.jpg";
+		pic["5"] = new Image();
+		pic["5"].scr = "5.jpg";
+		var index = 0;
+		fm.appendChild(pic[index+1]);
+		function draw(select) {
+			fm.removeChild(pic[index+1])
+			index = select.selectedIndex;
+			var index1 = select.options[select.selectedIndex].value;
+			fm.appendChild(pic[index1])
+		}
+	</script>
+</body>
+</html>

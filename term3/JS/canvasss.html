@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<title>TRIANGLE 2.0</title>
+<meta http-equiv="Content-Type"
+      content="text/html; charset='utf-8'">
+</head>
+<body bgcolor="#3c596e"><center> 
+    <canvas id="test" width="800" height="800"></canvas>
+    <script type="text/javascript">
+        var canvas = document.getElementById("test");
+        var ctx = canvas.getContext('2d');
+        var w = canvas.width;
+        var h = canvas.height;
+        drawtriangle(ctx, 0, h/2 + Math.sin(Math.PI/3) * w/2, w,);
+
+    function divide(ctx, x, y, l, lvl, max){
+    	if (lvl == max){
+    		drawtriangle(ctx, x, y, l);
+    	}
+    	else{
+    		divide(ctx, x, y, l/2, lvl+1, max);
+    		divide(ctx, x+l/2, y, l/2, lvl+1, max);
+    		divide(ctx, x+l/4, y-Math.sin(Math.PI/3) * l/2, l/2, lvl+1, max);
+    	}
+    }
+    function drawtriangle(ctx, x, y, l) {
+		ctx.beginPath();
+		ctx.lineWidth = 5;
+		ctx.strokeStyle = "#67c1f5";
+		ctx.moveTo(x, y);  
+		ctx.lineTo(x+l/2, y-Math.sin(Math.PI/3) * l );
+	    ctx.lineTo(x+l, y);    
+	    ctx.closePath();
+	    ctx.stroke();
+    }
+    function Draw(form){       
+        n = prompt('введите глубину рекурсии', 3);
+        divide(ctx, w/2 - w/2, h/2 + Math.sin(Math.PI/3) * w/2, w, 1, n);	    
+    }
+    //Draw(this.form);
+    </script>
+<p>
+  
+</p>
+<script type="text/javascript">
+	
+</script> 
+</body>
+</html>

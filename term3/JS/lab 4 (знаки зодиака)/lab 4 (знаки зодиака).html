@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+    <head>
+    <title>signs</title>
+    <link rel="stylesheet" href="lab 42.css">
+    </head>
+    <body bgcolor=98578F><center>
+    <script type="text/javascript">
+        document.write("<font size=3  face=Arial> <h1>знаки зодиака</h1> </font>");
+        function cd(m){
+            switch (m) {
+                case '2':
+                    document.getElementById('no30').style.display = 'none';
+                    document.getElementById('no31').style.display = 'none';
+                    break;
+                case '4':
+                case '6':
+                case '9':
+                case '11':
+                    document.getElementById('no').style.display = '';
+                    document.getElementById('no30').style.display = '';
+                    document.getElementById('no31').style.display = 'none';
+                break;
+                default:
+                    document.getElementById('no').style.display = '';
+                    document.getElementById('no30').style.display = '';
+                    document.getElementById('no31').style.display = '';
+            } 
+        }
+        function sign(m, d) {
+            if ((((m == 4) || (m == 6) || (m == 9) || (m == 11)) && (d == 31)) || 
+                ((m == 2) && (d > 29)))
+                return 'некоректная дата';
+            else {
+                var data = m + d;                
+                if (data > 119 && data < 219)
+                    return 'водолей'
+                else if (data > 218 && data < 321)
+                    return 'рыбы'
+                else if (data > 320 && data < 422)
+                    return 'овен'
+                else if (data > 421 && data < 522)
+                    return 'телец'
+                else if (data > 521 && data < 622)
+                    return 'близнецы'
+                else if (data > 621 && data < 723)
+                    return 'рак'
+                else if (data > 722 && data < 824)
+                    return 'лев'
+                else if (data > 823 && data < 923)
+                    return 'дева'
+                else if (data > 922 && data < 1023)
+                    return 'весы'
+                else if (data > 1022 && data < 1122)
+                    return 'скорпион'
+                else if (data > 1121 && data < 1222)
+                    return 'стрелец'
+                else 
+                    return 'козерог'                
+            }          
+        }
+    </script>
+    <FORM NAME=F1>
+        <SELECT NAME="MOUNTH" >
+            <OPTION VALUE="1">ЯНВАРЬ</OPTION>
+            <OPTION VALUE="2">ФЕВРАЛЬ</OPTION>
+            <OPTION VALUE="3">МАРТ</OPTION>
+            <OPTION VALUE="4">АПРЕЛЬ</OPTION>
+            <OPTION VALUE="5">МАЙ</OPTION>
+            <OPTION VALUE="6">ИЮНЬ</OPTION>
+            <OPTION VALUE="7">ИЮЛЬ</OPTION>
+            <OPTION VALUE="8">АВГУСТ</OPTION>
+            <OPTION VALUE="9">СЕНТЯБРЬ</OPTION>
+            <OPTION VALUE="10">ОКТЯБРЬ</OPTION>
+            <OPTION VALUE="11">НОЯБРЬ</OPTION>
+            <OPTION VALUE="12">ДЕКАБРЬ</OPTION>
+        </SELECT>
+        <SELECT NAME="DAY" class = "select">
+            <script type="text/javascript">
+                for (var i = 1; i<30; i++){
+                    if (i<10)
+                        document.write('<OPTION VALUE="'+0+i+'">'+i+'</OPTION>');
+                    else 
+                        document.write('<OPTION VALUE="'+i+'">'+i+'</OPTION>');
+                }
+            </script>
+            <option value="30" id="no30">30</option>
+            <option value="31" id="no31">31</option>
+        </SELECT>      
+        <INPUT TYPE="BUTTON" value="ОПРЕДЕЛИТЬ ЗНАК ЗОДИАКА" onClick="F1.T.value = sign(F1.MOUNTH.value, F1.DAY.value)"></INPUT>
+        <INPUT TYPE="text" VALUE="" NAME="T" size = 20 readonly></INPUT>
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8"></svg>
+        <path fill="#000" fill-rule="evenodd" class="cls-1" d="M8,0L4.141,6.993,0.012,0.156Z"/></svg>
+    </FORM>
+    </body>
+</html>

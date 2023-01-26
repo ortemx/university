@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<title>TRIANGLE and RANDOM</title>
+<meta http-equiv="Content-Type"
+      content="text/html; charset='utf-8'">
+</head>
+<body><center> 
+    <script type="text/javascript"> 
+
+    function Draw(form){
+        var canvas = document.getElementById("test");
+        var ctx = canvas.getContext('2d');
+        var n;
+        ax = 0; 
+        ay = 0;
+        bx = canvas.width;
+        by = 0;
+        cx = canvas.height/2;
+        cy = canvas.height/2*1.141;
+        zx = 0;
+        zy = 0;
+        ctx.beginPath();
+        for (var i = 0; i < 10000; i++) {
+        	n = Math.floor(Math.random() * (3)) + 1;
+        	if (n == 1){
+        		ctx.fillStyle = '#dea659';
+        		zx = (ax + zx)/2;
+        		zy = (ay + zy)/2;
+        	}
+        	else if (n == 2) {
+        		ctx.fillStyle = '#5692c7';
+        		zx = (bx + zx)/2;
+        		zy = (by + zy)/2;
+        	}
+        	else {
+        		ctx.fillStyle = '#c4319d';
+        		zx = (cx + zx)/2;
+        		zy = (cy + zy)/2;
+        	}
+        	ctx.arc(zx, zy, 1, 0, 2 * Math.PI, true);
+        	ctx.closePath();     	
+        }
+        
+        ctx.fill();
+    }
+    </script>
+<p>
+  <canvas id="test" width="1800" height="900"></canvas>
+</p>
+<script type="text/javascript">
+	Draw(this.form);
+</script> 
+</body>
+</html>

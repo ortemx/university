@@ -1,0 +1,51 @@
+body {
+	background: #212121;
+  margin: 1em auto;
+	color: #bb4870;
+	font-family:  'Source Sans Pro', sans-serif;
+	font-size: 40px;
+}
+
+.button {
+  user-select: none;
+  border: 1px solid transparent;
+  color: #212121;
+  border-radius: 30px;
+  font-family:  'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  width: 280px;
+  height: 40px;  
+  outline: 0;
+  background-color: #f29d4e;
+  cursor:pointer
+}
+
+.button:active {
+  background: #db893b;
+  color: #EEE;
+}
+
+.text1 {
+ 	border: 1px solid #f29d4e;
+  outline: 0;
+	width: 280px;
+	height: 40px;
+	color: #bb4870;
+	font-family:  'Source Sans Pro', sans-serif;
+	font-size: 40px;
+  text-align: center;
+ 	background-color: transparent;
+}
+
+.text2 {
+  border: 1px solid #69d980;
+  outline: 0;
+  width: 280px;
+  height: 40px;
+  color: #bb4870;
+  font-family:  'Source Sans Pro', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  background-color: #404040;
+}

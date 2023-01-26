@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="fael_lazarus.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="fael_lazarus"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="8"/>
+        <CursorPos X="23" Y="27"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="fael_lazarus.lpr"/>
+        <Caret Line="23" Column="23" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="fael_lazarus.lpr"/>
+        <Caret Line="7" Column="25" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="fael_lazarus.lpr"/>
+        <Caret Line="17" Column="41" TopLine="3"/>
+      </Position3>
+      <Position4>
+        <Filename Value="fael_lazarus.lpr"/>
+        <Caret Line="19" Column="29" TopLine="3"/>
+      </Position4>
+      <Position5>
+        <Filename Value="fael_lazarus.lpr"/>
+        <Caret Line="29" Column="24" TopLine="9"/>
+      </Position5>
+      <Position6>
+        <Filename Value="fael_lazarus.lpr"/>
+        <Caret Line="15" Column="62" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="fael_lazarus.lpr"/>
+        <Caret Line="27" Column="22" TopLine="7"/>
+      </Position7>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

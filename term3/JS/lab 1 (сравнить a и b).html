@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Калькулятор</title>
+	</head>
+	<body>
+	<script type="text/javascript">	
+		var a,b,c,pass, d;
+		a = Number(prompt("a="));
+		b = Number(prompt("b="));
+		pass = 1111;
+		alert("enter pass");
+		d = 1;
+		while (d == 1){
+			c = Number(prompt("pass"));
+			if (c == pass){
+				if (a == b)
+					alert ("equal")
+				else
+				(a>b) ? alert (a + " is bigger") :	alert (b + " is bigger");
+				break;
+			}
+			else {
+			alert("wrong pass");
+			d = confirm("again?");
+			}
+			if (!d) 
+				alert ("ok");
+		}
+	</script>
+	</body>
+</html>
