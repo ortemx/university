@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "privet", "privet\privet.vbproj", "{6E842892-EB32-47CB-A6A7-EA17BBFCE7D6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "привет", "привет\привет.vbproj", "{44D5AE69-5547-44E0-96A7-6F8841ADB09F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E842892-EB32-47CB-A6A7-EA17BBFCE7D6}.Debug|x86.ActiveCfg = Debug|x86
+		{6E842892-EB32-47CB-A6A7-EA17BBFCE7D6}.Debug|x86.Build.0 = Debug|x86
+		{6E842892-EB32-47CB-A6A7-EA17BBFCE7D6}.Release|x86.ActiveCfg = Release|x86
+		{6E842892-EB32-47CB-A6A7-EA17BBFCE7D6}.Release|x86.Build.0 = Release|x86
+		{44D5AE69-5547-44E0-96A7-6F8841ADB09F}.Debug|x86.ActiveCfg = Debug|x86
+		{44D5AE69-5547-44E0-96A7-6F8841ADB09F}.Debug|x86.Build.0 = Debug|x86
+		{44D5AE69-5547-44E0-96A7-6F8841ADB09F}.Release|x86.ActiveCfg = Release|x86
+		{44D5AE69-5547-44E0-96A7-6F8841ADB09F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

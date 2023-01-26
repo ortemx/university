@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.0\bin\x86_64-win64\fpc.exe" Date="1231859847"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FiZ:\lasarus\lib\x86_64-win64 -FuZ:\lasarus\ -FUZ:\lasarus\lib\x86_64-win64\ tert4tt.pas"/>
+  <Complete Value="False"/>
+</CONFIG>
