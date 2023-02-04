@@ -6,22 +6,84 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<title></title>
 	<script type="text/javascript">
+		function getRandomInt() {
+			return Math.floor(Math.random() * 255);
+		}
+
+
+		function writeHexColor(){
+			let red_hex = Number(document.getElementById('slider_red').value).toString(16);
+			let green_hex = Number(document.getElementById('slider_green').value).toString(16);
+			let blue_hex = Number(document.getElementById('slider_blue').value).toString(16);
+			let hex_color = "#" + red_hex + green_hex + blue_hex;
+			document.getElementById('hex').innerHTML = hex_color;
+		}
+ 
+ 		
+ 		function updatePalette() {
+			let red = document.getElementById('slider_red').value;
+			let green = document.getElementById('slider_green').value;
+			let blue = document.getElementById('slider_blue').value; 
+			let color = "rgb(" + red + "," + green + "," + blue + ")";
+
+			let palette = document.getElementById("palette")
+			console.log(color);	
+			palette.style.backgroundColor = color
+		}
+
+
 		function setValueOnTextBox(value){
-			if (value == red_value){
-				document.getElementById('red_value_text').value = document.getElementById('red_value').value
+			if (value == 'red'){
+				document.getElementById('red_value_text').value = document.getElementById('slider_red').value;
 			} 
-			else if (value == green_value){
-				document.getElementById('green_value_text').value = document.getElementById('green_value').value
+			else if (value == 'green'){
+				document.getElementById('green_value_text').value = document.getElementById('slider_green').value;
 			} else {
-				document.getElementById('blue_value_text').value = document.getElementById('blue_value').value				
+				document.getElementById('blue_value_text').value = document.getElementById('slider_blue').value;	
 			}
-			var red = document.getElementById('red_value').value;
-			var green = document.getElementById('green_value').value;
-			var blue = document.getElementById('blue_value').value;
+			writeHexColor();
+			updatePalette();
+		}
+
+
+		function setValueOnSlider(color){
+			if (color == 'red'){
+				let value = document.getElementById('red_value_text').value;
+				if (value > 255){
+					document.getElementById('red_value_text').value = 255;
+					document.getElementById('slider_red').value = 255;
+				} else {
+					document.getElementById('slider_red').value = value;
+				}
+			} 
+			else if (color == 'green'){
+				let value = document.getElementById('green_value_text').value;
+				if (value > 255){
+					document.getElementById('green_value_text').value = 255;
+					document.getElementById('slider_green').value = 255;
+				} else {
+					document.getElementById('slider_green').value = value;
+				}
+			} else {
+				let value = document.getElementById('blue_value_text').value;
+				if (value > 255){
+					document.getElementById('blue_value_text').value = 255;
+					document.getElementById('slider_blue').value = 255;
+				} else {
+					document.getElementById('slider_blue').value = value;
+				}
+			}
 			
-			var color = "rgb(" + red + "," + green + "," + blue + ")";
-			console.log(color);
-			document.getElementById('palette').style.backgroundColor = color;
+			writeHexColor();
+			updatePalette();
+		}
+
+
+		function setInitialValues(){
+			document.getElementById('slider_red').value = getRandomInt();
+			document.getElementById('slider_green').value = getRandomInt();
+			document.getElementById('slider_blue').value = getRandomInt();
+			console.log(document.getElementById('slider_red').value, document.getElementById('slider_green').value, document.getElementById('slider_blue').value)
 		}
 	</script>
 	<style type="text/css">
@@ -32,30 +94,35 @@
 			width : 50px;
 		}
 		.canvas{
-			width : 50px;
-			height: 50px;
-			background-color: red;
+			width : 100px;
+			height: 100px;
 		}
 	</style>
 </head>
-<body style="font-family:'Montserrat', sans-serif; ">	
+<body style="font-family:'Montserrat', sans-serif;">	
 	<div class="slidecontainer">
 		красный
-  		<input type="range" min="0" max="255" value="26" class="slider" id="red_value" oninput="setValueOnTextBox(red_value)">
-  		<input type="text"  value=26 id="red_value_text" class="textbox">
+  		<input type="range" min="0" max="255" class="slider" id="slider_red" oninput="setValueOnTextBox('red')">
+  		<input type="text"  id="red_value_text" class="textbox" onchange="setValueOnSlider('red')">
 	</div>	
 	<div class="slidecontainer">
 		зеленый
-  		<input type="range" min="0" max="255" value="26" class="slider" id="green_value" oninput="setValueOnTextBox(green_value)">
-  		<input type="text"  value=26 id="green_value_text" class="textbox">
+  		<input type="range" min="0" max="255" class="slider" id="slider_green" oninput="setValueOnTextBox('green')">
+  		<input type="text"  id="green_value_text" class="textbox" onchange="setValueOnSlider('green')">
 	</div>	
 	<div class="slidecontainer">
 		синий
-  		<input type="range" min="0" max="255" value="26" class="slider" id="blue_value" oninput="setValueOnTextBox(blue_value)">
-  		<input type="text"  value=26 id="blue_value_text" class="textbox">
+  		<input type="range" min="0" max="255" class="slider" id="slider_blue" oninput="setValueOnTextBox('blue')">
+  		<input type="text"  id="blue_value_text" class="textbox" onchange="setValueOnSlider('blue')">
 	</div>
-	<div class="canvas" id="palette">
-		
+	<span id="hex"></span>
+	<div class="canvas" id="palette">		
 	</div>
+	<script type="text/javascript">
+		setInitialValues();
+		setValueOnTextBox('red');
+		setValueOnTextBox('green');
+		setValueOnTextBox('blue');
+	</script>
 </body>
 </html>
