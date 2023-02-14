@@ -1,27 +1,26 @@
 """
-lab_1 on IB
+lab_2 on IB
 """
 import random as r
 
 
-def print_table(table, row_count, col_count):
+def print_table(table, row_num, col_num):
     """
     print cipher-table
     """
     print("  ", end='')
-    for i in range(col_count):
+    for i in range(col_num):
         print("| ", i + 1, " ", sep="", end="")
     print()
 
-    for i in range(row_count):
+    for i in range(row_num):
         print(i+1, end='')
-        for j in range(col_count):
+        for j in range(col_num):
             print(" |", table[i][j], end="")
         print()
 
 
-INPUT_STR: str = "Конышев_Артем_Евгеньевич_302_1"
-INPUT_STR = INPUT_STR.upper()
+INPUT_STR: str = "Конышев_Артем_Евгеньевич_302_1".upper()
 
 print("input:", INPUT_STR)
 
@@ -46,7 +45,7 @@ for i in range(ROW_COUNT):
             table[i].append(ALPHABET[count])
         count += 1
 
-# print_table(table, ROW_COUNT, COL_COUNT)
+print_table(table, ROW_COUNT, COL_COUNT)
 
 ouput_str: str = ''
 for letter in INPUT_STR:

@@ -105,16 +105,39 @@ def decrypt(encrypted_str: str, row_num, col_num, mod: str):
 
     str_index = 0
 
-    for i in range(row_num):
-        table.append([])
+    if mod in ["lr-tb", "lr-bt", "rl-tb", "rl-bt"]:
+        for i in range(row_num):
+            table.append([])
+            for j in range(col_num):
+                table[i].append(encrypted_str[str_index])
+                str_index += 1
+    elif mod in ["tb-lr", "tb-rl", "bt-lr", "bt-rl"]:
+        for i in range(row_num):
+            table.append([])
+            for j in range(col_num):
+                table[i].append("_")
+
         for j in range(col_num):
-            table[i].append(encrypted_str[str_index])
-            str_index += 1
+            for i in range(row_num):
+                table[i][j] = encrypted_str[str_index]
+                str_index += 1
 
     print_table(table, row_num, col_num)
 
-    decrypted_str = read_table(table, row_num, col_num, mod)
-
+    decrypted_str = ""
+    if mod in ["lr-tb", "lr-bt", "rl-tb", "rl-bt"]:
+        decrypted_str = read_table(table, row_num, col_num, mod)
+    elif mod == "tb-lr":
+        decrypted_str = read_table(table, row_num, col_num, "lr-tb")
+    elif mod == "tb-rl":
+        decrypted_str = read_table(table, row_num, col_num, "rl-tb")
+    elif mod == "bt-lr":
+        decrypted_str = read_table(table, row_num, col_num, "lr-bt")
+    elif mod == "bt-rl":
+        decrypted_str = read_table(table, row_num, col_num, "rl-bt")
+    else:
+        print("не верно передан маршрут считывания")
+        return
     return decrypted_str
 
 
@@ -122,7 +145,7 @@ string: str = "Конышев_Артём_Евгеньевич_302_1"
 string = "Шифр_табличной_маршрутной_перестановки"
 print("Входное слово:", string)
 
-mods = {
+routes = {
     0: "lr-tb",
     1: "lr-bt",
     2: "rl-tb",
@@ -133,6 +156,6 @@ mods = {
     7: "bt-rl"
 }
 
-encrypted_string = encrypt(string, 5, 9, mods[7])
+encrypted_string = encrypt(string, 5, 9, routes[7])
 print("Зашифрованное слово:", encrypted_string)
-# print("Расшифрованное слово:", decrypt(encrypted_string, 5, 9, mods[1]))
+print("Расшифрованное слово:", decrypt(encrypted_string, 5, 9, routes[7]))
