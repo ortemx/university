@@ -1,7 +1,7 @@
 """
-lab_2 on IB
+lab_2 on IB 'Polybius square'
 """
-import random as r
+import random
 
 
 def print_table(table, row_num, col_num):
@@ -20,41 +20,83 @@ def print_table(table, row_num, col_num):
         print()
 
 
+def make_cipher_table(row_num, col_num):
+    """
+    создает и заполняет таблицу символами алфавита
+    """
+    alphabet = list("АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ_0123456789")
+    random.shuffle(alphabet)
+    symbols = ''.join(alphabet)
+
+    if row_num * col_num < len(symbols):
+        print("Размеры таблицы малы, кол-во ячеек должно быть >= ", len(symbols))
+        return
+
+    str_index: int = 0
+
+    table = []
+
+    for i in range(row_num):
+        table.append([])
+        for j in range(col_num):
+            if str_index < len(symbols):
+                table[i].append(symbols[str_index])
+            else:
+                # "\u00A0" - nbsp
+                table[i].append("\u00A0")
+            str_index += 1
+
+    return table
+
+
+def encrypt(table, input_str: str):
+    """
+    зашифровка
+    """
+
+    row_num = len(table)
+    col_num = len(table[0])
+
+    # print_table(table, row_num, col_num)
+
+    encrypted_word: str = ''
+    for letter in input_str:
+        for i in range(row_num):
+            for j in range(col_num):
+                if letter == table[i][j]:
+                    encrypted_word += str(i + 1) + str(j + 1)
+        encrypted_word += "_"
+
+    return encrypted_word[:-1]
+
+
+def decrypt(table, encrypted_str: str):
+    """
+    расшифровка входной(зашифрованной) строки
+    """
+
+    indexes_of_symbols = encrypted_str.split("_")
+
+    row_num = len(table)
+    col_num = len(table[0])
+
+    decrypted_str = ""
+    for letter in indexes_of_symbols:
+        for i in range(row_num):
+            for j in range(col_num):
+                if i == int(letter[0]) - 1 and j == int(letter[1]) - 1:
+                    decrypted_str += table[i][j]
+
+    return decrypted_str
+
+
 INPUT_STR: str = "Конышев_Артем_Евгеньевич_302_1".upper()
+print("ВХОДНОЕ СЛОВО: ", INPUT_STR)
 
-print("input:", INPUT_STR)
+cipher_table = make_cipher_table(5, 9)
 
-alphabet: str = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ_0123456789"
-l = list(alphabet)
-r.shuffle(l)
-ALPHABET = ''.join(l)
+ENCRYPTED_STRING = encrypt(cipher_table, INPUT_STR)
+print("ШИФРОГРАММА:", ENCRYPTED_STRING)
 
-count:int = 0
-
-ROW_COUNT:int = 6
-COL_COUNT:int = 8
-table = []
-
-
-for i in range(ROW_COUNT):
-    table.append([])
-    for j in range(COL_COUNT):
-        if count >= len(ALPHABET):
-            table[i].append("\u00A0")
-        else:
-            table[i].append(ALPHABET[count])
-        count += 1
-
-print_table(table, ROW_COUNT, COL_COUNT)
-
-ouput_str: str = ''
-for letter in INPUT_STR:
-    for i in range(ROW_COUNT):
-        for j in range(COL_COUNT):
-            if letter == table[i][j]:
-                # print(i + 1, j + 1, sep='', end='')
-                ouput_str += str(i + 1) + str(j + 1)
-    # print(end=' ')
-    ouput_str += "_"
-
-print("output:", ouput_str)
+DECRYPTED_STRING = decrypt(cipher_table, ENCRYPTED_STRING)
+print("РАСШИФРОВАННОЕ СЛОВО:", DECRYPTED_STRING)

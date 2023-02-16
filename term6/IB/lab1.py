@@ -142,7 +142,7 @@ def decrypt(encrypted_str: str, row_num, col_num, mod: str):
 
 
 string: str = "Конышев_Артём_Евгеньевич_302_1"
-string = "Шифр_табличной_маршрутной_перестановки"
+# string = "Шифр_табличной_маршрутной_перестановки"
 print("Входное слово:", string)
 
 routes = {
