@@ -1,0 +1,14 @@
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: C464-FE5F
+
+ Содержимое папки C:\Windows
+
+19.02.2023  17:23    <DIR>          assembly
+19.02.2023  13:31    <DIR>          Fonts
+19.02.2023  13:31    <DIR>          ImmersiveControlPanel
+07.12.2019  12:31    <DIR>          Media
+19.02.2023  17:23    <DIR>          Microsoft.NET
+07.12.2019  12:14    <DIR>          Offline Web Pages
+04.11.2022  23:33    <DIR>          PrintDialog
+               0 файлов              0 байт
+               7 папок  36 608 450 560 байт свободно
