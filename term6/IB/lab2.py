@@ -57,7 +57,7 @@ def encrypt(table, input_str: str):
     row_num = len(table)
     col_num = len(table[0])
 
-    # print_table(table, row_num, col_num)
+    print_table(table, row_num, col_num)
 
     encrypted_word: str = ''
     for letter in input_str:
@@ -90,7 +90,8 @@ def decrypt(table, encrypted_str: str):
     return decrypted_str
 
 
-INPUT_STR: str = "Конышев_Артем_Евгеньевич_302_1".upper()
+# INPUT_STR: str = "Конышев_Артем_Евгеньевич_302_1".upper()
+INPUT_STR: str = "Шифр_табличной_маршрутной_перестановки".upper()
 print("ВХОДНОЕ СЛОВО: ", INPUT_STR)
 
 cipher_table = make_cipher_table(5, 9)
