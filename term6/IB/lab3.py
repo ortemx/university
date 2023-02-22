@@ -4,7 +4,7 @@ Gamma generator
 
 def get_register(input_str: str) -> list:
     """
-    возвращает регистр для входной строки
+    Возвращает регистр для входной строки
     """
 
     register: list = [0, 0, 0, 0, 0, 0, 0, 0]
@@ -20,7 +20,7 @@ def get_register(input_str: str) -> list:
 
 def get_gamma(register: list, iter_count :int = 0) -> str:
     """
-    получение гаммы регистра до определенного числа итераций
+    Получение гаммы регистра до определенного числа итераций
     """
 
     start_reg: list = register
