@@ -13,8 +13,8 @@ def get_register(input_str: str) -> list:
         bin_value = '{0:0>8b}'.format(ord(letter.encode('1251')))
         for i, value in enumerate(bin_value):
             register[i] ^= int(value)
+        # print(register)
 
-    # print(register)
     return register
 
 
@@ -49,5 +49,4 @@ def get_gamma(register: list, iter_count :int = 0) -> str:
 
 
 INPUT_STR = "Конышев_Артем_Евгеньевич_триста_вторая_группа_первая_подгруппа"
-
 print("gamma: ", get_gamma(get_register(INPUT_STR), 10))
