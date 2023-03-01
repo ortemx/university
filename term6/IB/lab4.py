@@ -3,6 +3,29 @@ Digital signature
 '''
 
 
+class Message:
+    """_summary_
+    """
+
+    text: str
+    key: tuple
+    signature: int
+
+    def __init__(self, text: str, key: tuple, signature: int):
+        self.text = text
+        self.key = key
+        self.signature = signature
+
+    def print(self) -> None:
+        """выводит информацию о сообщении
+        """
+        print(
+            "text:", self.text,
+            "\ne =", self.key[0],
+            "\nn =", self.key[1],
+            "\nsignature =", self.signature
+        )
+
 def get_hash_of_text(text: str) -> int:
     """возвращает хэш код сообщения с
     помощью функции квадратичной свертки
@@ -20,10 +43,12 @@ def get_hash_of_text(text: str) -> int:
         hash_code = pow(hash_code + letter, 2, 255)
         # print(hash_code, letter)
 
+    # return 2082092083021
+    # return 99
     return hash_code
 
 
-def genetare_message(text: str)-> tuple:
+def genetare_message(text: str)-> Message:
     """генерирует сообщения отправителя
     для последущей отправки
 
@@ -38,19 +63,21 @@ def genetare_message(text: str)-> tuple:
     """
 
     e = 5
-    n = 91
+    n = 255
     d = 29
     h = get_hash_of_text(text)
-    s = pow(h, d) % n
+    s = pow(h, d, n)
+    msg = Message(text, (e, n), s)
+    msg.print()
 
-    return (text, (e, n), s)
+    return msg
 
 
-def validation_message(message: tuple) -> bool:
+def validation_message(message: Message) -> bool:
     """проверяет подлиность автора сообщения
 
     Args:
-        message (tuple): сообщение, состоящее из
+        message (Message): сообщение, состоящее из
         текста сообщения,
         открытого ключа отправителя,
         электронной подписи
@@ -59,9 +86,11 @@ def validation_message(message: tuple) -> bool:
         bool: _description_
     """
 
-    hash_of_text:int = get_hash_of_text(message[0])
-    hash_of_key:int = pow(message[2], message[1][0], message[1][1])
+    message.print()
+    hash_of_text:int = get_hash_of_text(message.text)
+    hash_of_key:int = pow(message.signature, message.key[0], message.key[1])
 
+    print(hash_of_text, hash_of_key)
     return hash_of_text == hash_of_key
 
 
