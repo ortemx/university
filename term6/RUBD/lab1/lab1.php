@@ -126,8 +126,7 @@
 			font-size: 26px;
 			text-align: center;
 			background-color: transparent;
-			cursor: pointer;
-		
+			cursor: pointer;		
 		}
 		.canvas{
 			width : 400px;
