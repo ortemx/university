@@ -2,7 +2,6 @@
 Encryption using analytical transformations
 '''
 
-
 from numpy import linalg as la
 from numpy import matmul
 
@@ -24,7 +23,8 @@ def encrypt(matrix: list, text: str) -> str:
 
 def decrypt(matrix: list, encrypt_text: str) -> str:
     A = la.inv(matrix)    
-    vec = [int(num) for num in encrypt_text.split(" ")]
+    # vec = [int(num) for num in encrypt_text.split(" ")]
+    vec = list(map(int, encrypt_text.split(" ")))
     output = ""
     for i in range(len(vec) // 3):
         part_of_vec = map(round, matmul(A, vec[i * 3: (i + 1) * 3]))
