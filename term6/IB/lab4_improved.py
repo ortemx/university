@@ -42,6 +42,8 @@ class Message:
 
     @property
     def signature(self):
+        """цифровая подпись
+        """
         return self.__signature
 
     def print(self) -> None:
@@ -56,6 +58,8 @@ class Message:
 
 
 def is_prime(num: int) -> bool:
+    """проверяет: принадлежность заданного числа простым
+    """
     if num < 2:
         return False
     sqr = int(math.sqrt(num))
@@ -122,7 +126,7 @@ def gen_private_key(public_key: tuple) -> int:
             d += e
         d += 1
 
-    return choices(set_of_d)
+    return choices(set_of_d)[0]
 
 
 def get_hash_of_text(text: str, n: int) -> int:
