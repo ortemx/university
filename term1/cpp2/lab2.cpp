@@ -1,27 +1,24 @@
 #include<iostream>
 #include<cmath>
-#include<windows.h>
+// #include<windows.h>
 #include<iomanip>
 int main()
 {
     using namespace std;
-    SetConsoleOutputCP (1251);
-    SetConsoleCP (1251);
-    double i,s,n,p,x;
+    // SetConsoleOutputCP (1251);
+    // SetConsoleCP (1251);
+    double i, s, n, p, x;
 
-    cout<<" ââåäèòå n=";
-    cin>>n;
-    cout<<" ââåäèòå x=";
-    cin>>x;
-    p=sin(x);
-    s=p;
-    for (i=1;i<=n;i++)
-    {
-        p=sin(p);
-        s=s+p;
+    printf("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ n: ");
+    cin >> n;
+    printf("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ x: ");
+    cin >> x;
+    p = sin(x);
+    s = p;
+    for (i = 1; i <= n; i++) {
+        p = sin(p);
+        s = s + p;
     }
 
-    cout<<"s="<<fixed<<setprecision(2)<<s<<endl;
-
-
+    printf("s = %.2f\n", s);
 }

@@ -1,22 +1,25 @@
 #include<iostream>
 #include<cmath>
-#include<windows.h>
+// #include<windows.h>
 #include<iomanip>
+using namespace std;
+
 int main()
 {
-    using namespace std;
     setlocale(LC_ALL, "rus");
-    double a,b,x,f,v;
-    cout<<" ââåäèòå a=";
-    cin>>a;
-    cout<<" ââåäèòå b=";
-    cin>>b;
-    cout<<" ââåäèòå x=";
-    cin>>x;
-    v=(pow(a,2)*x+exp(-x)*cos(b*x))/(b*x-exp(-x)*sin(b*x)+1);
-    f=exp(2*x)*log(a+x)-pow(b,3*x)*log(b-x);
-    cout<<"v= "<<fixed<<setw(10)<<v<<endl;
-    cout<<"f= "<<fixed<<setw(10)<<f<<endl;
+    double a, b, x, f, v;
+    printf("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ a: ");
+    cin >> a;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ b: ";
+    cin >> b;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ x: ";
+    cin >> x;
+    v = (pow(a, 2) * x + exp(-x) * cos(b * x)) / ( b * x - exp(-x) * sin(b * x) + 1);
+    f = exp(2 * x) * log(a + x) - pow(b, 3 * x) * log(b - x);
+
+    printf("v = %015.10f\nf = %15.10f", v, f);
+    //cout << "v= " << fixed << setw(10) << v << endl;
+    //cout << "f= " << fixed << setw(10) << f << endl;
 
 
 }
