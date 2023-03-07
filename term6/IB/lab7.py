@@ -1,25 +1,39 @@
-"""_
-
-ОННА -НЦОН- -ДЛЬХ- -ФИСН- ИАТЫ КЕЬД
-
-612453
-конфид
-енциал
-ьность
-данныx
-
-"""
+'''
+Encryption using analytical transformations
+'''
 
 
-def matr_by_vec(A, b):
-    b0 = A[0][0] * b[0] + A[0][1] * b[1] + A[0][2] * b[2]
-    b1 = A[1][0] * b[0] + A[1][1] * b[1] + A[1][2] * b[2]
-    b2 = A[2][0] * b[0] + A[2][1] * b[1] + A[2][2] * b[2]
+from numpy import linalg as la
+from numpy import matmul
+
+
+def encrypt(matrix: list, text: str) -> str:
+    if len(text) % 3 == 2:
+        text += "*"
+    elif len(text) % 3 == 1:
+        text += "**"
     
-    return [round(b0), round(b1), round(b2)]
+    output = ""
+    for i in range(len(text) // 3):
+        part_of_text = text[i * 3: (i + 1) * 3]
+        vec = [ord(i) for i in part_of_text]
+        output += ' '.join(map(str, matmul(matrix, vec))) + " "
+    
+    return output[:-1]
 
 
-str = "БЛАГОВЕЩЕНИЕ"
+def decrypt(matrix: list, encrypt_text: str) -> str:
+    A = la.inv(matrix)    
+    vec = [int(num) for num in encrypt_text.split(" ")]
+    output = ""
+    for i in range(len(vec) // 3):
+        part_of_vec = map(round, matmul(A, vec[i * 3: (i + 1) * 3]))
+        for i in part_of_vec:
+            output += chr(i)    
+    return output
+
+
+text = "БЛАГОВЕЩЕНИЕ"
     
 A = [
     [11, 7, -4],
@@ -27,21 +41,8 @@ A = [
     [2, 2, -1]
 ]
 
-A_inv = [
-    [2 / 5,	-1 / 5,	-1],
-    [1 / 5,	-3 / 5,	 1],
-    [6 / 5,	-8 / 5,	-1]
-]
+ENCRYPTED_STRING = encrypt(A, text)
+print(f"Шифрограмма для \"{text}\":\n\t{ENCRYPTED_STRING}")
 
-mes = []
-for i in range(len(str) // 3):
-    temp = str[i * 3: (i+1) * 3]
-    vec = [i for i in temp.encode('cp1251')]
-    print(vec)
-    mes.append(matr_by_vec(A, vec))
-    # print(matr_by_vec(A, vec))
-
-# print(mes)
-
-for i in mes:
-    print(matr_by_vec(A_inv, i))
+DECRYPTED_STRING = decrypt(A, ENCRYPTED_STRING)
+print(f"Дешифровка для \"{ENCRYPTED_STRING}\":\n\t{DECRYPTED_STRING}")
