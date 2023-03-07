@@ -22,8 +22,7 @@ def encrypt(matrix: list, text: str) -> str:
 
 
 def decrypt(matrix: list, encrypt_text: str) -> str:
-    A = la.inv(matrix)    
-    # vec = [int(num) for num in encrypt_text.split(" ")]
+    A = la.inv(matrix)
     vec = list(map(int, encrypt_text.split(" ")))
     output = ""
     for i in range(len(vec) // 3):
