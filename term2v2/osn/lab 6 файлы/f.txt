@@ -1,0 +1,5 @@
+0
+Ivanov Ivan 2 4 3
+Petrov Petr 4 2 5 
+Semenov Semen 5 2 2
+Antonov Anton 5 3 4 
