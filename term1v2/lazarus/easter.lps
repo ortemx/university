@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="easter.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="23" Y="14"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="easter.lpr"/>
+        <Caret Line="21" Column="45"/>
+      </Position1>
+      <Position2>
+        <Filename Value="easter.lpr"/>
+        <Caret Line="25" Column="44" TopLine="5"/>
+      </Position2>
+      <Position3>
+        <Filename Value="easter.lpr"/>
+        <Caret Line="14" Column="38" TopLine="5"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

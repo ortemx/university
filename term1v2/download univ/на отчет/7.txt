@@ -1,0 +1,118 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
+using System.Drawing.Drawing2D;
+
+namespace WindowsFormsApp1
+{
+    public partial class Form1 : Form
+    {
+        Graphics g1, g2, g3, g4;
+        public string[] file = File.ReadAllLines(@"XYKoords.krd");
+        public StreamReader ReadFile = File.OpenText(@"XYKoords.krd");
+        public string Input;
+
+        public Point[] mypoints;
+
+        HatchBrush brush1;
+        HatchBrush brush2;
+        HatchBrush brush3;
+        HatchBrush brush4;
+
+        public Form1()
+        {
+            
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.MouseDown += new MouseEventHandler(Form1_MouseDown); 
+            InitializeComponent();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+      
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            g1 = pictureBox1.CreateGraphics();
+            g2 = pictureBox2.CreateGraphics();
+            g3 = pictureBox3.CreateGraphics();
+            g4 = pictureBox4.CreateGraphics();
+
+            g1.Clear(pictureBox1.BackColor);
+                        
+            string s = "";
+            string count = ReadFile.ReadLine();
+            int n = Convert.ToInt32(count);
+            mypoints = new Point[n];
+            for (int j  = 0; j < n; j++)
+            {
+                s = ReadFile.ReadLine();
+                mypoints[j].X = Convert.ToInt32(s.Substring(0, s.IndexOf(" ")));
+                mypoints[j].Y = Convert.ToInt32(s.Substring(s.IndexOf(" ") + 1));         
+            }
+
+            brush2 = new HatchBrush(HatchStyle.DarkHorizontal, Color.DarkBlue, Color.Red);
+            brush1 = brush2;
+            brush3 = new HatchBrush(HatchStyle.DarkHorizontal, Color.DarkCyan, Color.Black);
+            brush4 = new HatchBrush(HatchStyle.DarkHorizontal, Color.DarkGray, Color.Blue);
+
+            Pen Pen1 = new Pen(Brushes.Black, 1); Pen1.Width = 2; Pen1.Color = Color.Black;
+
+            g2.FillRectangle(brush2, 1, 1, pictureBox2.Width - 2, pictureBox2.Height - 2);            
+            g3.FillRectangle(brush3, 1, 1, pictureBox3.Width - 2, pictureBox3.Height - 2);
+            g4.FillRectangle(brush4, 1, 1, pictureBox4.Width - 2, pictureBox4.Height - 2);
+
+            g1.FillPolygon(brush2, mypoints);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {            
+            
+        }       
+
+        private void pictureBox2_MouseDown(object sender, MouseEventArgs e)
+        {
+            g1.FillPolygon(brush2, mypoints);
+        }
+
+        private void pictureBox3_MouseDown(object sender, MouseEventArgs e)
+        {
+            g1.FillPolygon(brush3, mypoints);
+        }
+
+        private void pictureBox4_MouseDown(object sender, MouseEventArgs e)
+        {
+            g1.FillPolygon(brush4, mypoints);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            base.Capture = false;
+            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
+            this.WndProc(ref m);
+        }
+    }
+}

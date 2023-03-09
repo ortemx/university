@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="qqq.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="qqq"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="51" Y="33"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="qqq.lpr"/>
+        <Caret Line="33" Column="17" TopLine="5"/>
+      </Position1>
+      <Position2>
+        <Filename Value="qqq.lpr"/>
+        <Caret Line="25" Column="9" TopLine="5"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
