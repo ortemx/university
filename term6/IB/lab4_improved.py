@@ -9,7 +9,7 @@ from random import choices
 
 class Message:
     """класс, описывающий структуру сообщения,
-    состоящий их текста, открытого ключа, электронной попдписи
+    состоящего из текста, открытого ключа, электронной попдписи
     """
 
     __text: str
@@ -168,7 +168,7 @@ def validation_message(message: Message) -> bool:
     return hash_of_text == hash_of_key
 
 
-TXT = "azbuka"
+TXT = "Привет, я Артем!"
 msg = Message(TXT)
 
 print("отправитель подтвержден" if validation_message(msg) else "отправитель не подтвержден")
