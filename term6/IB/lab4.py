@@ -211,4 +211,4 @@ def validation_message(message: Message) -> bool:
 txt = ""
 msg = genetare_message(txt)
 
-print("отправитель подтвержден" if validation_message(msg) else "отправитель не подтвержден")
+print("отправитель", " не" if not validation_message(msg) else "", " подтвержден", sep="")
