@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../302_OOP_Konyshev_AE"
+		},
+		{
+			"path": "../../../../402_Plaksin_DV"
+		},
+		{
+			"path": "../static test"
+		},
+		{
+			"path": "C:/OSPanel/domains/localhost/op"
+		},
+		{
+			"path": "C:/OSPanel/domains/localhost/rubd"
+		},
+		{
+			"path": "../../../../other-projects"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"python.autoComplete.extraPaths": [
+		
+		],
+		"python.analysis.extraPaths": [],
+		"files.associations": {
+			"*.embeddedhtml": "html",
+			"ostream": "cpp"
+		}
+	}
+}
