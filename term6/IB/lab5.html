@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab5</title>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+        <script lang = 'javascript'>
+            function preload(){
+                
+            }
+
+            function setup(){
+                createCanvas(windowWidth, windowHeight);                
+                background(255);
+                fill(0);
+                frameRate(60);
+                textFont('consolas');
+                poem = "ПОЧЕМУ СЕГОДНЯ ПЕТЯ"
+                + "\nПРОСЫПАЛСЯ ДЕСЯТЬ РАЗ?"
+                + "\nПОТОМУ ЧТО ОН СЕГОДНЯ"
+                + "\nПОСТУПАЕТ В ПЕРВЫЙ КЛАСС."
+                + "\nОН ТЕПЕРЬ НЕ ПРОСТО МАЛЬЧИК,"
+                + "\nА ТЕПЕРЬ ОН НОВИЧОК."
+                + "\nУ НЕГО НА НОВОЙ КУРТКЕ"
+                + "\nОТЛОЖНОЙ ВОРОТНИЧОК."
+                + "\nОН ПРОСНУЛСЯ НОЧЬЮ ТЕМНОЙ,"
+                + "\nБЫЛО ТОЛЬКО ТРИ ЧАСА."
+                + "\nОН УЖАСНО ИСПУГАЛСЯ,"
+                + "\nЧТО УРОК УЖ НАЧАЛСЯ."
+                + "\nОН ОДЕЛСЯ В ДВЕ МИНУТЫ,"
+                + "\nСО СТОЛА СХВАТИЛ ПЕНАЛ."
+                + "\nПАПА БРОСИЛСЯ ВДОГОНКУ,"
+                + "\nУ ДВЕРЕЙ ЕГО ДОГНАЛ."
+                + "\nЗА СТЕНОЙ СОСЕДИ ВСТАЛИ,"
+                + "\nЭЛЕКТРИЧЕСТВО ЗАЖГЛИ,"
+                + "\nЗА СТЕНОЙ СОСЕДИ ВСТАЛИ,"
+                + "\nА ПОТОМ ОПЯТЬ ЛЕГЛИ."
+                + "\nРАЗБУДИЛ ОН ВСЮ КВАРТИРУ,"
+                + "\nДО УТРА ЗАСНУТЬ НЕ МОГ."
+                + "\nДАЖЕ БАБУШКЕ ПРИСНИЛОСЬ,"
+                + "\nЧТО ТВЕРДИТ ОНА УРОК."
+                + "\nДАЖЕ ДЕДУШКЕ ПРИСНИЛОСЬ,"
+                + "\nЧТО СТОИТ ОН У ДОСКИ"
+                + "\nИ НЕ МОЖЕТ ОН НА КАРТЕ"
+                + "\nОТЫСКАТЬ МОСКВЫ-РЕКИ."
+                + "\nПОЧЕМУ СЕГОДНЯ ПЕТЯ"
+                + "\nПРОСЫПАЛСЯ ДЕСЯТЬ РАЗ?"
+                + "\nПОТОМУ ЧТО ОН СЕГОДНЯ"
+                + "\nПОСТУПАЕТ В ПЕРВЫЙ КЛАСС.";
+
+                cypher = "ворон ворону глаз не выколет".toUpperCase();
+                pos = 0;
+                x = 20;
+                y = 20;
+                theSize = 0;
+                /*
+                for (let i = 0; i < 0; i++){
+                    if (poem[i] == cypher[pos]){
+                        theSize = 23;
+                        textSize(theSize);
+                        pos++;
+                    } else {
+                        theSize = 15;
+                        textSize(theSize);
+                    }
+
+                    if (poem[i] == "\n") {
+                        y += 20;
+                        i++;
+                        x = 20;
+                    }
+                    console.log(poem[i], i, pos, theSize, x, y);
+                    text(poem[i], x, y);
+                    x += 15;
+                }
+                */
+            }
+
+            let i = 0;
+            function draw(){
+                if (i >= poem.length) {
+                    noLoop();
+                } 
+                if (poem[i] == cypher[pos]){
+                    theSize = 22;
+                    textSize(theSize);
+                    pos++;
+                } else {
+                    theSize = 15;
+                    textSize(theSize);
+                }
+
+                if (poem[i] == "\n") {
+                    y += 20;
+                    i++;
+                    x = 20;
+                }
+
+                text(poem[i], x += 15, y);
+                //x += 15;
+                i++;            
+            }
+        </script>
+    </head>
+</html>
