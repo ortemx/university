@@ -1,11 +1,7 @@
-# def y(t):
-#     for i in range(0, t):
-#         if (t + 1 - i * i) / (1 + 1 + i) == int((t + 1 - i * i) / (1 + 1 + i)):
-#             print(i, (t + 1 - i * i) / (1 + 1 + i))
-#         # print(i, (t + 1 - i * i) / (1 + 1 + i))
-            
+'''
+ladder cypher
+'''
 
-# y(21)
 
 def encode_ladder(msg, columns):
     # Инициализируем список списков, чтобы создать "лесенку"
@@ -25,6 +21,7 @@ def encode_ladder(msg, columns):
     for row in ladder:
         encoded_message += ''.join(row)
     return encoded_message
+
 
 def decode_ladder(encoded_msg, columns):
     # Инициализируем список списков для создания лесенки
@@ -57,15 +54,14 @@ def decode_ladder(encoded_msg, columns):
         decoded_msg += ladder[col][row]
     return decoded_msg
 
-msg = 'Hello, world!'
 
-msg = 'ЖТРНТВЛФАЕИБИТБПООПВНЗНЬЕИПИЯАПДСЩЯ'
-columns = 4
-encoded = encode_ladder(msg, columns)
-print(encoded)
-decoded = decode_ladder(encoded, columns)
-print(decoded)
+msg = 'МЕЕЕСНЬМТПЦСНРЧЯТЫЗДОЕЕТОЫЕТИСООВЧЛИГЧСЕСИВКИЕОИЕКЛВСАУОНСЕЛОЬЯПНМБИТСОЙНЗОИЕЕЕНФВДОАЛЕНСМО'
+# columns = 4
+# encoded = encode_ladder(msg, columns)
+# print(encoded)
+# decoded = decode_ladder(encoded, columns)
+# print(decoded)
 
-for i in range(1, len(msg)):
+for i in range(2, len(msg) // 2):
     encoded = decode_ladder(msg, i)
-    print(encoded)
+    print(i, encoded)
