@@ -1,0 +1,1 @@
+Get-Process | Where-Object {$_.Id -gt 100} | Select-Object Name, PriorityClass, ProductVersion, Id | Sort-Object Name | ConvertTo-Html > "task7_output.html"
