@@ -3,5 +3,6 @@
     "python.linting.enabled": true,
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "python.analysis.typeCheckingMode": "off"
 }

@@ -1,74 +1,74 @@
-﻿// linkedlist.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
-#include <iostream>
+﻿#include <iostream>
 
 using namespace std;
 
-struct elem
+struct Elem
 {
     char let;
-    elem* next;
+    Elem *next;
 };
-class list {
-    elem* head;
+
+class List
+{
+    Elem *head;
+
 public:
-    list() { head = NULL; }
-    ~list() {
-        while (head != NULL) {
-            elem* temp = head->next;
+    List() 
+    { 
+        head = NULL;
+    }
+
+    ~List()
+    {
+        while (head != NULL)
+        {
+            Elem *temp = head->next;
             delete head;
             head = temp;
         }
     }
-    void show(elem *beg) {
-        elem* tmp = beg;
-        while (tmp != NULL) {
+
+    void show(Elem *beg)
+    {
+        Elem *tmp = beg;
+        while (tmp != NULL)
+        {
             cout << tmp->let;
             tmp = tmp->next;
         }
         head = beg;
-        //===
     }
-    void add(char let, elem*& head) {
-        elem* temp = new elem;
+
+    void add(char let, Elem *&head)
+    {
+        Elem *temp = new Elem;
         temp->let = let;
         temp->next = temp;
         head->next = temp;
         head = temp;
     }
 };
+
+
+// Реализация класса List
 int main()
 {
     char let = ' ';
-    list lst;
-    elem* head = new elem;
-    elem* beg = head;
-    //head->let = let
+    List lst;
+    Elem *head = new Elem;
+    Elem *beg = head;
     head->next = NULL;
     cout << "enter the word: ";
-    while (let != '.') {
+    while (let != '.')
+    {
         cin >> let;
         if (head->next != NULL) {
+            
         }
-        else {
 
-        }
     }
 
-        
-        lst.add(let, head);
-    
-    //lst.show(beg);
+    lst.add(let, head);
+
+    // lst.show(beg);
 }
-
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
