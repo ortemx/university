@@ -27,9 +27,11 @@ namespace WindowsFormsApp1
         Pen pen = new Pen(Brushes.Black, 2);
         Pen pen2 = new Pen(Brushes.LightGray, 1);
         Brush b1 = Brushes.DarkGray;
+        //public StreamReader ReadFile = File.OpenText(@"RAION0.KRD");
 
         private void button1_Click(object sender, EventArgs e)
-        {            
+        {
+            
             string KontFile = "RAION0.KRD";
             using (StreamReader sr = new StreamReader(KontFile))
             {
@@ -56,21 +58,22 @@ namespace WindowsFormsApp1
                     XYKontur[i].X = x_screen(XYKontur[i].X);
                     XYKontur[i].Y = y_screen(XYKontur[i].Y);                    
                 }
-
                 pen.DashStyle = DashStyle.Solid;
                 graphics = pictureBox1.CreateGraphics();
                 pen.Color = genRandomColor2();
                 graphics.DrawPolygon(pen, XYKontur);
                 graphics.FillPolygon(b1, XYKontur);
             }
+
             KonturReg();
         }
 
         public void KonturReg()
         {
-            int xx, yy, dd;
+            int xx, yy;
             for (int num = 1; num < 24; num++)
-            {                
+            {
+                
                 string filename = "RAION" + num + ".KRD";
                 if (File.Exists(filename))
                 {
@@ -108,12 +111,16 @@ namespace WindowsFormsApp1
                             {
                                 regions[num - 1].XYKonturReg[i].Y = Convert.ToInt32(s.Substring(s.IndexOf(" ") + 1, s.Length - s.IndexOf(" ") - 2));                                
                             }
+
                             //преобразование
                             regions[num - 1].XYKonturReg[i].X = x_screen(regions[num - 1].XYKonturReg[i].X);
-                            regions[num - 1].XYKonturReg[i].Y = y_screen(regions[num - 1].XYKonturReg[i].Y); 
+                            regions[num - 1].XYKonturReg[i].Y = y_screen(regions[num - 1].XYKonturReg[i].Y);                            
+                            //regions[num - 1].center_coords.X = x_screen(regions[num - 1].center_coords.X);
+                            //regions[num - 1].center_coords.Y = x_screen(regions[num - 1].center_coords.Y);
                         }
                     }
                 }
+                //listBox1.Items.Add(regions[num - 1].XYKonturReg);
                 //отрисовка регионов       
                 regions[num - 1].ColorReg = genRandomColor2();
                 Brush b1 = new SolidBrush(regions[num - 1].ColorReg);
@@ -126,15 +133,14 @@ namespace WindowsFormsApp1
             {
                 xx = regions[num - 1].center_coords.X;
                 yy = regions[num - 1].center_coords.Y;
-                dd = regions[num - 1].region_center.Length;
-
+                
                 Rectangle r1 = new Rectangle(xx - 4, yy - 4, 8, 8);
                 graphics.DrawEllipse(pen2, r1);
 
-                Rectangle r2 = new Rectangle(xx - 8 * dd / 2, yy - 20, 8*dd, 15);
-                Brush b2 = new SolidBrush(Color.FromArgb(10, 10, 10));
+                Rectangle r2 = new Rectangle(xx - 30, yy - 20, 7*(regions[num - 1].region_center.Length), 15);
+                Brush b2 = new SolidBrush(Color.FromArgb(200, 200, 200));
                 graphics.FillRectangle(b2, r2);
-                graphics.DrawString(regions[num - 1].region_center, new Font ("Segoe UI", 10, FontStyle.Regular) , new SolidBrush(Color.Black), xx - 7 * dd / 2, yy - 22);
+                graphics.DrawString(regions[num - 1].region_center, SystemFonts.DefaultFont, new SolidBrush(Color.Black), xx - 28, yy - 20);
             }
         }
 
@@ -161,30 +167,9 @@ namespace WindowsFormsApp1
             return Color.FromArgb(red, green, blue);
         }
 
-        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (NumReg == -1) { return; }
-            int x = e.X;  //координата х курсора мыши
-            int y = e.Y;  //координата y курсора мыши
-            //
-            int xx;
-            int yy;
-            for (int i = 0; i < 23; i++)
-            {
-                xx = regions[i].center_coords.X;
-                yy = regions[i].center_coords.Y;
-                if ((((x >= (xx - 6)) && (x <= (xx + 6))) && (y >= (yy - 6))) && (y <= (yy + 6)))
-                {
-                    if  (i != NumReg)
-                    {
-                        NumReg = i;
-                        listBox1.Items.Clear();
-                        listBox1.Items.Add(regions[i].region_name);
-                    }
-                    return;
-                }
-            }
-            NumReg = - 1;
+
         }
 
         public Color genRandomColor2()
@@ -196,11 +181,13 @@ namespace WindowsFormsApp1
         private int x_screen(double x)
         {            
             return I1 + (int)((x - x1) * (I2 - I1) / (x2 - x1));
+            //return (int)(x/1.5);
         }
 
         private int y_screen(double y)
         {
             return J1 - (int)((y - y1) * (J2 - J1) / (y1 - y2));
+            //return (int)(y/1.5);
         }
         
 
