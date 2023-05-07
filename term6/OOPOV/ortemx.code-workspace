@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "302_OOP_Konyshev_AE",
+			"path": "302_OOP_Konyshev_AE"
+		},
+		{
+			"name": "localhost",
+			"path": "C:/OSPanel/domains/localhost"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../other-projects"
+		}
+	],
+	"settings": {
+		"python.autoComplete.extraPaths": [
+		
+		],
+		"python.analysis.extraPaths": [],
+		"files.associations": {
+			"*.embeddedhtml": "html",
+			"ostream": "cpp"
+		},
+		"powershell.cwd": "d:\\GH\\university\\term6\\OOPOV\\302_OOP_Konyshev_AE"
+	}
+}
