@@ -1,29 +1,31 @@
 <HTML>
+
 <HEAD>
-	<SCRIPT>
-	var kind=2;
-	function sqr(t) { return t*t }
-	function cube(t) { return t*t*t }
-	function todo(t)
-	{ if (kind==2) return sqr(t); else return cube(t); }
-	</SCRIPT>
+  <SCRIPT>
+    var kind = 2;
+    function sqr(t) { return t * t }
+    function cube(t) { return t * t * t }
+    function todo(t) { if (kind == 2) return sqr(t); else return cube(t); }
+  </SCRIPT>
 </HEAD>
+
 <BODY>
-	<H1 ALIGN=CENTER>Возведение в степень</H1>
-	<P ALIGN=CENTER>
-	<FORM NAME="FM3">
-		<TABLE>
-		<TR ALIGN=CENTER>
-		<TD>x = <INPUT TYPE="text" VALUE="0" NAME="x" SIZE=10></TD>
-		<TD><INPUT TYPE="radio" NAME="p" onClick="if (this.checked) kind=2" CHECKED> - квадрат,
-		<INPUT TYPE="radio" NAME="p" onClick="if (this.checked) kind=3"> - куб
-		</TD>
-		</TR>
-		<TR ALIGN=CENTER>
-		<TD><INPUT TYPE="button" VALUE="Сосчитать" onClick="FM3.z.value=todo(FM3.x.value)"></TD>
-		<TD><INPUT TYPE="text" VALUE="0" NAME="z" SIZE=10></TD>
-		</TR>
-		</TABLE>
-	</FORM>
+  <H1 ALIGN=CENTER>Возведение в степень</H1>
+  <P ALIGN=CENTER>
+  <FORM NAME="FM3">
+    <TABLE>
+      <TR ALIGN=CENTER>
+        <TD>x = <INPUT TYPE="text" VALUE="0" NAME="x" SIZE=10></TD>
+        <TD><INPUT TYPE="radio" NAME="p" onClick="if (this.checked) kind=2" CHECKED> - квадрат,
+          <INPUT TYPE="radio" NAME="p" onClick="if (this.checked) kind=3"> - куб
+        </TD>
+      </TR>
+      <TR ALIGN=CENTER>
+        <TD><INPUT TYPE="button" VALUE="Сосчитать" onClick="FM3.z.value=todo(FM3.x.value)"></TD>
+        <TD><INPUT TYPE="text" VALUE="0" NAME="z" SIZE=10></TD>
+      </TR>
+    </TABLE>
+  </FORM>
 </BODY>
+
 </HTML>
