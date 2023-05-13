@@ -46,7 +46,7 @@ namespace WindowsFormsApplication1
             graphics.DrawLine(pen, points.Last(), points[0]);
         }
 
-
+        // bsplines
         PointF B(List<Point> points, int i, float t)
         {
             Point A, B, C, D;
