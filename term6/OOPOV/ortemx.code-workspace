@@ -13,6 +13,9 @@
 		},
 		{
 			"path": "../../../other-projects"
+		},
+		{
+			"path": "../../../chatgpt-clone"
 		}
 	],
 	"settings": {
@@ -24,6 +27,7 @@
 			"*.embeddedhtml": "html",
 			"ostream": "cpp"
 		},
-		"powershell.cwd": "d:\\GH\\university\\term6\\OOPOV\\302_OOP_Konyshev_AE"
+		"powershell.cwd": "d:\\GH\\university\\term6\\OOPOV\\302_OOP_Konyshev_AE",
+		"liveServer.settings.multiRootWorkspaceName": "other-projects"
 	}
 }
