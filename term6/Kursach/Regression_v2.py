@@ -32,3 +32,32 @@ data = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/ad
 
 # Сохранение данных в файл
 data.to_csv('D:/GH/university/term6/Kursach/adult.csv', index=False)
+
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+
+# Загрузка данных
+data = pd.read_csv('adult.csv')
+
+# Преобразование категориальных признаков в числовые
+cat_features = ['workclass', 'education', 'marital_status', 'occupation', 'relationship', 'race', 'sex', 'native_country']
+for feature in cat_features:
+    le = LabelEncoder()
+    data[feature] = le.fit_transform(data[feature])
+
+# Извлечение признаков и целевой переменной
+X = data.drop('income', axis=1)
+y = data['income']
+
+# Разбиение на обучающую и тестовую выборки
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Обучение модели
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Оценка качества модели на тестовой выборке
+score = model.score(X_test, y_test)
+print('R^2 score:', score)
