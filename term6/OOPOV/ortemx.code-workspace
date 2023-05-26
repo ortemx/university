@@ -16,6 +16,9 @@
 		},
 		{
 			"path": "../../../chatgpt-clone"
+		},
+		{
+			"path": "../../../youtube-dl"
 		}
 	],
 	"settings": {
