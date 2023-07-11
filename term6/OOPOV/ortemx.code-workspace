@@ -1,24 +1,16 @@
 {
 	"folders": [
 		{
-			"name": "302_OOP_Konyshev_AE",
-			"path": "302_OOP_Konyshev_AE"
-		},
-		{
-			"name": "localhost",
-			"path": "C:/OSPanel/domains/localhost"
-		},
-		{
 			"path": "../.."
 		},
 		{
 			"path": "../../../other-projects"
 		},
 		{
-			"path": "../../../chatgpt-clone"
+			"path": "C:/OSPanel/domains/localhost"
 		},
 		{
-			"path": "../../../youtube-dl"
+			"path": "C:/Users/zzz/AndroidStudioProjects/d_planner"
 		}
 	],
 	"settings": {
