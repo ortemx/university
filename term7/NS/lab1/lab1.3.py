@@ -24,27 +24,21 @@ class Perceptron:
 
 # Логические вентили AND, OR, XOR
 inputs = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
-and_labels = np.array([0, 0, 0, 1])
-or_labels = np.array([0, 1, 1, 1])
-xor_labels = np.array([0, 1, 1, 0])
+nand_labels = np.array([1, 1, 1, 0])
+eq_labels = np.array([1, 0, 0, 1])
 
-and_perceptron = Perceptron(2)
-and_perceptron.train(inputs, and_labels, epochs=1000)
+nand_perceptron = Perceptron(2)
+nand_perceptron.train(inputs, nand_labels, epochs=1000)
 
-or_perceptron = Perceptron(2)
-or_perceptron.train(inputs, or_labels, epochs=1000)
+eq_perceptron = Perceptron(2)
+eq_perceptron.train(inputs, eq_labels, epochs=1000)
 
-xor_perceptron = Perceptron(2)
-xor_perceptron.train(inputs, xor_labels, epochs=1000)
 
-print("AND perceptron predictions:")
+print("NAND perceptron predictions:")
 for x in inputs:
-    print(x, and_perceptron.predict(x))
+    print(x, nand_perceptron.predict(x))
 
-print("OR perceptron predictions:")
-for x in inputs:
-    print(x, or_perceptron.predict(x))
 
-print("XOR perceptron predictions:")
+print("EQUALITY perceptron predictions:")
 for x in inputs:
-    print(x, xor_perceptron.predict(x))
+    print(x, eq_perceptron.predict(x))
