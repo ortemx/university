@@ -4,7 +4,7 @@ class Perceptron:
     def __init__(self, input_size):
         self.weights = np.random.rand(input_size)
         self.bias = np.random.rand()
-    
+
     def sigmoid(self, x):
         return 1 / (1 + np.exp(-x))
 
@@ -29,13 +29,13 @@ or_labels = np.array([0, 1, 1, 1])
 xor_labels = np.array([0, 1, 1, 0])
 
 and_perceptron = Perceptron(2)
-and_perceptron.train(inputs, and_labels, epochs=1000)
+and_perceptron.train(inputs, and_labels, epochs=10000)
 
 or_perceptron = Perceptron(2)
-or_perceptron.train(inputs, or_labels, epochs=1000)
+or_perceptron.train(inputs, or_labels, epochs=10000)
 
 xor_perceptron = Perceptron(2)
-xor_perceptron.train(inputs, xor_labels, epochs=1000)
+xor_perceptron.train(inputs, xor_labels, epochs=10000)
 
 print("AND perceptron predictions:")
 for x in inputs:
@@ -48,3 +48,8 @@ for x in inputs:
 print("XOR perceptron predictions:")
 for x in inputs:
     print(x, xor_perceptron.predict(x))
+
+
+print(and_perceptron.weights)
+print(or_perceptron.weights)
+print(xor_perceptron.weights)
