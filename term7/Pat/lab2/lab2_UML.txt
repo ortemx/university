@@ -1,0 +1,90 @@
+@startuml
+class InterfaceFactory {
+    create_text()
+    create_image()
+    create_help()
+        __init__()
+}
+class Text {
+    text()
+        __init__()
+}
+class Image {
+    image()
+        __init__()
+}
+class Help {
+    help()
+        __init__()
+}
+class RussianText {
+    text()
+        __init__()
+}
+class RussianImage {
+    image()
+        __init__()
+}
+class RussianHelp {
+    help()
+        __init__()
+}
+class EnglishText {
+    text()
+        __init__()
+}
+class EnglishImage {
+    image()
+        __init__()
+}
+class EnglishHelp {
+    help()
+        __init__()
+}
+class FrenchText {
+    text()
+        __init__()
+}
+class FrenchImage {
+    image()
+        __init__()
+}
+class FrenchHelp {
+    help()
+        __init__()
+}
+class RussianInterfaceFactory {
+    create_text()
+    create_image()
+    create_help()
+        __init__()
+}
+class EnglishInterfaceFactory {
+    create_text()
+    create_image()
+    create_help()
+        __init__()
+}
+class FrenchInterfaceFactory {
+    create_text()
+    create_image()
+    create_help()
+        __init__()
+}
+ABC <|-- InterfaceFactory
+ABC <|-- Text
+ABC <|-- Image
+ABC <|-- Help
+Text <|-- RussianText
+Image <|-- RussianImage
+Help <|-- RussianHelp
+Text <|-- EnglishText
+Image <|-- EnglishImage
+Help <|-- EnglishHelp
+Text <|-- FrenchText
+Image <|-- FrenchImage
+Help <|-- FrenchHelp
+InterfaceFactory <|-- RussianInterfaceFactory
+InterfaceFactory <|-- EnglishInterfaceFactory
+InterfaceFactory <|-- FrenchInterfaceFactory
+@enduml
