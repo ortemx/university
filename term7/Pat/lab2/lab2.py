@@ -83,17 +83,17 @@ class Client:
         text.desc()
         image.desc()
         help.desc()
-  
 
 
-# производные классы русского интерфейса
+
+# производный класс русского интерфейса
 class RussianText(Text):
     '''
     Русский текст
     '''
     def __init__(self):
         super().__init__("Русский текст")
-        
+    
     def desc(self):
         print("Создание русского текста")
 
@@ -120,7 +120,7 @@ class RussianHelp(Help):
         print("Создание справки русского интерфейса")
 
 
-# производные классы английского интерфейса
+# производный класс английского интерфейса
 class EnglishText(Text):
     '''
     Английский текст
@@ -138,7 +138,7 @@ class EnglishImage(Image):
     '''
     def __init__(self):
         super().__init__("Изобажение английского интерфейса")
-    
+
     def desc(self):
         print("Создание изображения английского интерфейса")
 
@@ -153,7 +153,7 @@ class EnglishHelp(Help):
         print("Создание справки английского интерфейса")
 
 
-# производные классы французского интерфейса
+# производный класс французского интерфейса
 class FrenchText(Text):
     '''
     Французский текст
@@ -229,6 +229,7 @@ class FrenchInterfaceFactory(InterfaceFactory):
 
     def create_help(self) -> Help:
         return FrenchHelp()
+
 
 def chose_factory(language: str) -> InterfaceFactory:
     factory_dict = {
