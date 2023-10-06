@@ -50,6 +50,6 @@ for x in inputs:
     print(x, xor_perceptron.predict(x))
 
 
-print(and_perceptron.weights)
-print(or_perceptron.weights)
-print(xor_perceptron.weights)
+# print(and_perceptron.weights)
+# print(or_perceptron.weights)
+# print(xor_perceptron.weights)
