@@ -4,5 +4,7 @@
     "files.associations": {
         "iostream": "cpp"
     },
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.pylintArgs": [
+    ]
 }
