@@ -19,7 +19,6 @@ def Jacoby(A, b, eps=1e-4, max_iter=1000):
         if np.linalg.norm(np.dot(A, x) - b) < eps:
             iter_num = i
             break
-        
 
     return (x, iter_num, np.linalg.norm(np.dot(A, x) - b))
 
