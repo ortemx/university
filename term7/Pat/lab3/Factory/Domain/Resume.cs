@@ -1,54 +1,51 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace Factory.Domain
+﻿namespace Factory.Domain
 {
     internal class Resume : Document
     {
-        public string Name { get; set; }
-        public string ContactInformation { get; set; }
-        public List<string> Experience { get; set; }
-        public List<string> Education { get; set; }
-        public List<string> Skills { get; set; }
-
         public Resume()
         {
-            Experience = new List<string>();
-            Education = new List<string>();
-            Skills = new List<string>();
+            this.Experience = new List<string>();
+            this.Education = new List<string>();
+            this.Skills = new List<string>();
         }
+
+        public string Name { get; set; }
+
+        public string ContactInformation { get; set; }
+
+        public List<string> Experience { get; set; }
+
+        public List<string> Education { get; set; }
+
+        public List<string> Skills { get; set; }
+
         public void AddExperience(string experience)
         {
-            Experience.Add(experience);
+            this.Experience.Add(experience);
         }
 
         public void AddEducation(string education)
         {
-            Education.Add(education);
+            this.Education.Add(education);
         }
 
         public void AddSkill(string skill)
         {
-            Skills.Add(skill);
+            this.Skills.Add(skill);
         }
 
-        public void CreatePDF()
-        {
-            // Логика для создания PDF-файла
-        }
+        // public void CreatePDF()
+        // {
+        //    // Логика для создания PDF-файла
+        // }
         public override string ToString()
         {
-            return "Type: " + type
-                + "\nName: " + Name
-                + "\nContact information: " + ContactInformation
-                + "\nExperience: " + string.Join(", ", Experience)[..^2]
-                + "\nEducation: " + string.Join(", ", Education)[..^2]
-                + "\nSkills: " + string.Join(", ", Skills)[..^2];
+            return "Type: " + this.type
+                + "\nName: " + this.Name
+                + "\nContact information: " + this.ContactInformation
+                + "\nExperience: " + string.Join(", ", this.Experience)
+                + "\nEducation: " + string.Join(", ", this.Education)
+                + "\nSkills: " + string.Join(", ", this.Skills);
         }
     }
 }

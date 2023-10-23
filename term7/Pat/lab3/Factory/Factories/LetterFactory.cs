@@ -1,7 +1,7 @@
-﻿using Factory.Domain;
-
-namespace Factory.Factories
+﻿namespace Factory.Factories
 {
+    using Factory.Domain;
+
     internal class LetterFactory : IDocumentFactory
     {
         public Document GetDocument()

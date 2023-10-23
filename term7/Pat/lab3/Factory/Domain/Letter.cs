@@ -18,11 +18,11 @@
 
         public override string ToString()
         {
-            return "Type: " + type
-                + "\nSender: " + sender
-                + "\nRecepient: " + recipient
-                + "\nContent\n" + content
-                + "\nDate: " + date.ToString();
+            return "Type: " + this.type
+                + "\nSender: " + this.sender
+                + "\nRecepient: " + this.recipient
+                + "\nContent\n" + this.content
+                + "\nDate: " + this.date.ToString();
         }
     }
 }

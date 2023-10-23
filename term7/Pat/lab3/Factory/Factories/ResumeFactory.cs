@@ -1,7 +1,7 @@
-﻿using Factory.Domain;
-
-namespace Factory.Factories
+﻿namespace Factory.Factories
 {
+    using Factory.Domain;
+
     internal class ResumeFactory : IDocumentFactory
     {
         public Document GetDocument()
@@ -12,24 +12,25 @@ namespace Factory.Factories
             Console.Write("Contact information: ");
             resume.ContactInformation = Console.ReadLine();
             Console.Write("Experience: ");
-            string Experience;
-            while ((Experience = Console.ReadLine()) != string.Empty)
+            string experience;
+            while ((experience = Console.ReadLine()) != string.Empty)
             {
-                resume.AddExperience(Experience);
+                resume.AddExperience(experience);
             }
+
             Console.Write("Education: ");
-            string Education;
-            while ((Education = Console.ReadLine()) != string.Empty)
+            string education;
+            while ((education = Console.ReadLine()) != string.Empty)
             {
-                resume.AddEducation(Education);
+                resume.AddEducation(education);
             }
+
             Console.Write("Skill: ");
             string skill;
             while ((skill = Console.ReadLine()) != string.Empty)
             {
                 resume.AddSkill(skill);
             }
-
 
             return resume;
         }

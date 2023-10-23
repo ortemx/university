@@ -1,8 +1,7 @@
-﻿using Factory.Domain;
-using System.Globalization;
-
-namespace Factory.Factories
+﻿namespace Factory.Factories
 {
+    using Factory.Domain;
+
     internal class ReportFactory : IDocumentFactory
     {
         public Document GetDocument()

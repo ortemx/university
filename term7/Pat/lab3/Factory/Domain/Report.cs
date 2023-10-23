@@ -1,32 +1,33 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Reflection;
-
-namespace Factory.Domain
+﻿namespace Factory.Domain
 {
     internal class Report : Document
     {
-        public string Title { get; set; }
-        public string Author { get; set; }
-        public string content { get; set; }
-        public DateTime date { get; set; }
-
         public Report(string title, string author, string content, DateTime date)
         {
-            type = "Report";
-            Title = title;
-            Author = author;
-            this.content = content;
-            this.date = date;
+            this.type = "Report";
+            this.Title = title;
+            this.Author = author;
+            this.Content = content;
+            this.Date = date;
         }
+
+        public string Title { get; set; }
+
+        public string Author { get; set; }
+
+        public string Content { get; set; }
+
+        public DateTime Date { get; set; }
 
         public override string ToString()
         {
-            return "Type: " + type
-                + "\nTitle: " + Title
-                + "\nAuthor: " + Author
-                + "\nContent\n" + content
-                + "\nDate: " + date.ToString();
+            return "Type: " + this.type
+                + "\nTitle: " + this.Title
+                + "\nAuthor: " + this.Author
+                + "\nContent\n" + this.Content
+                + "\nDate: " + this.Date.ToString();
         }
+
         // public void GenerateSummary()
         // {
         //     // Логика для генерации сводки
