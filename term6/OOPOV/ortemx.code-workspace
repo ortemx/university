@@ -26,6 +26,12 @@
 		},
 		{
 			"path": "../../../FitnessClub-main"
+		},
+		{
+			"path": "../../../CodeMasters"
+		},
+		{
+			"path": "../../../VS-projects"
 		}
 	],
 	"settings": {
