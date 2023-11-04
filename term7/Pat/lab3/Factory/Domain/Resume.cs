@@ -4,6 +4,7 @@
     {
         public Resume()
         {
+            this.type = "Resume";
             this.Experience = new List<string>();
             this.Education = new List<string>();
             this.Skills = new List<string>();
