@@ -68,12 +68,11 @@ class LengthConversionApp:
             return "Unsupported conversion."
 
 
-# metric_length = (10)  # создаем экземпляр адаптируемого класса
-adapter = MetricToImperialAdapter(MetricLength())  # создаем экземпляр адаптера
-app = LengthConversionApp(adapter)  # создаем экземпляр клиентского приложения
+adapter = MetricToImperialAdapter(MetricLength())  
+app = LengthConversionApp(adapter) 
 
-result = app.convert_length(10, "meters", "feet")  # конвертируем 10 метров в футы
-print(result)  # выводит "10 meters is equal to 32.8084 feet."
+result = app.convert_length(10, "meters", "feet") 
+print(result)  
 
-result = app.convert_length(20, "feet", "meters")  # конвертируем 20 футов в метры
-print(result)  # выводит "20 feet is equal to 6.096 meters."
+result = app.convert_length(20, "feet", "meters") 
+print(result) 
