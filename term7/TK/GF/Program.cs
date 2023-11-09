@@ -8,16 +8,13 @@
 = x^2 + 1 <-> 0101 = 5
 
 
-00001011    (11)        00000010    (2)
-00000010     (2)        00000011    (3)
-________*               ________*
-00000000     (0)        00000010    (2)
-00010110    (22)        00000100    (4)
-________^               ________^
-00010110    (22)        00000110    (6)
-00010011    (19)        00010011   (19)
-________^               ________^
-00000101     (5)        
+00001011    (11)
+00000010     (2)
+________*
+00010110    (22)
+00010011    (19)
+________^
+00000101     (5)
 
 пример 2
 1011 * 0011 <-> (x^3+x+1) * (x+1) = 
@@ -44,61 +41,61 @@ ________^
 */
 
 
-using System.Collections;
-using System.Text;
+// Console.WriteLine(0b1011 * 0b0010 ^ 0b10011);
 
-string BitArrayToString(BitArray bits)
+// int k = 5;
+// int n = 2;
+// var φ = 10011;
+// // first row
+// Console.Write("     | ");
+// for (int j = 0; j < Math.Pow(n, k-1); j++){
+//     Console.Write(Convert.ToString(j, 2).PadLeft(4, '0') + " | ");
+// }
+// Console.WriteLine("");
+
+// for (int i = 0; i < Math.Pow(n, k-1); i++)
+// {   
+//     var result = Convert.ToString(i, 2).PadLeft(4, '0') + " | ";
+//     for (int j = 0; j < Math.Pow(n, k-1); j++){
+//         var z1 = i.;
+//         var z2 = j.ToBitArray();
+//         Console.WriteLine(z1 + " * " + z2);
+//         // var r = z1 * z2 ^ φ;
+//         // result += Convert.ToString(r, 2).PadLeft(4, '0') + " | ";        
+//     }
+//     Console.WriteLine(result);
+// }
+
+// Console.WriteLine(Convert.ToString(0b0110 ^ 0b1101, 2));
+
+static string MultiplyAndXOR(string number1, string number2)
 {
-    StringBuilder sb = new StringBuilder();
+    // Преобразуем строки в массив байтов
+    byte[] bytes1 = Convert.FromBase64String(Convert.ToBase64String(number1.PadRight(8, '0').ToCharArray()));
+    byte[] bytes2 = Convert.FromBase64String(Convert.ToBase64String(number2.PadRight(8, '0').ToCharArray()));
 
-    for (int i = bits.Length - 1; i >= 0; i--)
+    // Умножаем числа и выполняем ксорирование
+    byte[] resultBytes = new byte[8];
+    for (int i = 0; i < 8; i++)
     {
-        sb.Append(bits[i] ? "1" : "0");
-    }
-    return sb.ToString();
-
-}
-
-BitArray BitArrayMultyply(BitArray z1, BitArray z2)
-{
-    BitArray rez = new(z1.Length);
-    for (int i = 0; i < z2.Length; i++)
-    {
-        if (z2[i])
+        for (int j = 0; j < 8; j++)
         {
-            for (int j = 0; j < z1.Length - i; j++)
+            if ((bytes1[i] & (1 << (7 - j))) != 0 && (bytes2[j] & (1 << (7 - i))) != 0)
             {
-                rez[j + i] ^= z1[j];
+                resultBytes[i] ^= (byte)(1 << (7 - j));
             }
         }
     }
-    return rez;
+
+    // Преобразуем результат обратно в строку
+    string result = Convert.ToBase64String(resultBytes).TrimEnd('=').Replace('+', '0').Replace('/', '1');
+
+    return result;
 }
 
-int k = 4;
-int n = 2;
-BitArray φ = new(new byte[] { 0b10011 });
-// first row
-Console.Write("     | ");
-for (int j = 0; j < Math.Pow(n, k); j++)
-{
-    Console.Write(Convert.ToString(j, 2).PadLeft(4, '0') + " | ");
-}
-Console.WriteLine("");
+string number1 = "00001011"; // 11 в двоичном виде
+string number2 = "00000011"; // 3 в двоичном виде
 
-for (byte i = 0; i < Math.Pow(n, k); i++)
-{
-    string output = Convert.ToString(i, 2).PadLeft(4, '0') + " | ";
-    for (byte j = 0; j < Math.Pow(n, k); j++)
-    {
-        BitArray z1 = new(new byte[] { i });
-        BitArray z2 = new(new byte[] { j });
-        BitArray rez = BitArrayMultyply(z1, z2);
-        if (rez[k] == true)
-        {
-            rez = rez.Xor(φ);
-        }
-        output += BitArrayToString(rez)[^4..] + " | ";
-    }
-    Console.WriteLine(output);
-}
+string result = MultiplyAndXOR(number1, number2);
+
+Console.WriteLine("Результат: " + result);
