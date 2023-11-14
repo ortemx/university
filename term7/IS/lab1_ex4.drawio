@@ -1,102 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T18:56:07.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hsX0YPvunbdI-aKrSDdL" version="22.0.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-11-14T18:39:20.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="aihQKe6TLLwL8szq3VJW" version="22.1.1" type="device">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2261" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1541" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="NNj73pJ5o8QrJ1JKOemf-3">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="NNj73pJ5o8QrJ1JKOemf-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="NNj73pJ5o8QrJ1JKOemf-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="NNj73pJ5o8QrJ1JKOemf-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Марка автомобиля иностранная?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="360" y="20" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-0" target="NNj73pJ5o8QrJ1JKOemf-7">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-0" target="NNj73pJ5o8QrJ1JKOemf-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-0" target="NNj73pJ5o8QrJ1JKOemf-10">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-0" target="NNj73pJ5o8QrJ1JKOemf-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="920" y="445" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-0" value="Компания владелец марки известна&lt;br&gt;так же космическими технологиями?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-0" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Компания владелец марки известна&lt;br&gt;так же космическими технологиями?&lt;/blockquote&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="860" y="210" width="162.5" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-1" target="NNj73pJ5o8QrJ1JKOemf-0">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-1" target="NNj73pJ5o8QrJ1JKOemf-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-1" target="NNj73pJ5o8QrJ1JKOemf-28">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-1" target="NNj73pJ5o8QrJ1JKOemf-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="631.5" y="237.4999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-1" value="Марка изветсна электрокарами?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-1" value="Марка изветсна электрокарами?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="710" y="140" width="143" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-2" target="NNj73pJ5o8QrJ1JKOemf-9">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-2" target="NNj73pJ5o8QrJ1JKOemf-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-2" target="NNj73pJ5o8QrJ1JKOemf-5">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-2" target="NNj73pJ5o8QrJ1JKOemf-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-2" value="Автомобили Вашей марки&lt;br&gt;учавствуют в ралли Дакар?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-2" value="Автомобили Вашей марки&lt;br&gt;учавствуют в ралли Дакар?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="274" y="228.75" width="140" height="137.5" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-3" target="NNj73pJ5o8QrJ1JKOemf-27">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-3" target="NNj73pJ5o8QrJ1JKOemf-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="24" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-3" target="NNj73pJ5o8QrJ1JKOemf-2">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-3" target="NNj73pJ5o8QrJ1JKOemf-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-3" value="Марка специализируется на грузовиках" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-3" value="Марка специализируется на грузовиках" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="110" y="120" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-5" value="ЗИЛ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-5" value="ЗИЛ" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-7" value="Tesla" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-7" value="Tesla" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="990" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-9" value="КаМаз" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-9" value="КаМаз" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="350" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-10" value="Li Auto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-10" value="Li Auto" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="780" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-27" target="NNj73pJ5o8QrJ1JKOemf-36">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-27" target="NNj73pJ5o8QrJ1JKOemf-36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-27" target="NNj73pJ5o8QrJ1JKOemf-37">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-27" target="NNj73pJ5o8QrJ1JKOemf-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-27" value="Марка известна внедорожниками?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-27" value="Марка известна внедорожниками?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="250" width="150" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-28" target="NNj73pJ5o8QrJ1JKOemf-29">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-28" target="NNj73pJ5o8QrJ1JKOemf-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-28" target="NNj73pJ5o8QrJ1JKOemf-30">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-28" target="NNj73pJ5o8QrJ1JKOemf-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-28" value="Марка машины представленна в Формуле1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-28" value="Марка машины представленна в Формуле1?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="560" y="221.53" width="120" height="98.47" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-29" value="Mercedes-Benz" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-29" value="Mercedes-Benz" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="640" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-30" value="Toyota" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-30" value="Toyota" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="480" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-36" value="УАЗ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-36" value="УАЗ" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="90" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NNj73pJ5o8QrJ1JKOemf-37" value="Lada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="NNj73pJ5o8QrJ1JKOemf-37" value="Lada" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-40" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
