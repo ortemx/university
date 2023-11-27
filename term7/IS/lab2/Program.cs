@@ -7,12 +7,13 @@ string[] questions =
     "Марка известна внедорожниками?",
     "Автомобили Вашей марки учавствуют в ралли Дакар?",
     "Марка машины представленна в Формуле1?",
-    "Компания владелец марки известна так же космическими технологиями?"
+    "Компания владелец марки известна так же космическими технологиями?",
+    "Марка принадлежала французскому концерну?"
 };
 
 string[] answers =
 {
-    "Lada", "УАЗ", "ЗИЛ", "КАМАЗ", "Toyota", "Mercedes-Benz", "Li Auto", "Tesla"
+    "Lada", "УАЗ", "ЗИЛ", "КАМАЗ", "Toyota", "Mercedes-Benz", "Li Auto", "Tesla", "Москвич"
 };
 
 string[] positiveAnswers =
@@ -73,6 +74,7 @@ while (true)
         answer = Console.ReadLine();
         if (positiveAnswers.Contains(answer))
         {
+            probability *= 0.5;
             Console.WriteLine(questions[4]);
             answer = Console.ReadLine();
             if (positiveAnswers.Contains(answer))
@@ -99,7 +101,18 @@ while (true)
             else
             {
                 probability *= 0.5;
-                Console.WriteLine(answers[0]);
+                Console.WriteLine(questions[7]);
+                answer = Console.ReadLine();
+                if (positiveAnswers.Contains(answer))
+                {
+                    probability *= 0.5;
+                    Console.WriteLine(answers[0]);
+                }
+                else
+                {
+                    probability *= 0.5;
+                    Console.WriteLine(answers[8]);
+                }                
             }
         }
     }
