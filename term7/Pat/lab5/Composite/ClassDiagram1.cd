@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Word">
+    <Position X="1" Y="4" Width="1.75" />
+    <AssociationLine Name="IText" Type="IText" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.875" Y="4" />
+        <Point X="1.875" Y="2.896" />
+        <Point X="8.625" Y="2.896" />
+        <Point X="8.625" Y="1.988" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAEgAAA=</HashCode>
+      <FileName>Word.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IText" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mark" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="4" Width="1.75" />
+    <AssociationLine Name="IText" Type="IText" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.125" Y="4" />
+        <Point X="4.125" Y="2.885" />
+        <Point X="8.625" Y="2.885" />
+        <Point X="8.625" Y="1.988" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAgAAEggAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IText" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sentence" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="4" Width="1.75" />
+    <AssociationLine Name="IText" Type="IText" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.375" Y="4" />
+        <Point X="6.375" Y="2.905" />
+        <Point X="8.625" Y="2.905" />
+        <Point X="8.625" Y="1.988" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAEgAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IText" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Paragraph" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4" Width="2.25" />
+    <AssociationLine Name="IText" Type="IText" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.938" Y="4" />
+        <Point X="8.938" Y="2.937" />
+        <Point X="8.625" Y="2.937" />
+        <Point X="8.625" Y="1.988" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAMgAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IText" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Header" BaseTypeListCollapsed="true">
+    <Position X="10" Y="4" Width="2" />
+    <AssociationLine Name="IText" Type="IText" ManuallyRouted="true">
+      <Path>
+        <Point X="11" Y="4" />
+        <Point X="11" Y="2.937" />
+        <Point X="8.625" Y="2.937" />
+        <Point X="8.625" Y="1.988" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAEgAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IText" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Text" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="4" Width="2" />
+    <AssociationLine Name="IText" Type="IText" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.25" Y="4" />
+        <Point X="13.25" Y="2.905" />
+        <Point X="8.625" Y="2.905" />
+        <Point X="8.625" Y="1.988" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAEgAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IText" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="IText">
+    <Position X="7.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>IText.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

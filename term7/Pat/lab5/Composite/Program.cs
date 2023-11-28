@@ -39,44 +39,6 @@ text.Add(header1);
 text.Add(paragraph);
 text.Add(paragraph2);
 text.Write();
-//paragraph2.Write();
-//sentence1.Write();
-//Sentence sentence2 = new Sentence(new List<string> { "hello", "there" });
-//sentence2.Write();
-interface IText
-{
-    abstract public void Write();
-    abstract public void Add(IText text);
-    abstract public void Remove(IText text);
-}
-
-internal class Word : IText
-{
-    private string word = string.Empty;
-    public string Value
-    {
-        get
-        {
-            return word;
-        }
-    }
-    public Word(string word)
-    {
-        this.word = word;
-    }
-    public void Write()
-    {
-        Console.Write(word);
-    }
-    public void Add(IText c)
-    {
-        throw new InvalidOperationException();
-    }
-    public void Remove(IText c)
-    {
-        throw new InvalidOperationException();
-    }
-}
 
 internal class Mark : IText
 {
@@ -85,6 +47,15 @@ internal class Mark : IText
     {
         get { return mark; }
     }
+
+    internal IText IText
+    {
+        get => default;
+        set
+        {
+        }
+    }
+
     public Mark(string mark)
     {
         this.mark = mark;
@@ -109,6 +80,14 @@ internal class Sentence : IText
     public Sentence()
     {
         this.words = new List<IText>();
+    }
+
+    internal IText IText
+    {
+        get => default;
+        set
+        {
+        }
     }
 
     public void Write()
@@ -141,6 +120,14 @@ internal class Paragraph : IText
         this.sentences = new List<IText>();
     }
 
+    internal IText IText
+    {
+        get => default;
+        set
+        {
+        }
+    }
+
     public void Write()
     {
         Console.Write("\n\t");
@@ -168,6 +155,15 @@ internal class Header : IText
     {
         this.header = header;
     }
+
+    internal IText IText
+    {
+        get => default;
+        set
+        {
+        }
+    }
+
     public void Write()
     {
         int WindowWidth = Console.WindowWidth;
@@ -202,6 +198,14 @@ internal class Text : IText
     public Text()
     {
         paragraphes = new List<IText>();
+    }
+
+    internal IText IText
+    {
+        get => default;
+        set
+        {
+        }
     }
 
     public void Write()
