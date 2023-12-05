@@ -2,9 +2,9 @@
 pattern chain of responsibility
 */
 
-Article article = new Article("Technology", false);
-Handler editorial = new Editorial1(null);
-Handler editorial2 = new Editorial2(editorial);
+Article article = new Article("Auto", false);
+Handler editorial1 = new Editorial1(null);
+Handler editorial2 = new Editorial2(editorial1);
 Handler editorial3 = new Editorial3(editorial2);
 
 editorial3.Publish(ref article);
