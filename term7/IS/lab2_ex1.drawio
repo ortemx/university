@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T18:27:53.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8AM9UMBfHZEexdYOjeAY" version="22.1.1" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-12T14:21:56.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PKJSRmypWIWUPLgSo5dZ" version="22.1.7" type="device">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="492" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="957" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="NNj73pJ5o8QrJ1JKOemf-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-1" value="0.5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNj73pJ5o8QrJ1JKOemf-13">
+        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-1" value="0.5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NNj73pJ5o8QrJ1JKOemf-13" vertex="1" connectable="0">
           <mxGeometry x="0.1556" y="1" relative="1" as="geometry">
-            <mxPoint x="-63" y="9" as="offset" />
+            <mxPoint x="77" y="-21" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="NNj73pJ5o8QrJ1JKOemf-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-2" value="0.5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNj73pJ5o8QrJ1JKOemf-14">
+        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-2" value="0.5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NNj73pJ5o8QrJ1JKOemf-14" vertex="1" connectable="0">
           <mxGeometry x="0.1053" y="-2" relative="1" as="geometry">
-            <mxPoint x="84" y="8" as="offset" />
+            <mxPoint x="-96" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Ваш персонаж мужского пола?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -26,17 +26,17 @@
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-0" target="NNj73pJ5o8QrJ1JKOemf-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-11" value="0.125" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNj73pJ5o8QrJ1JKOemf-18">
+        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-11" value="0.1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NNj73pJ5o8QrJ1JKOemf-18" vertex="1" connectable="0">
           <mxGeometry x="0.8979" y="1" relative="1" as="geometry">
-            <mxPoint x="19" y="-13" as="offset" />
+            <mxPoint x="-1" y="-123" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-0" target="NNj73pJ5o8QrJ1JKOemf-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-10" value="0.125" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNj73pJ5o8QrJ1JKOemf-19">
+        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-10" value="0.9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NNj73pJ5o8QrJ1JKOemf-19" vertex="1" connectable="0">
           <mxGeometry x="0.7463" y="1" relative="1" as="geometry">
-            <mxPoint x="-22" as="offset" />
+            <mxPoint x="8" y="-112" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-0" value="Есть у вашего персонажа усы?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -45,17 +45,17 @@
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-1" target="NNj73pJ5o8QrJ1JKOemf-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-9" value="0.25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNj73pJ5o8QrJ1JKOemf-15">
+        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-9" value="0.3&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NNj73pJ5o8QrJ1JKOemf-15" vertex="1" connectable="0">
           <mxGeometry x="0.6488" y="1" relative="1" as="geometry">
-            <mxPoint x="14" y="9" as="offset" />
+            <mxPoint x="-16" y="-60" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-1" target="NNj73pJ5o8QrJ1JKOemf-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-7" value="0.25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNj73pJ5o8QrJ1JKOemf-26">
+        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-7" value="0.7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NNj73pJ5o8QrJ1JKOemf-26" vertex="1" connectable="0">
           <mxGeometry x="0.696" y="-1" relative="1" as="geometry">
-            <mxPoint x="-19" as="offset" />
+            <mxPoint x="1" y="-80" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-1" value="Ваш персонаж актер?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -64,17 +64,17 @@
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-2" target="NNj73pJ5o8QrJ1JKOemf-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-6" value="0.125" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNj73pJ5o8QrJ1JKOemf-16">
+        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-6" value="0.16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NNj73pJ5o8QrJ1JKOemf-16" vertex="1" connectable="0">
           <mxGeometry x="0.788" y="1" relative="1" as="geometry">
-            <mxPoint x="19" y="-5" as="offset" />
+            <mxPoint x="-1" y="-84" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-2" target="NNj73pJ5o8QrJ1JKOemf-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-5" value="0.125" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNj73pJ5o8QrJ1JKOemf-17">
+        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-5" value="0.84" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NNj73pJ5o8QrJ1JKOemf-17" vertex="1" connectable="0">
           <mxGeometry x="0.644" relative="1" as="geometry">
-            <mxPoint x="-20" y="3" as="offset" />
+            <mxPoint x="10" y="-77" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-2" value="Ваш персонаж владеет русским языком?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -85,17 +85,17 @@
             <mxPoint x="180" y="129.66666666666674" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-3" value="0.25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNj73pJ5o8QrJ1JKOemf-11">
+        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-3" value="0.2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NNj73pJ5o8QrJ1JKOemf-11" vertex="1" connectable="0">
           <mxGeometry x="0.5872" relative="1" as="geometry">
-            <mxPoint x="-20" y="7" as="offset" />
+            <mxPoint x="50" y="-53" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NNj73pJ5o8QrJ1JKOemf-3" target="NNj73pJ5o8QrJ1JKOemf-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-4" value="0.25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNj73pJ5o8QrJ1JKOemf-12">
+        <mxCell id="I2sdy-0cYuMAp6-FF3Cg-4" value="0.8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NNj73pJ5o8QrJ1JKOemf-12" vertex="1" connectable="0">
           <mxGeometry x="0.6073" y="-1" relative="1" as="geometry">
-            <mxPoint x="16" y="7" as="offset" />
+            <mxPoint x="-54" y="-34" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NNj73pJ5o8QrJ1JKOemf-3" value="Ваш персонаж певец?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">

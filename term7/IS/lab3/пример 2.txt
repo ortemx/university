@@ -1,0 +1,9 @@
+(assert (vedomost bad 402 5))
+(assert (vedomost pop 402 5))
+(assert (vedomost and 402 5))
+
+or
+
+(assert (vedomost bad 402 5) (vedomost pop 402 5) (vedomost and 402 5))
+
+(retract #) | delete fact #, where # – number of fact

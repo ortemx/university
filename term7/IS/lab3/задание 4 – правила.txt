@@ -1,0 +1,30 @@
+(deffacts sheet
+	(score Ivanov 5 5 5)
+	(score Petrov 4 5 4)
+	(score Sidorov 3 3 4)
+)
+
+(defrule scholarship
+	(score ?name ?s1 ?s2 ?s3) 
+	(test (or (= ?s1 3) (= ?s1 4)))
+	(test (or (= ?s2 3) (= ?s2 4)))
+	(test (or (= ?s3 3) (= ?s3 4)))
+=> 	(assert (scholarship ?name 1000)))
+
+(defrule increased_scholarship
+	(score ?name ?s1 ?s2 ?s3) 
+	(test (= 5 ?s1 ?s2 ?s3))
+=> 	(assert (increased_scholarship ?name 2000)))
+
+(defrule transfer
+	(score ?name ?s1 ?s2 ?s3)
+	(test (<> 2 ?s1 ?s2 ?s3))
+=>	(assert (is_tranfered ?name)))
+
+(defrule is_all_transfered
+	(forall (score ?name ?s1 ?s2 ?s3) (is_tranfered ?name))
+=> (printout t "all students are transfered" crlf))
+
+(reset)
+(run)
+(facts)

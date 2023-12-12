@@ -1,0 +1,47 @@
+Задание 1
+а) 
+// client-template.clp
+(deftemplate client
+	(slot lastname)
+	(slot id)
+	(slot city (default Baghdad))
+)
+
+-> load client-template.clp
+// clients.clp
+// (client (lastname Akram) (id 1))
+// (client (lastname Al-Bishi) (id 2))
+// (client (lastname Dabbagh) (id 3))
+(load-facts D:\GH\university\term7\IS\lab3\clients.clp)
+(modify 1 (city Al-Moshahda))
+(modify 2 (lastname Ashhad))
+(duplicate 3 (id 4))
+(save-facts D:\GH\university\term7\IS\lab3\clientsm1.clp)
+
+b)
+(load D:/GH/university/term7/IS/lab3/client-template.clp)
+(load-facts D:\GH\university\term7\IS\lab3\clientsm1.clp)
+(assert (client (lastname Abdul) (id 5)) (client (lastname Bakkal) (id 6)))
+(facts)
+(retract 1)
+(retract 3)
+(save-facts D:\GH\university\term7\IS\lab3\clientsm2.clp)
+
+
+Задание 2
+a)
+(load D:/GH/university/term7/IS/lab3/empl-template.clp)
+(load-facts D:\GH\university\term7\IS\lab3\employee.clp)
+(modify 1 (dept cleaning))
+(modify 3 (xp 4))
+(duplicate 2 (lastname Damji))
+(save-facts D:\GH\university\term7\IS\lab3\emplm1.clp)
+b)
+(clear)
+(load D:/GH/university/term7/IS/lab3/empl-template.clp)
+(load-facts D:\GH\university\term7\IS\lab3\emplm1.clp)
+(assert (employee (lastname Al-Habsi) (xp 5)) (employee (lastname Al-Hallaq) (xp 5)))
+(retract 2)
+(retract 4)
+(facts)
+(save-facts D:\GH\university\term7\IS\lab3\emplm2.clp)

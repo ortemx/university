@@ -1,15 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-string[] questions =
-{
-    "Марка автомобиля иностранная?",
-    "Марка специализируется на грузовиках?",
-    "Марка изветсна электрокарами?",
-    "Марка известна внедорожниками?",
-    "Автомобили Вашей марки учавствуют в ралли Дакар?",
-    "Марка машины представленна в Формуле1?",
-    "Компания владелец марки известна так же космическими технологиями?",
-    "Марка принадлежала французскому концерну?"
-};
+﻿using static System.Console;
 
 string[] answers =
 {
@@ -22,101 +11,90 @@ string[] positiveAnswers =
 };
 
 double probability;
-
-string? answer = string.Empty;
 while (true)
 {
     probability = 1;
-    Console.WriteLine(questions[0]);
-    answer = Console.ReadLine();
-    if (positiveAnswers.Contains(answer))
+    WriteLine("Марка автомобиля иностранная?");
+    if (positiveAnswers.Contains(ReadLine()))
     {
-        probability *= 0.5;
-        Console.WriteLine(questions[2]);
-        answer = Console.ReadLine();
-        if (positiveAnswers.Contains(answer))
+        probability *= 0.8;
+        WriteLine("Марка известна электрокарами?");        
+        if (positiveAnswers.Contains(ReadLine()))
         {
-            probability *= 0.5;
-            Console.WriteLine(questions[6]);
-            answer = Console.ReadLine();
-            if (positiveAnswers.Contains(answer))
+            probability *= 0.1;
+            WriteLine("Компания владелец марки известна так же космическими технологиями?");            
+            if (positiveAnswers.Contains(ReadLine()))
             {
-                probability *= 0.5;
-                Console.WriteLine(answers[7]);
+                probability *= 0.05;
+                WriteLine(answers[7]);
             }
             else
             {
-                probability *= 0.5;
-                Console.WriteLine(answers[6]);
+                probability *= 0.95;
+                WriteLine(answers[6]);
             }
         }
         else
         {
-            probability *= 0.5;
-            Console.WriteLine(questions[5]);
-            answer = Console.ReadLine();
-            if (positiveAnswers.Contains(answer))
+            probability *= 0.9;
+            WriteLine("Марка машины представленна в Формуле1?");            
+            if (positiveAnswers.Contains(ReadLine()))
             {
-                probability *= 0.5;
-                Console.WriteLine(answers[5]);
+                probability *= 0.2;
+                WriteLine(answers[5]);
             }
             else
             {
-                probability *= 0.5;
-                Console.WriteLine(answers[4]);
+                probability *= 0.8;
+                WriteLine(answers[4]);
             }
         }
     }
     else
     {
-        probability *= 0.5;
-        Console.WriteLine(questions[1]);
-        answer = Console.ReadLine();
-        if (positiveAnswers.Contains(answer))
+        probability *= 0.2;
+        WriteLine("Марка специализируется на грузовиках?");        
+        if (positiveAnswers.Contains(ReadLine()))
         {
-            probability *= 0.5;
-            Console.WriteLine(questions[4]);
-            answer = Console.ReadLine();
-            if (positiveAnswers.Contains(answer))
+            probability *= 0.3;
+            WriteLine("Автомобили Вашей марки учавствуют в ралли Дакар?");            
+            if (positiveAnswers.Contains(ReadLine()))
             {
-                probability *= 0.5;
-                Console.WriteLine(answers[3]);
+                probability *= 0.1;
+                WriteLine(answers[3]);
             }
             else
             {
-                probability *= 0.5;
-                Console.WriteLine(answers[2]);
+                probability *= 0.9;
+                WriteLine(answers[2]);
             }
         }
         else
         {
-            probability *= 0.5;
-            Console.WriteLine(questions[3]);
-            answer = Console.ReadLine();
-            if (positiveAnswers.Contains(answer))
+            probability *= 0.7;
+            WriteLine("Марка известна внедорожниками?");            
+            if (positiveAnswers.Contains(ReadLine()))
             {
                 probability *= 0.5;
-                Console.WriteLine(answers[1]);
+                WriteLine(answers[1]);
             }
             else
             {
                 probability *= 0.5;
-                Console.WriteLine(questions[7]);
-                answer = Console.ReadLine();
-                if (positiveAnswers.Contains(answer))
+                WriteLine("Марка принадлежала французскому концерну?");                
+                if (positiveAnswers.Contains(ReadLine()))
                 {
-                    probability *= 0.5;
-                    Console.WriteLine(answers[0]);
+                    probability *= 0.9;
+                    WriteLine(answers[0]);
                 }
                 else
                 {
-                    probability *= 0.5;
-                    Console.WriteLine(answers[8]);
+                    probability *= 0.1;
+                    WriteLine(answers[8]);
                 }                
             }
         }
     }
-    Console.WriteLine($"Вероятность получения результата: {probability}\nПовторить?");
-    answer = Console.ReadLine();
-    if (!positiveAnswers.Contains(answer)) break;
+    WriteLine($"Вероятность получения результата: {probability}\nПовторить?");    
+    if (!positiveAnswers.Contains(ReadLine())) break;
 }

@@ -1,0 +1,5 @@
+(initial-fact)
+(client (lastname Dabbagh) (id 3) (city Baghdad))
+(client (lastname Akram) (id 1) (city Al-Moshahda))
+(client (lastname Ashhad) (id 2) (city Baghdad))
+(client (lastname Dabbagh) (id 4) (city Baghdad))

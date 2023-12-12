@@ -1,0 +1,12 @@
+(deffacts problems
+	(problem "no TV signal")
+	(problem "bad image")
+)
+
+(defrule scholarship
+	("no TV signal")
+=> 	(printout t "There is no contact between the TV plug and the antenna socket of the TV.Check the reliability of the connection." crlf))
+
+
+
+(assert (problem (name "no TV signal")))

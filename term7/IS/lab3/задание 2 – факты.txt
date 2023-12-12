@@ -1,0 +1,56 @@
+задание 1:
+(assert (student Antonov 4) (student Rozhkov 4) (student Larin 4) (student Hovan 4))
+
+(facts)
+
+a) (retract 2)
+b) (retract 3),
+   (assert (student Larin 3))
+(clear)
+
+задание 2:
+
+/*
+(deffacts startup "Refrigerator Status" (refrigerator light on) (refrigerator door open) (refrigerator temp (+ 5 10 15)))
+
+(reset)
+(facts)
+(clear)
+*/
+
+(deffacts z
+	(poezd 1 Saransk "12:30")
+	(poezd 2 Penza "14:38")
+	(poezd 3 Saratov "00:00")
+	(poezd 4 Minsk "17:49")
+)
+(reset)
+(assert
+	(poezd 5 Kiev "09:45")
+	(poezd 1 Moskow "10:20")
+)
+(facts)
+(retract 1)
+(retract 4)
+(retract 2)
+(retract 3)
+(assert
+	(poezd 2 Penza "15:38")
+	(poezd 3 Saratov "00:05")
+)
+(facts)
+(clear)
+
+задание 3:
+
+(assert
+	(sotrudnik IIVendetovich 7)
+	(sotrudnik MAMagomedov 6)
+	(sotrudnik MGSorokovich 42)
+	(sotrudnik ABCeedov 3)
+)
+(retract 1)
+(retract 3)
+(assert (sotrudnik MGSorokov 42))
+(facts)
+(clear)
