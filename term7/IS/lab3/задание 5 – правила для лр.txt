@@ -10,3 +10,13 @@
 
 
 (assert (problem (name "no TV signal")))
+
+(assert (problem (description "Scratches and stains are visible on the scanned image")))
+(assert (problem (description "The edges of the original are missing from the scanned image")))
+(assert (problem (description "The scanned image is devoid of content")))
+(assert (problem (description "The image obtained as a result of the scan is blurry or distorted")))
+(assert (problem (description "The quality of the scanned images is not satisfactory")))
+(assert (problem (description "The resulting image contains minor errors – it is slightly skewed, not centered, too dark or, conversely, too light")))
+(assert (problem (description "he resulting image has a greenish, reddish, yellowish or bluish tint")))
+(assert (problem (description "Part of the image is blurred")))
+(run)
