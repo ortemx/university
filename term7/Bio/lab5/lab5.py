@@ -1,23 +1,17 @@
 from __future__ import annotations
 from typing import TypeVar, Tuple, Type
 from abc import ABC, abstractmethod
-from typing import TypeVar, Generic, List, Tuple, Callable
+from typing import TypeVar, Generic, List, Tuple, Callable, Any
 from enum import Enum
 from random import choices, random
 from heapq import nlargest
 from statistics import mean
-from typing import Tuple, List
 from random import randrange
 from copy import deepcopy
 from random import shuffle, sample
-from copy import deepcopy
-from typing import Tuple, List, Any
-from random import shuffle, sample
-from copy import deepcopy
 from zlib import compress
 from sys import getsizeof
 from pickle import dumps
-
 
 
 T = TypeVar('T', bound='Chromosome') # for returning self
@@ -41,15 +35,13 @@ class Chromosome(ABC):
     @abstractmethod
     def mutate(self) -> None:
         ...
-        
 
- 
 C = TypeVar('C', bound=Chromosome) # type of the chromosomes
- 
- 
+
 class GeneticAlgorithm(Generic[C]):
     SelectionType = Enum("SelectionType", "ROULETTE TOURNAMENT")
-    
+
+
     def __init__(self, initial_population: List[C], threshold: float, max_generations: int = 100, mutation_chance: float = 0.01, crossover_chance: float = 0.7, selection_type: SelectionType = SelectionType.TOURNAMENT) -> None:
         self._population: List[C] = initial_population
         self._threshold: float = threshold
@@ -58,17 +50,20 @@ class GeneticAlgorithm(Generic[C]):
         self._crossover_chance: float = crossover_chance
         self._selection_type: GeneticAlgorithm.SelectionType = selection_type
         self._fitness_key: Callable = type(self._population[0]).fitness
-        
+
+
     # Use the probability distribution wheel to pick 2 parents
     # Note: will not work with negative fitness results
     def _pick_roulette(self, wheel: List[float]) -> Tuple[C, C]:
         return tuple(choices(self._population, weights=wheel, k=2))
-    
+
+
     # Choose num_participants at random and take the best 2
     def _pick_tournament(self, num_participants: int) -> Tuple[C, C]:
         participants: List[C] = choices(self._population, k=num_participants)
         return tuple(nlargest(2, participants, key=self._fitness_key))
-    
+
+
     # Replace the population with a new generation of individuals
     def _reproduce_and_replace(self) -> None:
         new_population: List[C] = []
@@ -88,13 +83,13 @@ class GeneticAlgorithm(Generic[C]):
         if len(new_population) > len(self._population):
             new_population.pop()
         self._population = new_population # replace reference
-        
+
     # With _mutation_chance probability mutate each individual
     def _mutate(self) -> None:
         for individual in self._population:
             if random() < self._mutation_chance:
                 individual.mutate()
-                
+
     # Run the genetic algorithm for max_generations iterations
     # and return the best individual found
     def run(self) -> C:
@@ -143,13 +138,7 @@ class SimpleEquation(Chromosome):
  
     def __str__(self) -> str:
         return f"X: {self.x} Y: {self.y} Fitness: {self.fitness()}"
-    
 
-    
-    
-
- 
- 
 class SendMoreMoney2(Chromosome):
     def __init__(self, letters: List[str]) -> None:
         self.letters: List[str] = letters
@@ -202,6 +191,7 @@ class SendMoreMoney2(Chromosome):
         money: int = m * 10000 + o * 1000 + n * 100 + e * 10 + y
         difference: int = abs(money - (send + more))
         return f"{send} + {more} = {money} Difference: {difference}"
+
 class ListCompression(Chromosome):
     def __init__(self, lst: List[Any]) -> None:
         self.lst: List[Any] = lst
@@ -236,21 +226,25 @@ class ListCompression(Chromosome):
  
     def __str__(self) -> str:
         return f"Order: {self.lst} Bytes: {self.bytes_compressed}"
-
-        
+ 
 if __name__ == "__main__":
-    initial_population: List[SimpleEquation] = [SimpleEquation.random_instance() for _ in range(20)]
-    ga: GeneticAlgorithm[SimpleEquation] = GeneticAlgorithm(initial_population=initial_population, threshold=13.0, max_generations = 100, mutation_chance = 0.1, crossover_chance = 0.7)
-    result: SimpleEquation = ga.run()
-    print(result)
-    
+    # initial_population: List[SimpleEquation] = [SimpleEquation.random_instance() for _ in range(20)]
+    # ga: GeneticAlgorithm[SimpleEquation] = GeneticAlgorithm(initial_population=initial_population, threshold=13.0, max_generations = 100, mutation_chance = 0.1, crossover_chance = 0.7)
+    # result: SimpleEquation = ga.run()
+    # print(result)
+
     initial_population: List[SendMoreMoney2] = [SendMoreMoney2.random_instance() for _ in range(1000)]
-    ga: GeneticAlgorithm[SendMoreMoney2] = GeneticAlgorithm(initial_population=initial_population, threshold=1.0, max_generations = 1000, mutation_chance = 0.2, crossover_chance = 0.7, selection_type=GeneticAlgorithm.SelectionType.ROULETTE)
+    ga: GeneticAlgorithm[SendMoreMoney2] = GeneticAlgorithm(
+        initial_population=initial_population,
+        threshold=1.0, max_generations = 1000,
+        mutation_chance = 0.2,
+        crossover_chance = 0.7,
+        selection_type=GeneticAlgorithm.SelectionType.ROULETTE)
     result: SendMoreMoney2 = ga.run()
-    print(result)    
-    
-    PEOPLE: List[str] = ["Michael", "Sarah", "Joshua", "Narine", "David", "Sajid", "Melanie", "Daniel", "Wei", "Dean", "Brian", "Murat", "Lisa"] # 165 bytes compressed
-    initial_population: List[ListCompression] = [ListCompression.random_instance() for _ in range(1000)]
-    ga: GeneticAlgorithm[ListCompression] = GeneticAlgorithm(initial_population=initial_population, threshold=1.0, max_generations = 1000, mutation_chance = 0.2, crossover_chance = 0.7, selection_type=GeneticAlgorithm.SelectionType.TOURNAMENT)
-    result: ListCompression = ga.run()
     print(result)
+    
+    # PEOPLE: List[str] = ["Michael", "Sarah", "Joshua", "Narine", "David", "Sajid", "Melanie", "Daniel", "Wei", "Dean", "Brian", "Murat", "Lisa"] # 165 bytes compressed
+    # initial_population: List[ListCompression] = [ListCompression.random_instance() for _ in range(1000)]
+    # ga: GeneticAlgorithm[ListCompression] = GeneticAlgorithm(initial_population=initial_population, threshold=1.0, max_generations = 1000, mutation_chance = 0.2, crossover_chance = 0.7, selection_type=GeneticAlgorithm.SelectionType.TOURNAMENT)
+    # result: ListCompression = ga.run()
+    # print(result)

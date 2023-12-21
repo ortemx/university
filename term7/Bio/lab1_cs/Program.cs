@@ -52,7 +52,7 @@ Gene[] SelectParents(Gene[] population, double selectionRate)
     Gene[] sortedPopulation = population;
     Array.Sort(sortedPopulation, (x, y) => y.Fitness.CompareTo(x.Fitness));
     int numberOfParents = (int)(population.Length * selectionRate);
-    Gene[] parents = sortedPopulation[..^numberOfParents];
+    Gene[] parents = sortedPopulation[..numberOfParents];
     random.Shuffle(parents);
     return parents;
 }
