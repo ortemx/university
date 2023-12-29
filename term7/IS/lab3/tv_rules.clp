@@ -13,3 +13,15 @@
     => 
     (printout t "The TV plug is defective, incorrectly installed, or not fully inserted into the socket." crlf)
 )
+
+(defrule solution2
+    (problem (description "bad image"))
+    => 
+    (printout t "The TV plug is defective, incorrectly installed, or not fully inserted into the socket." crlf)
+)
+
+(assert (problem (description "The image obtained as a result of the scan is blurry or distorted")))
+
+log 8 2 -sqrt 16
+
+(- (/ (log 8) (log 2) ) (sqrt 16))

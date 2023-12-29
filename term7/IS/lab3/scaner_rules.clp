@@ -65,3 +65,4 @@ Solution :Use the scanner software or other graphic image editing program and el
 "Cause : The intensity of the color balance is incorrectly adjusted
 Solution : In the software, in the Color Balance dialog box , adjust the intensity of the balance of the desired color, then scan it again (if this is not possible, then use the correction program" crlf)
 )
+
