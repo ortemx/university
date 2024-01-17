@@ -94,9 +94,8 @@ function drawGraph(w, h, max_value, points, stroke) {
     let right_margin = w * 0.02;
 
     strokeWeight(3)
-    
 
-    y_max = Math.ceil(max_value / 10) * 10;
+    let y_max = Math.ceil(max_value / 10) * 10;
     old_x = map(points[0].x, points[0].x, points[points.length - 1].x, left_margin, width - right_margin);
     old_y = map(points[0].y, 0, y_max, height - bottom_margin, top_margin);
 
