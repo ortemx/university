@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style>
+    <p>
+        <!-- Используемый шрифт-->
+        <font></font>
+        <!-- Размер шрифта -->
+        <font-size></font-size>
+        <!-- Ширина шрифта-->
+        <font-weight></font-weight>
+        <!-- Абзацный отступ -->
+        <indent></indent>
+        <!-- Расстояние между строками -->
+        <line-spacing></line-spacing>
+        <!-- Выравнивание текста на странице-->
+        <alignment></alignment>
+    </p>
+
+    <h>
+        <font></font>
+        <font-size></font-size>
+        <indent></indent>
+        <line-spacing></line-spacing>
+        <alignment></alignment>
+        <!-- Отделение пустой строкой сверху-->
+        <separate-line-top></separate-line-top>
+        <!-- Отделение пустой строкой снизу-->
+        <separate-line-bottom></separate-line-bottom>
+        <!-- Специальные настройки -->
+        <special>
+            <!-- Список отдельных разделов-->
+            <names></names>
+            <!-- Используемый шрифт-->
+            <font></font>
+            <font-size></font-size>
+            <font-weight></font-weight>
+            <alignment></alignment>           
+        </special>
+    </h>
+
+    <ol>
+        <indent></indent>
+        <alignment></alignment>
+    </ol>
+
+    <ul>
+        <indent></indent>
+        <alignment></alignment>
+    </ul>
+
+    <li>
+        <font-size></font-size>
+    </li>
+
+    <code>
+        <font></font>
+        <font-size></font-size>
+        <indent></indent>
+        <line-spacing></line-spacing>
+        <alignment></alignment>  
+        <separate-line-top></separate-line-top>
+        <separate-line-bottom></separate-line-bottom> 
+    </code>
+
+    <math>
+        <font></font>
+        <font-size></font-size>
+        <indent></indent>
+        <line-spacing></line-spacing>
+        <alignment></alignment>
+        <separate-line-top></separate-line-top>
+        <separate-line-bottom></separate-line-bottom>        
+    </math>
+
+    <img>
+        <alignment></alignment>
+        <width></width>
+        <height></height>
+        <separate-line-top></separate-line-top>
+        <separate-line-bottom></separate-line-bottom>
+    </img>
+
+    <table>
+        <indent></indent>
+        <separate-line-top></separate-line-top>
+        <separate-line-bottom></separate-line-bottom> 
+    </table>
+
+    <th>
+        <font-size></font-size>
+        <alignment></alignment>
+    </th>
+
+    <td>
+        <font-size></font-size>
+        <alignment></alignment>       
+    </td>
+</style>

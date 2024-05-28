@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+    <h lvl="1">
+ВВЕДЕНИЕ
+    </h>
+    <p>
+        Информация – неотъемлемая часть нашей <b>жизни</b>...
+    </p>
+
+    <ol type="num" sep=" ">
+        <li>[первый объект списка]</li>
+        <li>[второй объект списка]</li>
+    </ol>  
+
+    <ul>
+        <li>яблоки</li>
+        <li>бананы</li>
+        <li>груши</li>
+    </ul>
+
+    <code lang="js">
+        console.log(“Hello world”)
+    </code>
+    
+    <math>
+        \frac{1}{\sigma\sqrt{2\pi}}\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)
+    </math>
+
+ 
+
+    <img src="cat.jpg" desc="котик"/>
+    
+    <table desc="">
+    <th>
+        <td>студент</td>
+        <td>номер</td>
+    </th>
+    <tr>
+        <td>иванов</td>
+        <td>4</td>
+    </tr>
+    </table>
+        
+</document>

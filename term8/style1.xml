@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style>
+  <p>
+    <!-- Используемый шрифт-->
+    <font name="" />
+    <!-- Размер шрифта -->
+    <font-size value="12" units="pt" />
+    <!-- Ширина шрифта-->
+    <font-weight value="1" units="pt" />
+    <!-- Абзацный отступ -->
+    <indent value="0.5" units="em" />
+    <!-- Расстояние между строками -->
+    <line-spacing value="1.5" units="pt" />
+    <!-- Выравнивание текста на странице-->
+    <alignment value="justify" />
+  </p>
+
+  <h>
+    <font name="" />
+    <font-size value="" units="" />
+    <indent value="" units="" />
+    <line-spacing value="" units="" />
+    <alignment value="" />
+    <!-- Отделение пустой строкой сверху-->
+    <separate-top value="1" units="line" />
+    <!-- Отделение пустой строкой снизу-->
+    <separate-bottom value="1" units="line" />
+    <!-- Специальные настройки -->
+    <special>
+      <!-- Список отдельных разделов-->
+      <names></names>
+      <font name="" />
+      <font-size value="" units="" />
+      <font-weight value="" units="" />
+      <alignment value="" />
+    </special>
+  </h>
+
+  <ol>
+    <indent value="" units="" />
+    <alignment value="" />
+  </ol>
+
+  <ul>
+    <indent value="" units="" />
+    <alignment value="" />
+  </ul>
+
+  <li>
+    <font name="" />
+    <font-size value="" units="" />
+  </li>
+
+  <code>
+    <font name="" />
+    <font-size value="" units="" />
+    <indent value="" units="" />
+    <line-spacing value="" units="" />
+    <alignment value="" />
+    <separate-top value="" units="" />
+    <separate-bottom value="" units="" />
+  </code>
+
+  <math>
+    <font name="" />
+    <font-size value="" units="" />
+    <indent value="" units="" />
+    <line-spacing value="" units="" />
+    <alignment value="" />
+    <separate-top value="" units="" />
+    <separate-bottom value="" units="" />
+  </math>
+
+  <img>
+    <alignment value="" />
+    <width value="" units="" />
+    <height value="" units="" />
+    <separate-top value="" units="" />
+    <separate-bottom value="" units="" />
+  </img>
+
+  <table>
+    <indent value="" units="" />
+    <separate-top value="" units="" />
+    <separate-bottom value="" units="" />
+    <alignment value="" />
+  </table>
+
+  <th>
+    <font name="" />
+    <font-size value="" units="" />
+    <alignment value="" />
+  </th>
+
+  <td>
+    <font name="" />
+    <font-size value="" units="" />
+    <alignment value="" />
+  </td>
+</style>
