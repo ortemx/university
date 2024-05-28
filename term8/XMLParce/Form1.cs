@@ -28,15 +28,15 @@ public partial class Form1 : Form
         }
     }
 
-    private void ProcessXmlFile(string rowTextFile)
+    private void ProcessXmlFile()
     {
         XmlDocument xmlDocument = new();
-        xmlDocument.Load(rowTextFile);
+        xmlDocument.Load(rowTextPath);
 
-        //using XmlNodeList nodes = xmlDocument.SelectNodes("/style/p");
+        XmlDocument style = new();
+        style.Load(styleFilePath);
+
         using XmlNodeList? nodes = xmlDocument.SelectNodes("/document/*");
-        listBox1.Items.Add("start" + "\n");
-
         if (nodes is null)
         {
             return;
@@ -60,10 +60,29 @@ public partial class Form1 : Form
                     string level = node.Attributes["lvl"]?.Value ?? "1";
                     listBox1.Items.Add(level);
                     value = node.InnerText.Trim();
+
+                    string[]? specialHeaders = style.SelectSingleNode("/style/h/special/names")?.InnerText?.ToLower().Split(',');
+
+                    XmlNodeList? styleNodes = null;
+                    if (specialHeaders is not null && specialHeaders.Contains(value.ToLower()))
+                    {
+                        listBox1.Items.Add("Header is special");
+                        styleNodes = style.SelectNodes("/style/h/special/*");
+                    }
+                    else
+                    {
+                        styleNodes = style.SelectNodes("/style/h/*");
+                    }
+
+                    ShowTagNodesWithAttributes("h", styleNodes);
                     break;
 
                 case "p":
                     value = node.InnerText.Trim();
+
+                    styleNodes = style.SelectNodes("/style/p/*");
+
+                    ShowTagNodesWithAttributes("p", styleNodes);
                     break;
 
                 case "ol":
@@ -93,6 +112,10 @@ public partial class Form1 : Form
                         listBox1.Items.Add(begin + listItem);
                         index++;
                     }
+
+                    styleNodes = style.SelectNodes("/style/p/*");
+                    ShowTagNodesWithAttributes("p", styleNodes);
+                    styleNodes = style.SelectNodes("/style/ol/*");
                     break;
 
                 case "ul":
@@ -102,6 +125,11 @@ public partial class Form1 : Form
                         string listItem = liNode.InnerText;
                         listBox1.Items.Add(listItem);
                     }
+
+                    styleNodes = style.SelectNodes("/style/p/*");
+                    ShowTagNodesWithAttributes("p", styleNodes);
+                    styleNodes = style.SelectNodes("/style/ul/*");
+                    ShowTagNodesWithAttributes("ul", styleNodes);
                     break;
 
                 case "code":
@@ -112,10 +140,16 @@ public partial class Form1 : Form
                     string lang = node.Attributes["lang"]?.Value ?? string.Empty;
                     listBox1.Items.Add(lang);
                     value = node.InnerText.Trim();
+
+                    styleNodes = style.SelectNodes("/style/code/*");
+                    ShowTagNodesWithAttributes("code", styleNodes);
                     break;
 
                 case "math":
                     value = node.InnerText.Trim();
+
+                    styleNodes = style.SelectNodes("/style/math/*");
+                    ShowTagNodesWithAttributes("math", styleNodes);
                     break;
 
                 case "img":
@@ -127,6 +161,9 @@ public partial class Form1 : Form
                     string description = node.Attributes["desc"]?.Value ?? string.Empty;
                     listBox1.Items.Add(description);
                     listBox1.Items.Add(src);
+
+                    styleNodes = style.SelectNodes("/style/img/*");
+                    ShowTagNodesWithAttributes("img", styleNodes);
                     break;
 
                 case "table":
@@ -175,7 +212,7 @@ public partial class Form1 : Form
         if (openFileDialog.ShowDialog() == DialogResult.OK)
         {
             styleFilePath = openFileDialog.FileName;
-            button2.Text = Path.GetFileName(rowTextPath);
+            button2.Text = Path.GetFileName(styleFilePath);
         }
     }
 
@@ -187,6 +224,27 @@ public partial class Form1 : Form
             return;
         }
 
-        ProcessXmlFile(rowTextPath);
+        ProcessXmlFile();
+    }
+
+    private void ShowTagNodesWithAttributes(string parentTag, XmlNodeList? styleNodes)
+    {
+        if (styleNodes is null)
+        {
+            listBox1.Items.Add($"style is not defined for tag {parentTag}");
+            return;
+        }
+
+        foreach (XmlNode tag in styleNodes)
+        {
+            string tagName = tag.Name;
+            if (tag.Attributes is not null)
+            {
+                foreach (XmlAttribute xmlAttribute in tag.Attributes)
+                {
+                    listBox1.Items.Add(tagName + " " + xmlAttribute.Name + ": " + xmlAttribute.Value);
+                }
+            }
+        }
     }
 }
